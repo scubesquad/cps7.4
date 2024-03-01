@@ -1,0 +1,2616 @@
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 15:53:27 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012325 13382784 12076749 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 15:54:49 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012325 13382784 12076749 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 15:56:01 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012325 13382784 12076749 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 15:56:44 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012325 13382784 12076749 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 16:27:59 payorder_Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (payorder_Slip.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/payorder_Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019004l.pfb.
+Loading NimbusSanL-Bold font from %rom%Resource/Font/NimbusSanL-Bold... 2426936 1011797 13382784 12073477 3 done.
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2447032 982820 13382784 12073490 3 done.
+>>showpage, press <return> to continue<<
+   **** Warning: File has imbalanced q/Q operators (too many q's)
+
+   **** This file had errors that were repaired or ignored.
+   **** The file was produced by: 
+   **** >>>> FPDF 1.84 <<<<
+   **** Please notify the author of the software that produced this
+   **** file that it does not conform to Adobe's published PDF
+   **** specification.
+
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 16:27:59 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012199 13382784 12073615 3 done.
+Can't find (or can't open) font file n019004l.pfb.
+Loading NimbusSanL-Bold font from %rom%Resource/Font/NimbusSanL-Bold... 2447032 981984 13382784 12070822 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 16:32:46 payorder_Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (payorder_Slip.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/payorder_Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019004l.pfb.
+Loading NimbusSanL-Bold font from %rom%Resource/Font/NimbusSanL-Bold... 2426936 1011797 13382784 12073477 3 done.
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2447032 982820 13382784 12073490 3 done.
+>>showpage, press <return> to continue<<
+   **** Warning: File has imbalanced q/Q operators (too many q's)
+
+   **** This file had errors that were repaired or ignored.
+   **** The file was produced by: 
+   **** >>>> FPDF 1.84 <<<<
+   **** Please notify the author of the software that produced this
+   **** file that it does not conform to Adobe's published PDF
+   **** specification.
+
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 16:32:46 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012199 13382784 12073615 3 done.
+Can't find (or can't open) font file n019004l.pfb.
+Loading NimbusSanL-Bold font from %rom%Resource/Font/NimbusSanL-Bold... 2447032 981984 13382784 12070822 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 16:47:19 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012319 13382784 12076489 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 16:47:20 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012325 13382784 12076749 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 16:51:47 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012319 13382784 12076489 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 16:52:24 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012319 13382784 12076489 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 16:52:56 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012325 13382784 12076749 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 16:53:20 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012319 13382784 12076489 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 16:53:21 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012325 13382784 12076749 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 16:54:39 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012319 13382784 12076489 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 16:54:40 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012325 13382784 12076749 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 16:56:24 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012319 13382784 12076489 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 16:56:25 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012325 13382784 12076749 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 17:02:00 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012319 13382784 12076489 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 17:02:01 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012325 13382784 12076749 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 17:44:41 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012319 13382784 12076489 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 18:08:09 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012319 13382784 12076489 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 18:10:02 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012319 13382784 12076489 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/22 18:10:03 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012325 13382784 12076749 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/23 12:04:29 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012319 13382784 12076489 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/23 12:04:31 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012325 13382784 12076749 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/23 12:28:00 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012319 13382784 12076489 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/23 12:28:01 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012325 13382784 12076749 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/23 13:05:57 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012319 13382784 12076489 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/23 13:15:08 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012319 13382784 12076489 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/23 13:18:36 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012319 13382784 12076489 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/23 13:20:01 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012319 13382784 12076489 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/23 13:21:04 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012319 13382784 12076489 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/23 13:22:08 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012319 13382784 12076489 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/23 13:46:42 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012325 13382784 12076749 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/23 13:47:30 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012325 13382784 12076749 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/23 13:48:23 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012325 13382784 12076749 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/23 13:59:29 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012325 13382784 12076749 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/23 14:00:49 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012325 13382784 12076749 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/23 14:03:29 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012319 13382784 12076488 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/23 14:03:29 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012325 13382784 12076749 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/23 14:07:14 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012319 13382784 12076489 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/23 14:07:15 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012325 13382784 12076749 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/23 14:07:16 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012325 13382784 12076749 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2023/11/23 14:09:53 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IC:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\lib;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\fonts;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\resource;C:\xampp\htdocs\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%Canon LBP2900) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:C:/xampp/htdocs/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012199 13382784 12073615 3 done.
+Can't find (or can't open) font file n019004l.pfb.
+Loading NimbusSanL-Bold font from %rom%Resource/Font/NimbusSanL-Bold... 2447032 981984 13382784 12070822 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/06 16:54:31 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012385 13382784 12077581 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/06 16:58:52 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012385 13382784 12077581 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/06 17:00:15 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012385 13382784 12077581 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/06 17:28:09 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012385 13382784 12077581 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/06 17:55:34 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/06 18:03:10 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/06 18:05:16 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/06 18:09:24 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/06 18:12:21 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 09:40:07 payorder_Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (payorder_Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/payorder_Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019004l.pfb.
+Loading NimbusSanL-Bold font from %rom%Resource/Font/NimbusSanL-Bold... 2426936 1011857 13382784 12074373 3 done.
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2447032 982880 13382784 12074386 3 done.
+>>showpage, press <return> to continue<<
+   **** Warning: File has imbalanced q/Q operators (too many q's)
+
+   **** This file had errors that were repaired or ignored.
+   **** The file was produced by: 
+   **** >>>> FPDF 1.84 <<<<
+   **** Please notify the author of the software that produced this
+   **** file that it does not conform to Adobe's published PDF
+   **** specification.
+
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 09:40:10 payorder_Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (payorder_Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 1 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/payorder_Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019004l.pfb.
+Loading NimbusSanL-Bold font from %rom%Resource/Font/NimbusSanL-Bold... 2426936 1011857 13382784 12074373 3 done.
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2447032 982880 13382784 12074386 3 done.
+>>showpage, press <return> to continue<<
+   **** Warning: File has imbalanced q/Q operators (too many q's)
+
+   **** This file had errors that were repaired or ignored.
+   **** The file was produced by: 
+   **** >>>> FPDF 1.84 <<<<
+   **** Please notify the author of the software that produced this
+   **** file that it does not conform to Adobe's published PDF
+   **** specification.
+
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 09:40:12 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012259 13382784 12074511 3 done.
+Can't find (or can't open) font file n019004l.pfb.
+Loading NimbusSanL-Bold font from %rom%Resource/Font/NimbusSanL-Bold... 2447032 982044 13382784 12071718 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 09:40:15 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012259 13382784 12074511 3 done.
+Can't find (or can't open) font file n019004l.pfb.
+Loading NimbusSanL-Bold font from %rom%Resource/Font/NimbusSanL-Bold... 2447032 982044 13382784 12071718 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 11:29:21 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 11:30:13 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077708 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 11:33:54 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 11:40:33 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 11:43:01 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 11:59:59 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 12:00:41 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 12:04:07 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077708 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 12:54:28 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 12:56:36 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 13:05:00 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 13:07:21 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 13:08:20 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 13:09:19 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 13:10:05 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 13:10:55 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 13:11:08 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 13:12:01 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 13:14:22 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 13:21:58 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 13:23:36 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 13:36:31 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 13:37:11 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 13:48:41 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 13:51:56 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/07 13:58:05 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012387 13382784 12077709 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/12 12:55:22 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012385 13382784 12077581 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/12 13:04:28 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012385 13382784 12077580 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:D:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+
+------------------------------------
+2024/02/12 13:06:15 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-ID:\wamp\www\kavitaUrbanBank\gsbatchprint\lib;D:\wamp\www\kavitaUrbanBank\gsbatchprint\fonts;D:\wamp\www\kavitaUrbanBank\gsbatchprint\resource;D:\wamp\www\kavitaUrbanBank\gsbatchprint\bin;C:\Windows\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%NPIA705BA (HP LaserJet M403n)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 3 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:D:/wamp/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012385 13382784 12077581 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 15:37:58 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012283 13382784 12077581 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 15:39:30 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012283 13382784 12077581 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 15:40:24 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012283 13382784 12077581 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 15:52:03 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 15:52:42 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 16:01:14 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 16:02:01 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 16:02:35 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 16:03:19 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 16:04:01 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 16:04:37 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 16:05:24 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 16:06:16 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 16:07:18 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 16:08:43 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 16:10:01 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 16:14:29 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 16:20:19 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 16:24:54 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 16:29:02 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 16:31:49 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 16:33:47 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 16:35:23 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 16:36:53 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 16:38:52 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077662 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 16:39:49 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 17:47:56 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 17:48:38 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 17:49:09 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 17:49:36 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 17:50:25 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 17:51:04 Payorder_cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Payorder_cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Payorder_cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12077663 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 18:13:54 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012277 13382784 12077321 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/02/12 18:13:55 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\kavitaUrbanBank\gsbatchprint\lib;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\fonts;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\resource;E:\wamp64\www\kavitaUrbanBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/kavitaUrbanBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012283 13382784 12077581 3 done.
+>>showpage, press <return> to continue<<

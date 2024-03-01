@@ -1,0 +1,1535 @@
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/08 14:07:41 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012379 13382784 12077321 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/08 14:07:50 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/08 14:07:53 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/08 15:18:16 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012379 13382784 12077320 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/08 15:18:19 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/08 15:18:21 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/08 15:20:27 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012379 13382784 12077320 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/08 15:20:29 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084830 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:26:52 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012379 13382784 12077321 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:26:54 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:26:56 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:26:58 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:26:59 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:27:33 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012379 13382784 12077321 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:27:35 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:27:36 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:27:38 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:27:40 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:27:42 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:27:43 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:27:45 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:27:47 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:27:49 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:27:51 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:27:52 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084830 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:27:54 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084830 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:27:56 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:27:58 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:28:00 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:28:02 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:28:03 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:28:05 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:28:07 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/11/10 13:28:09 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/12/08 12:44:41 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012379 13382784 12077321 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/12/08 12:44:45 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012474 13386280 12085023 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/12/08 12:44:47 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012474 13386280 12085023 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/12/08 12:44:49 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012474 13386280 12085023 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/12/08 12:44:51 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012474 13386280 12085023 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/12/08 12:44:55 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012474 13386280 12085023 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/12/08 12:44:58 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012474 13386280 12085023 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/12/08 12:45:01 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012474 13386280 12085023 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/12/08 12:45:03 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012474 13386280 12085023 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/12/08 12:45:06 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012474 13386280 12085023 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/12/08 12:45:08 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012474 13386280 12085023 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/12/08 12:45:10 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012474 13386280 12085023 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/12/08 12:45:12 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012474 13386280 12085023 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/12/08 12:45:15 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012474 13386280 12085023 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/12/08 12:45:17 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012474 13386280 12085022 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/12/08 12:45:19 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012474 13386280 12085023 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/12/08 12:45:23 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012474 13386280 12085023 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/12/08 12:45:25 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012474 13386280 12085023 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/12/08 12:45:27 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012474 13386280 12085023 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2023/12/08 12:45:29 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012474 13386280 12085023 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/01/03 15:42:48 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012379 13382784 12077321 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/01/03 15:42:52 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/01/03 15:42:55 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/01/03 15:42:58 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/01/03 15:43:00 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/01/03 15:43:02 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/01/03 15:43:04 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/01/03 15:43:06 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/01/03 15:43:08 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/01/03 15:43:09 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/01/03 15:43:11 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/01/03 15:43:13 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/01/03 15:43:15 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/01/03 15:43:17 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/01/03 15:43:19 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/01/03 15:43:21 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/01/03 15:43:23 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/01/03 15:43:24 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012472 13386280 12084831 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/01/03 16:15:18 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\vidyanandBank\gsbatchprint\lib;E:\wamp64\www\vidyanandBank\gsbatchprint\fonts;E:\wamp64\www\vidyanandBank\gsbatchprint\resource;E:\wamp64\www\vidyanandBank\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP6B4A7C (HP LaserJet Pro M404-M405)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/vidyanandBank/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012250 13382784 12074493 3 done.
+Can't find (or can't open) font file n019004l.pfb.
+Loading NimbusSanL-Bold font from %rom%Resource/Font/NimbusSanL-Bold... 2447032 982035 13382784 12076293 3 done.
+>>showpage, press <return> to continue<<
