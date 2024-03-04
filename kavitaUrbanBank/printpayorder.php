@@ -137,9 +137,9 @@ $trn_string_array = array(10 => 'Saving', 11 => 'Current', 12 => 'Pay Order', 13
 		
 			$arrPos = array(); 
 			
-			$arrPos[0] = array("BankAddrY" => 15, "AcnoY" => 51.5, "AcnoPrefix" => 33.8, "IfscY" => 17.3, "Name" => 40, "VUniqReq" => 70, "MICRY" => 85.4, "bearer" => 26, "barcodeY" => 63, "date" => 13);
-			$arrPos[1] = array("BankAddrY" => 102.5, "AcnoY" => 140, "AcnoPrefix" => 122.4, "IfscY" => 109.8, "Name" => 139, "VUniqReq" => 170, "MICRY" => 176.2, "bearer" => 114, "barcodeY" => 156, "date" => 101.5);
-			$arrPos[2] = array("BankAddrY" => 196.5, "AcnoY" => 233, "AcnoPrefix" => 215.8, "IfscY" => 203.8, "Name" => 233, "VUniqReq" => 264, "MICRY" => 267, "bearer" => 208, "barcodeY" => 249, "date" => 195.5);
+			$arrPos[0] = array("BankAddrY" => 16, "AcnoY" => 51.5, "AcnoPrefix" => 33.8, "IfscY" => 18.3, "Name" => 40, "VUniqReq" => 70, "MICRY" => 86.4, "bearer" => 26, "barcodeY" => 63, "date" => 13);
+			$arrPos[1] = array("BankAddrY" => 103.5, "AcnoY" => 140, "AcnoPrefix" => 122.4, "IfscY" => 110.8, "Name" => 139, "VUniqReq" => 170, "MICRY" => 177.2, "bearer" => 114, "barcodeY" => 156, "date" => 101.5);
+			$arrPos[2] = array("BankAddrY" => 197.5, "AcnoY" => 233, "AcnoPrefix" => 215.8, "IfscY" => 204.8, "Name" => 233, "VUniqReq" => 264, "MICRY" => 268, "bearer" => 208, "barcodeY" => 249, "date" => 195.5);
 			
 
 			// print_r($arrFirstChequeData[0]." ".$arrSecondChequeData[0]." ".$arrThirdChequeData[0]);
@@ -176,8 +176,8 @@ $trn_string_array = array(10 => 'Saving', 11 => 'Current', 12 => 'Pay Order', 13
 			for ($i = 0; $i < $noofCheque; $i++) { 
 				if($arrChqData[$i][5] == "")
 					break;
-					/*print_r($arrChqData[$i]);
-					exit;*/
+					// print_r($arrChqData[$i]);
+					// exit;
 				$pdf->SetFont($arial, '', 7.5);
 				$branchDetails = $db->get_row("SELECT b.branch_name,b.branch_telephone1,b.branch_telephone2,b.branch_address1,b.branch_address2,b.branch_address3,b.branch_pin,b.branch_Services,b.branch_neftifsccode,c.city_place FROM tb_branchdetails b inner join tb_citymaster c on b.branch_city_id = c.city_id where b.branch_code = '".$arrChqData[$i][13]."' ");	
 				
@@ -211,12 +211,11 @@ $trn_string_array = array(10 => 'Saving', 11 => 'Current', 12 => 'Pay Order', 13
                 $originalDate = $arrChqData[$i][2];
                 $parsedDate = DateTime::createFromFormat('Y-m-d', $originalDate);
                 
-                if ($parsedDate) {
+				if ($parsedDate) {
                     $formattedDate = implode('      ', str_split(sprintf('%02d%02d%04d', $parsedDate->format('d'), $parsedDate->format('m'), $parsedDate->format('Y'))));
                 
                     $pdf->Text($acnoPrefixX-15, $arrPos[$i]["date"], $formattedDate);
                 } 
-                
 				
 				$pdf->SetFont($arialb,'B',10);
 				$pdf->Text($accnoX+10, $arrPos[$i]["AcnoPrefix"], mb_convert_case($arrChqData[$i][3], MB_CASE_TITLE)); // amount in word
@@ -286,7 +285,7 @@ $trn_string_array = array(10 => 'Saving', 11 => 'Current', 12 => 'Pay Order', 13
 			// $pdf->Output("Cheque.pdf",'F');
 			// $imagePath = dirname(__FILE__)."\Cheque.pdf";
 			
-			exec("gsbatchprint\gsbatchprintc -P \"".$printersinfo[0][0]."\" -F \"".dirname(__FILE__)."\Payorder_cheque.pdf\" -I \"".$printersinfo[0][1]."\" -N 1 2>&1");
+			// exec("gsbatchprint\gsbatchprintc -P \"".$printersinfo[0][0]."\" -F \"".dirname(__FILE__)."\Payorder_cheque.pdf\" -I \"".$printersinfo[0][1]."\" -N 1 2>&1");
 		}		
 
 

@@ -23,9 +23,11 @@ exec('wmic COMPUTERSYSTEM Get UserName', $user);
 print_r($user);*/
 //echo exec("gsbatchprint\gsbatchprintc -P HP LaserJet 1020 -F C:\wamp64\www\CPS\Slip.pdf -I Tray1 -N 1 2>&1");
 
-$printersinfo[0][0] = "HP LaserJet Pro M402-M403 n-dne PCL 6";
+$printersinfo[0][0] = "Canon LBP3300";
 $printersinfo[0][2] = 'Tray 2';
 $PrintPath="Cheque.pdf";
+
+
 echo $msg =  exec('gsbatchprint\gsbatchprintc -P "'.$printersinfo[0][0].'" -F "'.$PrintPath.'" -I "'.$printersinfo[0][2].'" -N 1 2>&1');	
 			//echo DOC_ROOT;
 ?>

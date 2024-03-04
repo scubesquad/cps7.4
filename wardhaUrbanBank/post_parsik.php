@@ -1,70 +1,17 @@
 <?php
+
 require_once 'global.php';
-
-ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL);
-
 error_reporting(E_ALL ^ E_NOTICE);
 	if(isset($_REQUEST['do']) && ($_REQUEST['do'] == 'delete') ){
-
-		// to insert user print req collection code log
-		$logData = array();
-		$count = 0;
-		$data = explode(',', $_REQUEST['pid']);
-		for($i=0;$i<count($data);$i++){
-			$sql = "SELECT * FROM `tb_uploadingdata` where `id` =". $data[$i];
-			$row = $db->get_row($sql);
-
-			$logData[] = array(
-				"cps_unique_req" => $row->cps_unique_req, 
-				"cps_micr_code" => $row->cps_micr_code,
-				"cps_branchmicr_code" => $row->cps_branchmicr_code,
-				"cps_tr_code" => $row->cps_tr_code,
-				"cps_account_no" => $row->cps_account_no,
-				"cps_act_name" => $row->cps_act_name,
-				"cps_act_jointname1" => $row->cps_act_jointname1,
-				"cps_act_jointname2" => $row->cps_act_jointname2,
-				"cps_act_address1" => $row->cps_act_address1,
-				"cps_act_address2" => $row->cps_act_address2,
-				"cps_act_address3" => $row->cps_act_address3,
-				"cps_act_address4" => $row->cps_act_address4,
-				"cps_act_address5" => $row->cps_act_address5,
-				"cps_act_city" => $row->cps_act_city,
-				"cps_act_pin" => $row->cps_act_pin,
-				"cps_no_of_books" => $row->cps_no_of_books,
-				"cps_book_size" => $row->cps_book_size,
-				"cps_dly_bearer_order" => $row->cps_dly_bearer_order,
-				"cps_chq_no_from" => $row->cps_chq_no_from,
-				"cps_chq_no_to" => $row->cps_chq_no_to,
-				"cps_issue_date" => $row->cps_issue_date,
-				"cps_date" => $row->cps_date,
-				"cps_micr_account_no" => $row->cps_micr_account_no,
-				"cps_process_user_id" => $row->cps_process_user_id,
-				"cps_product_code" => $row->cps_product_code,
-				"cps_auth_sign1" => $row->cps_auth_sign1,
-				"cps_auth_sign2" => $row->cps_auth_sign2,
-				"cps_auth_sign3" => $row->cps_auth_sign3,
-				"cps_act_mobile" => $row->cps_act_mobile,
-				"cps_act_telephone_res" => $row->cps_act_telephone_res,
-				"cps_act_telephone_off" => $row->cps_act_telephone_off,
-				"cps_bsr_code" => $row->cps_bsr_code
-			);
-			$count = $count + 1;
-		}
-		$sql = "SELECT count(cps_unique_req) as total FROM `tb_uploadingdata`";
-		$row = $db->get_row($sql);
-		// print_r($logData);
-		// $db->deleteLog('tb_uploadingdata', 'Upload & Print With File', $_REQUEST['pid'], $_SESSION['admin_id'], 'delete', $logData, "Total $row->total/$count record deleted");
-		// end of insert user print req collection code log
-
 		$delete="delete from tb_uploadingdata where id IN (".$_REQUEST['pid'].")";
 		$db->query($delete) ;
 		header('Location:parsikupload.php');
 	}
 	else if(isset($_REQUEST['do']) && ($_REQUEST['do'] == 'print') && !empty($_REQUEST['pid']) && isset($_REQUEST['pid']) ) {
-		// $insert="Insert Into tb_pending_print_req (cps_unique_req,cps_micr_code,cps_branchmicr_code,cps_account_no,cps_act_name,cps_no_of_books,cps_dly_bearer_order,cps_book_size,cps_tr_code,cps_atpar,cps_act_jointname1,cps_act_jointname2,cps_auth_sign1,cps_auth_sign2,cps_auth_sign3,cps_act_address1,cps_act_address2,cps_act_address3,cps_act_address4,cps_act_address5,cps_act_city,cps_state,cps_country,cps_emailid,cps_act_pin,cps_act_telephone_res,cps_act_telephone_off,cps_act_mobile,cps_ifsc_code,cps_chq_no_from,cps_chq_no_to,cps_micr_account_no,cps_date,cps_process_user_id,cps_bsr_code,cps_pr_code,cps_short_name, cps_product_code) SELECT cps_unique_req,cps_micr_code,cps_branchmicr_code,cps_account_no,cps_act_name,cps_no_of_books,cps_dly_bearer_order,cps_book_size,cps_tr_code,cps_atpar,cps_act_jointname1,cps_act_jointname2,cps_auth_sign1,cps_auth_sign2,cps_auth_sign3,cps_act_address1,cps_act_address2,cps_act_address3,cps_act_address4,cps_act_address5,cps_act_city,cps_state,cps_country,cps_emailid,cps_act_pin,cps_act_telephone_res,cps_act_telephone_off,cps_act_mobile,cps_ifsc_code,cps_chq_no_from,cps_chq_no_to,cps_micr_account_no,cps_date,cps_process_user_id,cps_bsr_code,cps_pr_code,cps_short_name,cps_product_code from tb_uploadingdata WHERE id IN (".$_REQUEST['pid'].")";	
-		$insert="Insert Into tb_pending_print_req (cps_unique_req,cps_micr_code,cps_branchmicr_code,cps_account_no,cps_act_name,cps_no_of_books,cps_dly_bearer_order,cps_book_size,cps_tr_code,cps_atpar,cps_act_jointname1,cps_act_jointname2,cps_auth_sign1,cps_auth_sign2,cps_auth_sign3,cps_act_address1,cps_act_address2,cps_act_address3,cps_act_address4,cps_act_address5,cps_act_city,cps_state,cps_country,cps_emailid,cps_act_pin,cps_act_telephone_res,cps_act_telephone_off,cps_act_mobile,cps_ifsc_code,cps_chq_no_from,cps_chq_no_to,cps_micr_account_no,cps_date,cps_process_user_id,cps_bsr_code,cps_pr_code,cps_short_name, cps_product_code,branch_sub_code) SELECT cps_unique_req,cps_micr_code,cps_branchmicr_code,cps_account_no,cps_act_name,cps_no_of_books,cps_dly_bearer_order,cps_book_size,cps_tr_code,cps_atpar,cps_act_jointname1,cps_act_jointname2,cps_auth_sign1,cps_auth_sign2,cps_auth_sign3,cps_act_address1,cps_act_address2,cps_act_address3,cps_act_address4,cps_act_address5,cps_act_city,cps_state,cps_country,cps_emailid,cps_act_pin,cps_act_telephone_res,cps_act_telephone_off,cps_act_mobile,cps_ifsc_code,cps_chq_no_from,cps_chq_no_to,cps_micr_account_no,cps_date,cps_process_user_id,cps_bsr_code,cps_pr_code,cps_short_name,cps_product_code, branch_sub_code from tb_uploadingdata WHERE id IN (".$_REQUEST['pid'].")";	
+		$insert="Insert Into tb_pending_print_req (cps_unique_req,cps_micr_code,cps_branchmicr_code,cps_account_no,cps_act_name,cps_no_of_books,cps_dly_bearer_order,cps_book_size,cps_tr_code,cps_atpar,cps_act_jointname1,cps_act_jointname2,cps_auth_sign1,cps_auth_sign2,cps_auth_sign3,cps_act_address1,cps_act_address2,cps_act_address3,cps_act_address4,cps_act_address5,cps_act_city,cps_state,cps_country,cps_emailid,cps_act_pin,cps_act_telephone_res,cps_act_telephone_off,cps_act_mobile,cps_ifsc_code,cps_chq_no_from,cps_chq_no_to,cps_micr_account_no,cps_date,cps_process_user_id,cps_bsr_code,cps_pr_code,cps_short_name, cps_product_code) SELECT cps_unique_req,cps_micr_code,cps_branchmicr_code,cps_account_no,cps_act_name,cps_no_of_books,cps_dly_bearer_order,cps_book_size,cps_tr_code,cps_atpar,cps_act_jointname1,cps_act_jointname2,cps_auth_sign1,cps_auth_sign2,cps_auth_sign3,cps_act_address1,cps_act_address2,cps_act_address3,cps_act_address4,cps_act_address5,cps_act_city,cps_state,cps_country,cps_emailid,cps_act_pin,cps_act_telephone_res,cps_act_telephone_off,cps_act_mobile,cps_ifsc_code,cps_chq_no_from,cps_chq_no_to,cps_micr_account_no,cps_date,cps_process_user_id,cps_bsr_code,cps_pr_code,cps_short_name,cps_product_code from tb_uploadingdata WHERE id IN (".$_REQUEST['pid'].")";	
 		$db->query($insert) ;
 
+		
 		$update="update tb_pending_print_req set cps_isprint = 1";
 		$delete="delete from tb_uploadingdata where id IN (".$_REQUEST['pid'].")";
 
@@ -78,7 +25,6 @@ error_reporting(E_ALL ^ E_NOTICE);
 		else			
 			header('Location: confirmprintreq.php?file=text');	
 	}
-	
 	if(@$_FILES['uploadedfile']['name']!='')
 	{
 		$InputFile=$_FILES['uploadedfile'];
@@ -91,6 +37,7 @@ error_reporting(E_ALL ^ E_NOTICE);
 		while ($line = fgets($fh)) 
 		{
 		    $explode = explode("~",$line);
+		   // print_r($explode);
 		    	$data[] = $explode;
 
 			if($result = $db->get_results("select cps_unique_req from tb_print_req_collection where cps_account_no = '$explode[6]' and cps_chq_no_from = '$explode[29]' "))
@@ -108,18 +55,7 @@ error_reporting(E_ALL ^ E_NOTICE);
 		}
 		if(!$entries_found)
 		{
-			$logData = array();
-			$logId = '';
-			$count = 0;
 			foreach ($data as $key => $explode) {
-
-				if(empty($explode[31])){
-					$explode[31]=date('Ymd');
-				}else{
-					$explode[31]=date('Ymd',strtotime(str_replace("/","",$explode[31])));
-				}
-	            
-	            
 	            $date = $explode[31];
 	            $year = substr($explode[31], 0, 4);
 	            $month = substr($explode[31], 4, 2);
@@ -156,9 +92,6 @@ error_reporting(E_ALL ^ E_NOTICE);
 				$addresses4 = str_replace("'", "\'", $addresses4); 
 				$addresses5 = str_replace("'", "\'", $addresses5); 
 
-				$branch_sub_code = substr($explode[3], 0, 4);
-				// $branch_sub_code = substr($explode[6], 0, 4);
-
 			    $sql="insert into tb_uploadingdata(cps_unique_req,cps_micr_code,cps_branchmicr_code,cps_tr_code,cps_account_no,
 				cps_act_name, cps_act_jointname1, cps_act_jointname2, cps_act_address1,cps_act_address2,cps_act_address3,
 				cps_act_address4,cps_act_address5,cps_act_city,cps_act_pin,cps_no_of_books,cps_book_size,
@@ -166,7 +99,7 @@ error_reporting(E_ALL ^ E_NOTICE);
 
 				cps_issue_date,cps_date, cps_micr_account_no, cps_process_user_id, cps_product_code, 
 				cps_auth_sign1, cps_auth_sign2, cps_auth_sign3,
-				cps_act_mobile, cps_act_telephone_res, cps_act_telephone_off,branch_sub_code
+				cps_act_mobile, cps_act_telephone_res, cps_act_telephone_off
 
 				)values(
 				'$explode[0]','$cpsmicr_code','$cpsbranch_code','$explode[7]', '$explode[6]',
@@ -175,57 +108,12 @@ error_reporting(E_ALL ^ E_NOTICE);
 				'$addresses4','$addresses5','$explode[19]','$explode[20]','$explode[24]', '$explode[25]',
 				'Y', '$explode[29]','$explode[30]',
 
-				'$dates','$dates', '$explode[5]', '$cpsprocess_user_id', '$explode[34]', 
+				'$dates','$dates', '$explode[5]', '$cpsprocess_user_id', '$explode[36]', 
 				'$explode[11]', '$explode[12]', '$explode[13]',
-				'$explode[23]', '$explode[21]', '$explode[22]','$branch_sub_code'
+				'$explode[23]', '$explode[21]', '$explode[22]'
 				)";
-
-				$insertLastId = $db->query($sql) ;
-				if($logId != "")
-					$logId = $logId.','.$insertLastId;
-				else
-					$logId = $insertLastId;
-				$logData[] = array(
-					"cps_unique_req" => $explode[0], 
-					"cps_micr_code" => $cpsmicr_code,
-					"cps_branchmicr_code" => $cpsbranch_code,
-					"cps_tr_code" => $explode[7],
-					"cps_account_no" => $explode[6],
-					"cps_act_name" => $name,
-					"cps_act_jointname1" => $explode[9],
-					"cps_act_jointname2" => $explode[10],
-					"cps_act_address1" => $addresses1,
-					"cps_act_address2" => $addresses2,
-					"cps_act_address3" => $addresses3,
-					"cps_act_address4" => $addresses4,
-					"cps_act_address5" => $addresses5,
-					"cps_act_city" => $explode[19],
-					"cps_act_pin" => $explode[20],
-					"cps_no_of_books" => $explode[24],
-					"cps_book_size" => $explode[25],
-					"cps_dly_bearer_order" => "Y",
-					"cps_chq_no_from" => $explode[29],
-					"cps_chq_no_to" => $explode[30],
-					"cps_issue_date" => $dates,
-					"cps_date" => $dates,
-					"cps_micr_account_no" => $explode[5],
-					"cps_process_user_id" => $cpsprocess_user_id,
-					"cps_product_code" => $explode[36],
-					"cps_auth_sign1" => $explode[11],
-					"cps_auth_sign2" => $explode[12],
-					"cps_auth_sign3" => $explode[13],
-					"cps_act_mobile" => $explode[23],
-					"cps_act_telephone_res" => $explode[21],
-					"cps_act_telephone_off" => $explode[22],
-					"cps_bsr_code" => $explode[33],
-				);
-				$count = $count + 1;
-
+ 				$db->query($sql) ;
 			}
-
-			// to insert user print req collection code log
-			// $db->insertLog('tb_uploadingdata', 'Upload & Print With Text File', $logId, $_SESSION['admin_id'], 'upload', $logData, "Total $count record uploaded");
-			// end of insert user print req collection code log
 		}
 		FetchUploadedFiles();
 	}

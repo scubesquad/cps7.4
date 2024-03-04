@@ -8,7 +8,7 @@ if(isset($_POST["do"]) && $_POST["do"]=="reprint" && isset($_POST["ids"]) && $_P
 	$sqlquery ="UPDATE tb_cps_reprintque SET cps_reprint_approved = 1 WHERE id IN (".$_POST["ids"].") ";
 	$db->query($sqlquery);
 	//echo "sd";
-	//exit;
+//exit;
 	//$sqlquerydelete ="DELETE FROM tb_cps_reprintque WHERE cps_reprint_approved = 0";
 	//$db->query($sqlquerydelete);
 	echo '{"status":"true"}';

@@ -1,5 +1,5 @@
 <?php 
-   require_once('global.php');   
+   require_once('global.php');	
    $rowbank = $db->get_row("select bank_code,bank_name from tb_bankdetails");
    $row = $db->get_row("select * from tb_branchdetails where branch_id = 0");
    $page_name = "branch_master";
@@ -13,154 +13,154 @@
       <script type="text/javascript" src="<?php echo ROOT_SCRIPTS; ?>jquery.timepicker.js"></script>
       <link rel="stylesheet" href="<?php echo ROOT_STYLES;  ?>jquery.timepicker.css" type="text/css">
       <script type="text/javascript">
-         var vRules = { branchname: { required:true }, branchatpermirc: { required:true},branchmirc: { required:true}, branchemail1:{email:true},ddlcountry: { required:true }, ddlstate: { required:true }, ddlcity: { required:true }, ddlsuburb: { required:true }, branchaddress1: { required:true }, branchNEFT: { required:true }, branchpin: { required:true }, printername: {required:true}, printertray1: {required:true}, printertray2: {required:true}, branchcode: { required:true },branchsubcode: { required:true }, cityCode: { required:true }};
-         var vMessages = { branchname: {required: "<br/>Please enter branch name" }, branchatpermirc: { required: "<br/>Please enter branch at per MIRC code."}, branchmirc: { required: "<br/>Please enter branch MIRC code."}, branchemail1: { required: "<br/>Please enter Contact Person 1 Email Id.", email:"<br>Please enter correct email id</br>"}, branchtelephone1: { required: "<br/>Contact Person 1 Landline No."},ddlcountry: {required: "<br/>Please select country" }, ddlstate: {required: "<br/>Please select state" }, ddlcity: {required: "<br/>Please select city" }, ddlsuburb: {required: "<br/>Please select suburb" }, branchaddress1: {required: "<br/>Please enter address" }, branchpin: { required: "<br/>Please enter zip/pin code no."}, branchNEFT: { required: "<br/>Please enter RTGS/NEFT IFSC code."}, branchcontact1: { required: "<br/>Please enter Contact Person 1 Name."}, branchcontactmobile1: { required: "<br/>Please enter Contact Person 1 Mobile No."}, printername: {required: "<br/>Please enter Contact Person 1 Mobile No."}, branchcode: { required: "<br/>Please enter branch code."},branchsubcode: { required: "<br/>Please enter branch sub code."}, cityCode: { required: "<br/>Please enter city code."}};
-         $(document).ready(function() {         
-            $('#response,#ajax_loading,.loading').hide();
-            $('#submit').button();     
+         var vRules = { branchname: { required:true }, branchatpermirc: { required:true},branchmirc: { required:true}, branchemail1:{email:true},ddlcountry: { required:true }, ddlstate: { required:true }, ddlcity: { required:true }, ddlsuburb: { required:true }, branchaddress1: { required:true }, branchNEFT: { required:true }, branchpin: { required:true }, printername: {required:true}, printertray1: {required:true}, printertray2: {required:true}, branchcode: { required:true },  subbranchcode: { required:true }, cityCode: { required:true }};
+         var vMessages = { branchname: {required: "<br/>Please enter branch name" }, branchatpermirc: { required: "<br/>Please enter branch at per MIRC code."}, branchmirc: { required: "<br/>Please enter branch MIRC code."}, branchemail1: { required: "<br/>Please enter Contact Person 1 Email Id.", email:"<br>Please enter correct email id</br>"}, branchtelephone1: { required: "<br/>Contact Person 1 Landline No."},ddlcountry: {required: "<br/>Please select country" }, ddlstate: {required: "<br/>Please select state" }, ddlcity: {required: "<br/>Please select city" }, ddlsuburb: {required: "<br/>Please select suburb" }, branchaddress1: {required: "<br/>Please enter address" }, branchpin: { required: "<br/>Please enter zip/pin code no."}, branchNEFT: { required: "<br/>Please enter RTGS/NEFT IFSC code."}, branchcontact1: { required: "<br/>Please enter Contact Person 1 Name."}, branchcontactmobile1: { required: "<br/>Please enter Contact Person 1 Mobile No."}, printername: {required: "<br/>Please enter Contact Person 1 Mobile No."}, branchcode: { required: "<br/>Please enter branch code."},  subbranchcode: { required: "<br/>Please enter sub branch code."}, cityCode: { required: "<br/>Please enter city code."}};
+         $(document).ready(function() {			
+         	$('#response,#ajax_loading,.loading').hide();
+         	$('#submit').button();		
          
-            $('#branchmaster').validate({
-               rules: vRules,
-               messages: vMessages,
-               submitHandler: function(form) {
-                  $('#branchmaster').ajaxSubmit({target: '#response', beforeSubmit: function (formData, jqForm, options) {
-                        formData.push({ "name": "type", "value": "json" });
-                        $('.loading').show();
-                        $('#submitdiv').hide();
-                     }, clearForm: false, dataType: 'json', success: function (resObj, statusText) {
-                        if (resObj.status) {
-                              alert("Branch details are updated sucessfully.");
-                              window.location = resObj.loc;
-                              //window.location = '<?php echo $_SERVER['PHP_SELF']; ?>';
-                        } else { 
-                           $('.loading').hide();
-                           $('#submitdiv').show();             
-                           $('#response').html('<div class="errormsg_boundary">'+resObj.htmlcontent+'<div>').show();
-                        }
-                     }
-                  });
-               }
-            });
-            
+         	$('#branchmaster').validate({
+         		rules: vRules,
+         		messages: vMessages,
+         		submitHandler: function(form) {
+         			$('#branchmaster').ajaxSubmit({target: '#response', beforeSubmit: function (formData, jqForm, options) {
+         					formData.push({ "name": "type", "value": "json" });
+         					$('.loading').show();
+         					$('#submitdiv').hide();
+         				}, clearForm: false, dataType: 'json', success: function (resObj, statusText) {
+         					if (resObj.status) {
+         							alert("Branch details are updated sucessfully.");
+         							window.location = resObj.loc;
+         							//window.location = '<?php echo $_SERVER['PHP_SELF']; ?>';
+         					} else {	
+         						$('.loading').hide();
+         						$('#submitdiv').show();					
+         						$('#response').html('<div class="errormsg_boundary" style="color:red">'+resObj.htmlcontent+'<div>').show();
+         					}
+         				}
+         			});
+         		}
+         	});
+         	
          });
       </script>
       <script type="text/javascript">
          function showStates(str)
          {
-            
-            if (window.XMLHttpRequest)
-            {
-               xmlhttp=new XMLHttpRequest();
-            }
-            else
-            {
-               xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-            }
-            xmlhttp.onreadystatechange=function()
-            {
-               if (xmlhttp.readyState==4 && xmlhttp.status==200)
-               {
-                  
-                  document.getElementById("divstatelist").innerHTML="";
-                  document.getElementById("divstatelist").innerHTML=xmlhttp.responseText;
-                  document.getElementById("divloadingstate").style.display="none";
-               }
-               else
-               {
-                  document.getElementById("divloadingstate").style.display="block";
-               }
-            }
-            xmlhttp.open("GET","post_branchmaster.php?contid="+str,true);
-            xmlhttp.send();
+         	
+         	if (window.XMLHttpRequest)
+         	{
+         		xmlhttp=new XMLHttpRequest();
+         	}
+         	else
+         	{
+         		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+         	}
+         	xmlhttp.onreadystatechange=function()
+         	{
+         		if (xmlhttp.readyState==4 && xmlhttp.status==200)
+         		{
+         			
+         			document.getElementById("divstatelist").innerHTML="";
+         			document.getElementById("divstatelist").innerHTML=xmlhttp.responseText;
+         			document.getElementById("divloadingstate").style.display="none";
+         		}
+         		else
+         		{
+         			document.getElementById("divloadingstate").style.display="block";
+         		}
+         	}
+         	xmlhttp.open("GET","post_branchmaster.php?contid="+str,true);
+         	xmlhttp.send();
          }
          function showCity(str)
          {
-            
-            if (window.XMLHttpRequest)
-            {
-               xmlhttp=new XMLHttpRequest();
-            }
-            else
-            {
-               xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-            }
-            xmlhttp.onreadystatechange=function()
-            {
-               if (xmlhttp.readyState==4 && xmlhttp.status==200)
-               {
-                  
-                  document.getElementById("divcitylist").innerHTML="";
-                  document.getElementById("divcitylist").innerHTML=xmlhttp.responseText;
-                  document.getElementById("divloadingcity").style.display="none";
-               
-               }
-               else
-               {
-                  document.getElementById("divloadingcity").style.display="block";
-               }
-            }
-            xmlhttp.open("GET","post_branchmaster.php?stateid="+str,true);
-            xmlhttp.send();
+         	
+         	if (window.XMLHttpRequest)
+         	{
+         		xmlhttp=new XMLHttpRequest();
+         	}
+         	else
+         	{
+         		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+         	}
+         	xmlhttp.onreadystatechange=function()
+         	{
+         		if (xmlhttp.readyState==4 && xmlhttp.status==200)
+         		{
+         			
+         			document.getElementById("divcitylist").innerHTML="";
+         			document.getElementById("divcitylist").innerHTML=xmlhttp.responseText;
+         			document.getElementById("divloadingcity").style.display="none";
+         		
+         		}
+         		else
+         		{
+         			document.getElementById("divloadingcity").style.display="block";
+         		}
+         	}
+         	xmlhttp.open("GET","post_branchmaster.php?stateid="+str,true);
+         	xmlhttp.send();
          }
          function showSuburb(str)
          {
-            if (window.XMLHttpRequest)
-            {
-               xmlhttp=new XMLHttpRequest();
-            }
-            else
-            {
-               xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-            }
-            xmlhttp.onreadystatechange=function()
-            {
-               if (xmlhttp.readyState==4 && xmlhttp.status==200)
-               {
-                  document.getElementById("divsuburblist").innerHTML="";
-                  document.getElementById("divsuburblist").innerHTML=xmlhttp.responseText;
-                  document.getElementById("divloadingsuburb").style.display="none";
-               }
-               else
-               {
-                  document.getElementById("divloadingsuburb").style.display="block";
-               }
-            }
-            xmlhttp.open("GET","post_branchmaster.php?cityid="+str,true);
-            xmlhttp.send();
+         	if (window.XMLHttpRequest)
+         	{
+         		xmlhttp=new XMLHttpRequest();
+         	}
+         	else
+         	{
+         		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+         	}
+         	xmlhttp.onreadystatechange=function()
+         	{
+         		if (xmlhttp.readyState==4 && xmlhttp.status==200)
+         		{
+         			document.getElementById("divsuburblist").innerHTML="";
+         			document.getElementById("divsuburblist").innerHTML=xmlhttp.responseText;
+         			document.getElementById("divloadingsuburb").style.display="none";
+         		}
+         		else
+         		{
+         			document.getElementById("divloadingsuburb").style.display="block";
+         		}
+         	}
+         	xmlhttp.open("GET","post_branchmaster.php?cityid="+str,true);
+         	xmlhttp.send();
          }
          function showpostalcode(str)
          {
-            if (window.XMLHttpRequest)
-            {
-               xmlhttp=new XMLHttpRequest();
-            }
-            else
-            {
-               xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-            }
-            xmlhttp.onreadystatechange=function()
-            {
-               if (xmlhttp.readyState==4 && xmlhttp.status==200)
-               {
-                  document.getElementById("divpostalcode").innerHTML="";
-                  document.getElementById("divpostalcode").innerHTML=xmlhttp.responseText;
-                  document.getElementById("divloadingcode").style.display="none";
-               }
-               else
-               {
-                  document.getElementById("divloadingcode").style.display="block";
-               }
-            }
-            xmlhttp.open("GET","post_branchmaster.php?suburbid="+str,true);
-            xmlhttp.send();
+         	if (window.XMLHttpRequest)
+         	{
+         		xmlhttp=new XMLHttpRequest();
+         	}
+         	else
+         	{
+         		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+         	}
+         	xmlhttp.onreadystatechange=function()
+         	{
+         		if (xmlhttp.readyState==4 && xmlhttp.status==200)
+         		{
+         			document.getElementById("divpostalcode").innerHTML="";
+         			document.getElementById("divpostalcode").innerHTML=xmlhttp.responseText;
+         			document.getElementById("divloadingcode").style.display="none";
+         		}
+         		else
+         		{
+         			document.getElementById("divloadingcode").style.display="block";
+         		}
+         	}
+         	xmlhttp.open("GET","post_branchmaster.php?suburbid="+str,true);
+         	xmlhttp.send();
          }
       </script>
       <SCRIPT LANGUAGE="JavaScript">
          function textCounter(field,cntfield,maxlimit) {
-            if (field.value.length > maxlimit) // if too long...trim it!
-            field.value = field.value.substring(0, maxlimit);
-            else
-            cntfield.value = maxlimit - field.value.length;
+         	if (field.value.length > maxlimit) // if too long...trim it!
+         	field.value = field.value.substring(0, maxlimit);
+         	else
+         	cntfield.value = maxlimit - field.value.length;
          }
       </script>
       <SCRIPT language=Javascript>
@@ -228,7 +228,7 @@
             }else{
             document.getElementById("branchcode").value = bankname + "001";
             }
-            }     
+            }		
             }
             
             //-->
@@ -244,7 +244,7 @@
       </style>
    </head>
    <body>
-      <?php require_once('header.php');   ?>              
+      <?php require_once('header.php');	?>              
       <div id="formdiv">
          <div id="formheading">Branch Masters For <?php echo $rowbank->bank_name; ?></div>
          <div id="formfields">
@@ -259,6 +259,7 @@
                            <tr>
                               <td align="left" valign="top">
                                  <div id="response"></div>
+                                 <br>
                               </td>
                            </tr>
                            <tr>
@@ -284,11 +285,12 @@
                                                    </label>
                                                 </td>
                                              </tr>
-                                             <tr>
-                                                <td height="35" align="left" valign="top" width="20%"><label>Branch Sub Code</label><span class="red">*</span></td>
+                                                           <!-- -----sub branch code------ -->
+                                              <tr>
+                                                <td height="35" align="left" valign="top" width="20%"><label>Sub Branch Code</label><span class="red">*</span></td>
                                                 <td align="left" valign="top" width="80%">
                                                    <label>
-                                                   <input type="text" name="branchsubcode" id="branchsubcode" maxlength="4" value="<?php echo stripslashes($row->branch_sub_code); ?>" style="width:379px;" />
+                                                   <input type="text" name="subbranchcode" id="subbranchcode" maxlength="4" value="<?php echo stripslashes($row->sub_branch_code); ?>" style="width:379px;" />
                                                    </label>
                                                 </td>
                                              </tr>
@@ -310,33 +312,33 @@
                                                 </td>
                                              </tr>
                                              <tr>
-                                    <td height="35" align="left" valign="top" width="20%"><label>IFSC Code</label>
-                                    </td>
-                                    <td align="left" valign="top" width="80%">
-                                       <label>
-                                       <input type="text" value="<?php echo stripslashes($row->branch_neftifsccode); ?>" name="branchNEFT" id="branchNEFT" maxlength="11" style="width:190px;" onKeyUp="javascript:this.value=this.value.toUpperCase();" />
-                                       </label>
-                                    </td>
-                                 </tr>
-                                 
-                                 <tr>
-                                    <td height="35" align="left" valign="top" width="20%"><label>Branch Micr</label>
-                                    </td>
-                                    <td align="left" valign="top" width="80%">
-                                       <label>
-                                       <input type="text" value="<?php echo stripslashes($row->branch_micr); ?>" name="branchmirc" id="branchmirc" maxlength="11" style="width:190px;" onKeyUp="javascript:this.value=this.value.toUpperCase();" />
-                                       </label>
-                                    </td>
-                                 </tr>
-                                 <tr>
-                                    <td height="35" align="left" valign="top" width="20%"><label>Branch At Par Micr</label>
-                                    </td>
-                                    <td align="left" valign="top" width="80%">
-                                       <label>
-                                       <input type="text" value="<?php echo stripslashes($row->branch_micr); ?>" name="branchmirc" id="branchmirc" maxlength="11" style="width:190px;" onKeyUp="javascript:this.value=this.value.toUpperCase();" />
-                                       </label>
-                                    </td>
-                                 </tr>
+											   <td height="35" align="left" valign="top" width="20%"><label>IFSC Code</label>
+											   </td>
+											   <td align="left" valign="top" width="80%">
+											      <label>
+											      <input type="text" value="<?php echo stripslashes($row->branch_neftifsccode); ?>" name="branchNEFT" id="branchNEFT" maxlength="11" style="width:190px;" onKeyUp="javascript:this.value=this.value.toUpperCase();" />
+											      </label>
+											   </td>
+											</tr>
+											
+											<tr>
+											   <td height="35" align="left" valign="top" width="20%"><label>Branch Micr</label><span class="red">*</span>
+											   </td>
+											   <td align="left" valign="top" width="80%">
+											      <label>
+											      <input type="text" value="<?php echo stripslashes($row->branch_micr); ?>" name="branchmirc" id="branchmirc" maxlength="11" style="width:190px;" onKeyUp="javascript:this.value=this.value.toUpperCase();" />
+											      </label>
+											   </td>
+											</tr>
+											<tr>
+											   <td height="35" align="left" valign="top" width="20%"><label>Branch At Par Micr</label>
+											   </td>
+											   <td align="left" valign="top" width="80%">
+											      <label>
+											      <input type="text" value="<?php echo stripslashes($row->branch_micr); ?>" name="branchAtParmirc" id="branchAtParmirc" maxlength="11" style="width:190px;" onKeyUp="javascript:this.value=this.value.toUpperCase();" />
+											      </label>
+											   </td>
+											</tr>
                                           </table>
                                        </td>
                                        <td width="270" align="left" valign="top"></td>
@@ -609,7 +611,7 @@
       </div>
       </div>
       </div>
-      </div>   
-      <?php require_once('footer.php');   ?>    
+      </div>	
+      <?php require_once('footer.php');	?> 	
    </body>
 </html>

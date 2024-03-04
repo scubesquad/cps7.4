@@ -180,7 +180,7 @@ function checkLastPassword($password,$userid)
 	$checkoldpassword = "SELECT * FROM (SELECT * FROM tb_cps_adminpasswords order by date desc limit 0,3) as adminpassword WHERE password = '".$password."' AND adminid = '".$userid."'";
 	
 	$result = $db->get_row($checkoldpassword);
-	if($result)
+	if(count($result)>0)
 	{
 		return false;
 	}

@@ -1,5 +1,4 @@
-<?php 
-	session_start();	
+<?php session_start();	
 	define('SITE_NAME','wardhaUrbanBank');	
 	// define("SITE_URL", "http://localhost:81");
 	define("SITE_URL", "http://" . $_SERVER['HTTP_HOST']);
@@ -29,11 +28,11 @@
 	define('MAX_UPLOAD_FILE_SIZE', 5242880); // 5MB	
 	date_default_timezone_set("Asia/Calcutta");
 	
-	/*ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-*/
-error_reporting(E_ERROR);
+	ini_set('display_errors', 1);
+	ini_set('display_startup_errors', 1);
+	error_reporting(E_ALL);
+
+
 	define('SEND_EMAIL', 0);
 	if (!isset($nodb)) {
 		require_once(ROOT_CLASSES.'mysql.class.php');

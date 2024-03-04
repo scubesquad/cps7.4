@@ -4,27 +4,23 @@ require_once 'global.php';
 authentication_print();
 // require_once(ROOT_CLASSES.'tcpdf/config/lang/eng.php');
 require_once(ROOT_CLASSES.'tcpdf/tcpdf.php');
-//print_r($_REQUEST);
-	$title = "";
+
+$title = "";
 	
-	$condation = ' 1=1 ';
-	if(isset($_REQUEST['branchcode']) && !empty($_REQUEST['branchcode'])){
-		$condation .= ' AND prc.cps_branchmicr_code = "'.$_REQUEST['branchcode'].'"';
-	}
-	if(isset($_GET['cps_atpar']) && !empty($_GET['cps_atpar'])){
-		$condation .= ' AND prc.cps_tr_code = "'.$_GET['cps_atpar'].'"';
-	}
-	if(isset($_GET['account_no']) && !empty($_GET['account_no'])){
-		$condation .= ' AND prc.cps_account_no LIKE "%'.$_GET['account_no'].'%"';
-	}
-	if(isset($_GET['customername']) && !empty($_GET['customername'])){
-		$condation .= " && prc.cps_act_name LIKE '%".$_GET['customername']."%'";
-	}	
-	$condation .= ' AND prc.cps_date = "'.date('Y-m-d').'" AND prc.cps_is_reprint=0';
-	
-	
-	$sql = "select prc.*,p.userid,bd.branch_name from tb_print_req_collection prc inner join tb_printadmin p on prc.cps_process_user_id = p.adminid LEFT join tb_branchdetails bd on bd.branch_code = prc.cps_branchmicr_code where ".$condation."";
-	$title = 'Sucessfully Printed Reports for the period : '.date('d/m/Y');
+$condation = ' 1=1 ';
+if(isset($_REQUEST['branchcode']) && !empty($_REQUEST['branchcode'])){
+	$condation .= ' AND prc.cps_micr_code = "'.$_REQUEST['branchcode'].'"';
+}
+if(isset($_GET['cps_atpar']) && !empty($_GET['cps_atpar'])){
+	$condation .= ' AND prc.cps_tr_code = "'.$_GET['cps_atpar'].'"';
+}
+$condation .= ' AND prc.cps_date = "'.date('Y-m-d').'" AND prc.cps_is_reprint=0';
+
+$sql = "select prc.*,p.userid,bd.branch_name  from tb_print_req_collection prc inner join tb_printadmin p on prc.cps_process_user_id = p.adminid LEFT join tb_branchdetails bd on (bd.branch_code = prc.cps_branchmicr_code AND bd.branch_sub_code = prc.branch_sub_code) where ".$condation."";
+
+
+//$sql = "SELECT tb_print_req_collection.*, tb_printadmin.`userid` FROM tb_print_req_collection LEFT OUTER JOIN tb_printadmin ON cps_process_user_id = adminid where cps_date = '2015-06-23' and cps_is_reprint=0";
+$title = 'Sucessfully Printed Reports for the period : '.date('d/m/Y');
 		
 	//echo "<-->".$sql; 
 	//die();
@@ -64,11 +60,10 @@ $pdf->setImageScale(PDF_IMAGE_SCALE_RATIO);
 //set some language-dependent strings
 $pdf->setLanguageArray($l);
 
-// ---------------------------------------------------------
 $branch = "";
-if(isset($_GET['branchid']) && !empty($_GET['branchid']))
+if(isset($_GET['branchcode']) && !empty($_GET['branchcode']))
 {
-	$sql1 = "select branch_name from  tb_branchdetails where branch_code = ".$_GET['branchid'];
+	$sql1 = "select branch_name from  tb_branchdetails where branch_micr = ".$_GET['branchcode'];
 	$result1 = $db->get_results($sql1);
 	foreach($result1 as $row1) 
 	{
@@ -86,7 +81,6 @@ if(isset($_GET['cps_atpar']) && !empty($_GET['cps_atpar']))
 		$trn_type = $row2->transactioncodedescription;
 	}
 }
-
 // add a page
 $pdf->AddPage();
 

@@ -35,8 +35,8 @@ authentication_print();
 
 	<script type="text/javascript">
 		
-		var vRules = { branchname: { required:true }, branchatpermirc: { required:true},branchmirc: { required:true}, ddlcountry: { required:true }, ddlstate: { required:true }, ddlcity: { required:true }, ddlsuburb: { required:true }, branchaddress1: { required:true }, branchNEFT: { required:true }, branchpin: { required:true }, branchcode: { required:true },branchsubcode: { required:true }, cityCode: { required:true }};
-		var vMessages = { branchname: {required: "<br/>Please enter branch name" }, branchatpermirc: { required: "<br/>Please enter branch at per MIRC code."}, branchmirc: { required: "<br/>Please enter branch MIRC code."}, branchemail1: { required: "<br/>Please enter email id.", email:"<br>Please enter correct email id</br>"}, branchtelephone1: { required: "<br/>Please enter phone no."},ddlcountry: {required: "<br/>Please select country" }, ddlstate: {required: "<br/>Please select country" }, ddlcity: {required: "<br/>Please select country" }, ddlsuburb: {required: "<br/>Please select country" }, branchaddress1: {required: "<br/>Please select country" }, branchpin: { required: "<br/>Please enter zip/pin code no."}, branchNEFT: { required: "<br/>Please enter RTGS/NEFT IFSC code."}, branchcontact1: { required: "<br/>Please enter contact official 1."}, branchcode: { required: "<br/>Please enter branch code."},branchsubcode: { required: "<br/>Please enter branch sub code."}, cityCode: { required: "<br/>Please enter city code."}};
+		var vRules = { branchname: { required:true }, branchatpermirc: { required:true},branchmirc: { required:true}, ddlcountry: { required:true }, ddlstate: { required:true }, ddlcity: { required:true }, ddlsuburb: { required:true }, branchaddress1: { required:true }, branchNEFT: { required:true }, branchpin: { required:true }, branchcode: { required:true },  subbranchcode: { required:true }, cityCode: { required:true }};
+		var vMessages = { branchname: {required: "<br/>Please enter branch name" }, branchatpermirc: { required: "<br/>Please enter branch at per MIRC code."}, branchmirc: { required: "<br/>Please enter branch MIRC code."}, branchemail1: { required: "<br/>Please enter email id.", email:"<br>Please enter correct email id</br>"}, branchtelephone1: { required: "<br/>Please enter phone no."},ddlcountry: {required: "<br/>Please select country" }, ddlstate: {required: "<br/>Please select country" }, ddlcity: {required: "<br/>Please select country" }, ddlsuburb: {required: "<br/>Please select country" }, branchaddress1: {required: "<br/>Please select country" }, branchpin: { required: "<br/>Please enter zip/pin code no."}, branchNEFT: { required: "<br/>Please enter RTGS/NEFT IFSC code."}, branchcontact1: { required: "<br/>Please enter contact official 1."}, branchcode: { required: "<br/>Please enter branch code."}, subbranchcode: { required: "<br/>Please enter sub branch code."}, cityCode: { required: "<br/>Please enter city code."}};
 		$(document).ready(function() {			
 			$('#response,#ajax_loading,.loading').hide();
 			$('#submit').button();		
@@ -57,7 +57,7 @@ authentication_print();
 							} else {	
 								$('.loading').hide();
 								$('#submitdiv').show();					
-								$('#response').html('<div class="errormsg_boundary">'+resObj.htmlcontent+'<div>').show();
+								$('#response').html('<div class="errormsg_boundary" style="color:red">'+resObj.htmlcontent+'<div>').show();
 							}
 						}
 					});
@@ -459,7 +459,7 @@ authentication_print();
 				<td align="left" valign="top">&nbsp;</td>
 			  </tr>
 			  <tr>
-				<td align="left" valign="top"><div id="response"></div></td>
+				<td align="left" valign="top"><div id="response"></div> <br></td>
 			  </tr>
 			  <tr>
 				<td align="left" valign="top">
@@ -481,14 +481,16 @@ authentication_print();
 						<input type="text" name="branchcode" id="branchcode" maxlength="4" value="<?php echo stripslashes($row->branch_code); ?>" style="width:379px;" />
 					  </label></td>
 					  </tr>
-					   <tr>
-                        <td height="35" align="left" valign="top" width="20%"><label>Branch Sub Code</label><span class="red">*</span></td>
-                        <td align="left" valign="top" width="80%">
-                           <label>
-                           <input type="text" name="branchsubcode" id="branchsubcode" maxlength="4" value="<?php echo stripslashes($row->branch_sub_code); ?>" style="width:379px;" />
-                           </label>
-                        </td>
-                     </tr>
+
+					  <!--------sub branch code-------->
+
+					  <tr>
+						<td height="35" align="left" valign="top" width="20%"><label>Sub Branch Code</label><span class="red">*</span></td>
+						<td align="left" valign="top" width="80%"><label>
+						<input type="text" name="subbranchcode" id="subbranchcode" maxlength="4" value="<?php echo stripslashes($row->branch_sub_code); ?>" style="width:379px;" />
+					  </label></td>
+					  </tr>
+
 					  <tr>
 						<td height="35" align="left" valign="top" width="20%"><label>City Code</label><span class="red">*</span></td>
 						<td align="left" valign="top" width="80%">
@@ -514,7 +516,15 @@ authentication_print();
 							</label>
 						</td>
 					  </tr>
-					  
+					  <tr>
+											   <td height="35" align="left" valign="top" width="20%"><label>Branch Micr</label><span class="red">*</span>
+											   </td>
+											   <td align="left" valign="top" width="80%">
+											      <label>
+											      <input type="text" value="<?php echo stripslashes($row->branch_micr); ?>" name="branchmirc" id="branchmirc" maxlength="11" style="width:190px;" onKeyUp="javascript:this.value=this.value.toUpperCase();" />
+											      </label>
+											   </td>
+											</tr>
 					</table></td>
 					<td width="270" align="left" valign="top"></td>
 				  </tr>

@@ -153,9 +153,9 @@ $row_settings = $db->get_row("select * from tb_cps_settings");
 					<select name="ddlFileFormat" id="ddlFileFormat" style="width: 220px;" onChange="setdelimitersetting(this.value,'divddlInputDelimiter');" >
 						<option value = "Excel" <?php if($row_settings->inputfileformat=="Excel") echo "selected=selected"; ?>>Excel</option>
 						<!--
-						<option value = "CSV" <?php if($row_settings->inputfileformat=="CSV") echo "selected=selected"; ?>>CSV</option>
+						<option value = "CSV" <?php if($row_settings->inputfileformat=="CSV") echo "selected=selected"; ?>>CSV</option> -->
 						<option value = "ASCII" <?php if($row_settings->inputfileformat=="ASCII") echo "selected=selected"; ?>>ASCII</option>
-						 -->
+						
 					</select>
 				</td>
 			</tr>
@@ -184,8 +184,8 @@ $row_settings = $db->get_row("select * from tb_cps_settings");
 				<td align="left" valign="top">
 					<select name="ddlOutputFileFormat" id="ddlOutputFileFormat" style="width: 220px;" onChange="setdelimitersetting(this.value,'divddlOutputDelimiter');" >
 						<option value = "Excel" <?php if($row_settings->outputfileformat=="Excel") echo "selected=selected"; ?>>Excel</option>
-						<!--<option value = "XML" <?php //if($row_settings->outputfileformat=="XML") echo "selected=selected"; ?>>XML</option>
-						<option value = "ASCII" <?php if($row_settings->outputfileformat=="ASCII") echo "selected=selected"; ?>>ASCII</option>-->
+						<!--<option value = "XML" <?php //if($row_settings->outputfileformat=="XML") echo "selected=selected"; ?>>XML</option>-->
+						<option value = "ASCII" <?php if($row_settings->outputfileformat=="ASCII") echo "selected=selected"; ?>>ASCII</option>
 					</select>
 				</td>
 			</tr>

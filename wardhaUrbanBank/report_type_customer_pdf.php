@@ -1,12 +1,12 @@
 <?php 
 require_once 'global.php';
 authentication_print();
-// require_once(ROOT_CLASSES.'tcpdf/config/lang/eng.php');
+require_once(ROOT_CLASSES.'tcpdf/config/lang/eng.php');
 require_once(ROOT_CLASSES.'tcpdf/tcpdf.php');
 //print_r($_REQUEST);
 if(isset($_REQUEST['type']) && !empty($_REQUEST['type']) && $_REQUEST['type'] == 'search'  && 
 	 isset($_REQUEST['cust']) && !empty($_REQUEST['cust']) ) {
-		$sql = "select tb_print_req_collection.*, bd.branch_name from tb_print_req_collection LEFT join tb_branchdetails bd on bd.branch_code = tb_print_req_collection.cps_branchmicr_code where tb_print_req_collection.cps_act_name LIKE '%".$_REQUEST['cust']."%' ";
+		$sql = "SELECT tb_print_req_collection.*, tb_printadmin.`userid` FROM tb_print_req_collection LEFT OUTER JOIN tb_printadmin ON cps_process_user_id = adminid where cps_act_name LIKE '%".$_REQUEST['cust']."%' ";
 }else{
 	echo "Invalid Location!!!!!";
 	die();
@@ -59,29 +59,28 @@ $pdf->SetFont('helvetica', '', 10);
 // -----------------------------------------------------------------------------
 if($result = $db->get_results($sql)){
 
-						$data = '<table cellpadding="3" cellspacing="0" border="1" width="100%">
+						$data = '<table cellpadding="3" cellspacing="0" border="1" width="93%">
                             <tr style="font-weight:bold; border:1px #cccccc">								
+								<td width="17%" class="thwidthth" align="center">Operator</td>								
 								<td width="17%" height="35px" class="thwidthth" align="center">Acc. No</td>
-								<td width="17%" class="thwidthth" align="center">Name</td>								
+								<td width="20%" class="thwidthth" align="center">Name</td>								
 								<td width="17%" class="thwidthth" align="center">Chq From</td>
 								<td width="17%" class="thwidthth" align="center">Chq To</td>						
 								<td width="17%" class="thwidthth" align="center">Date Of Issue</td>
-								<td width="17%" class="thwidthth" align="center">Branch Name</td>
                             </tr>' ;
 	foreach($result as $row) {
 
 							$data .= '<tr>
+								<td class="thwidthtd" align="center">'.$row->userid.'</td>								
 								<td style="padding-top:5px;" height="25px" align="center">'.$row->cps_account_no.'</td>
 								<td class="thwidthtd" align="center">'.$row->cps_act_name.'</td>								
 								<td class="thwidthtd" align="center">'.$row->cps_chq_no_from.'</td>
 								<td class="thwidthtd" align="center">'.$row->cps_chq_no_to.'</td>
-								<td class="thwidthtd" align="center">'.date('d-m-Y', strtotime($row->cps_date)).'</td>		
-								<td class="thwidthtd" align="center">'.$row->branch_name.'</td>		
+								<td class="thwidthtd" align="center">'.date('d-m-Y', strtotime($row->cps_date)).'</td>													
                             </tr>' ;
 
 	}
 	$data .= '</table>';$pdf->writeHTML($data, true, false, false, false, '');
-	ob_end_clean();
 $pdf->Output('report-'.time().'.pdf', 'I');
 }
 ?>

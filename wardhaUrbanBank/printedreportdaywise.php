@@ -5,7 +5,8 @@ authentication_print();
 //$allowedtoclick = authentication_groups($page_name);
 if(isset($_REQUEST['ddlBranchName']) && !empty($_REQUEST['ddlBranchName'])) {
 	//$sql_print = "select * from tb_print_req_collection where cps_branchmicr_code = '".$_REQUEST['ddlBranchName']."' and cps_date = '".date('y-m-d')."' and cps_is_reprint=0";
-	$sql_print = "SELECT tb_print_req_collection.*, tb_printadmin.`userid` FROM tb_print_req_collection LEFT OUTER JOIN tb_printadmin ON cps_process_user_id = adminid where cps_branchmicr_code = '".$_REQUEST['ddlBranchName']."' and cps_date = '".date('y-m-d')."' and cps_is_reprint=0";
+	$parts = explode("#", $_REQUEST['ddlBranchName']);
+	$sql_print = "SELECT tb_print_req_collection.*, tb_printadmin.`userid` FROM tb_print_req_collection LEFT OUTER JOIN tb_printadmin ON cps_process_user_id = adminid where cps_branchmicr_code = '".$parts[0]."' and branch_sub_code = '".$parts[1]."' and cps_date = '".date('y-m-d')."' and cps_is_reprint=0";
 } else {
 	//$sql_print = "select * from tb_print_req_collection where cps_date = '".date('y-m-d')."' and cps_is_reprint=0";
 	$sql_print = "SELECT tb_print_req_collection.*, tb_printadmin.`userid` FROM tb_print_req_collection LEFT OUTER JOIN tb_printadmin ON cps_process_user_id = adminid where cps_date = '".date('y-m-d')."' and cps_is_reprint=0";
@@ -61,16 +62,18 @@ function recuired(){
 								<select name="ddlBranchName" id="ddlBranchName" style="width:198px; height:26px;">
 									<option value=""> Select Branch </option>
 									<?php 
-										$rowgetbranch =  $db->get_results("SELECT distinct(b.branch_code),b.branch_id, b.branch_name FROM tb_branchdetails b INNER JOIN tb_print_req_collection prc ON b.branch_code = prc.cps_branchmicr_code where prc.cps_date = '".date('y-m-d')."'");
+										$rowgetbranch =  $db->get_results("SELECT distinct(b.branch_sub_code),b.branch_id, b.branch_name ,branch_code FROM tb_branchdetails b INNER JOIN tb_print_req_collection prc ON b.branch_sub_code = prc.branch_sub_code  where prc.cps_date = '".date('y-m-d')."'");
+										
 										if($rowgetbranch){
 										foreach($rowgetbranch as $eachbranch){
-											if(isset($_GET['ddlBranchName']) && $_GET['ddlBranchName'] == $eachbranch->branch_code)
+											if(isset($_GET['ddlBranchName']) && $_GET['ddlBranchName'] == $eachbranch->branch_micr)
 											{
-												?><option value="<?php echo $eachbranch->branch_code; ?>" selected="selected"><?php echo $eachbranch->branch_name; ?></option><?php
+												?><option value="<?php echo $eachbranch->branch_code ."#"; echo  
+												$eachbranch->branch_sub_code ?>" selected="selected"><?php echo $eachbranch->branch_name; ?></option><?php
 											}
 											else
 											{
-												?><option value="<?php echo $eachbranch->branch_code; ?>"><?php echo $eachbranch->branch_name; ?></option><?php
+												?><option value="<?php echo $eachbranch->branch_code .'#'.$eachbranch->branch_sub_code; ?>"><?php echo $eachbranch->branch_name; ?></option><?php
 											} 
 										}
 										} 
@@ -169,15 +172,19 @@ function recuired(){
 						  
 								if(isset($_REQUEST['ddlBranchName']) && !empty($_REQUEST['ddlBranchName'])  ) {
 										$url = "printedreportdaywise_pdf.php?type=search&branchcode=".$_REQUEST['ddlBranchName']."&Tdate='.date('Y-m-d')";
+										$urlexcel = "printedreportdaywise_excel.php?type=search&branchcode=".$_REQUEST['ddlBranchName']."&Tdate='.date('Y-m-d')";
 								} else {
 										$url = 'printedreportdaywise_pdf.php?type=all&Tdate='.date('Y-m-d');
+										$urlexcel = 'printedreportdaywise_excel.php?type=all&Tdate='.date('Y-m-d');
 								}
 							  	if(isset($_GET['ddlTranType']) && !empty($_GET['ddlTranType']))
 								{
 									$url .= "&cps_atpar=".$_GET['ddlTranType'];
+									$urlexcel .= "&cps_atpar=".$_GET['ddlTranType'];
 								}
 						  ?>
-                          <td >&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo $url; ?>" target="_blank"><input type="button" id="button" value="Export to PDF" /></a></td>
+                          <td >&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo $url; ?>" target="_blank"><input type="button" id="button" value="Export to PDF" /></a>&nbsp;&nbsp;
+						  <a href="<?php echo $urlexcel; ?>" target="_blank"><input type="button" id="button" value="Export to Excel" /></a></td>
                           </tr>
                         </div>
                         <?php }else{ echo "<label>There are no sucessfully printed reports</label>";} ?>

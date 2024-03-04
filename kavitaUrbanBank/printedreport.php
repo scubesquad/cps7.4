@@ -41,7 +41,6 @@ if(isset($_GET['ddlBookSize']) && !empty($_GET['ddlBookSize']))
 {
 	$sql_print .= " && cps_book_size = ".$_GET['ddlBookSize'];
 }
-echo $sql_print;
 $today = date("d-m-Y");
 $pre_month = date('d-m-Y', strtotime('last month'));
 if(isset($_GET['from_date']) && !empty($_GET['from_date']))
@@ -169,7 +168,6 @@ function recuired(){
                     </tr>
                     <tr>
                       <td align="left" valign="top">
-                      	echo sql_print;
 					  <?php if($result = $db->get_results($sql_print)){  ?>
                         <div style="width:1000px; overflow-x:scroll;overflow-y:hidden; margin:0px; padding:0px;" id="divshowdetails" name="divshowdetails">
                           <table cellpadding="0" cellspacing="0" border="0" width="2000">

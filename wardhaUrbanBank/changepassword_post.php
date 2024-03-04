@@ -7,7 +7,7 @@
 			$password = $_REQUEST['txtpassword'];	
 			$checkoldpassword = "SELECT * FROM tb_printadmin WHERE password = '".md5($oldpassword)."' AND adminid = '".$_SESSION['admin_id']."' ";
 			$result = $db->get_row($checkoldpassword);
-			if($result)
+			if(count($result)>0)
 			{
 				if(checkLastPassword(md5($password),$_SESSION["admin_userid"]))
 				{

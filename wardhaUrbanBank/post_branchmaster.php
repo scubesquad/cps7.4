@@ -1,5 +1,22 @@
 <?php require_once('global.php');
 
+
+if(isset($_GET["accountNo"])&&isset($_GET["branchCode"])){
+	if($_GET["accountNo"] != ""&&$_GET["branchCode"] != ""){
+	$rowgetAccountData =  $db->get_row("select * from tb_print_req_collection where cps_account_no = ".$_GET["accountNo"]." AND cps_branchmicr_code = ".$_GET["branchCode"]." ORDER BY id DESC LIMIT 1");
+		
+	if($rowgetAccountData){
+		$respArr=array("status"=>1,"data"=>$rowgetAccountData);
+	}else{
+		$respArr=array("status"=>1,"data"=>$rowgetAccountData);
+	}
+	echo json_encode($respArr);
+}
+}
+
+
+
+
 if(isset($_GET["contid"])){
 	if($_GET["contid"] != ""){
 	$rowgetcountry =  $db->get_results("select * from tb_statemaster where country_id = ".$_GET["contid"]." and is_delete = 0");
@@ -63,6 +80,8 @@ else{
 }
 
 if(isset($_REQUEST['branchname']) && $_REQUEST['branchname'] != ""){	
+	    // print_r($_REQUEST);
+		// die();
 		$branch_id = $_REQUEST['branchid'];
 		$branchname = $_REQUEST['branchname'];
 		$branchaddress1 = $_REQUEST['branchaddress1'];
@@ -89,7 +108,7 @@ if(isset($_REQUEST['branchname']) && $_REQUEST['branchname'] != ""){
 		$branch_clearingbankcode = $_REQUEST['txtclrbankcode'];
 		$branch_clearingcity = (isset($_REQUEST['ddlclrcity']))?$_REQUEST['ddlclrcity']:0;
 		$branchcode = $_REQUEST['branchcode'];
-		$branchsubcode = $_REQUEST['branchsubcode'];
+		$subbranchcode = $_REQUEST['subbranchcode'];
 		$cityCode = $_REQUEST['cityCode'];
 		$branchServices = $_REQUEST['branchservices'];
 
@@ -97,14 +116,25 @@ if(isset($_REQUEST['branchname']) && $_REQUEST['branchname'] != ""){
 		$branchhalfbusihrs = $_REQUEST['branchhalfbusihrs'];
 		$branchsundayworking = $_REQUEST['branchsundayworking'];
 		$branchtollfreeno = $_REQUEST['branchtollfreeno'];
+
+	
 		
 // ===================================================== update query ===================================================
 		
-		if(isset($_REQUEST['do']) && ($_REQUEST['do'] == 'edit') && isset($_REQUEST['brid']) && ($_REQUEST['brid'] != '')){		
+		if(isset($_REQUEST['do']) && ($_REQUEST['do'] == 'edit') && isset($_REQUEST['brid']) && ($_REQUEST['brid'] != '')){	
+
+			$checksubbranchcode=$db->get_results("select branch_sub_code from tb_branchdetails  where branch_sub_code  = ".$subbranchcode ." AND  branch_id != ".$_REQUEST['brid']." ");
+			if ($checksubbranchcode){
+				// echo 'sub branch code is  allready present ';
+					echo '{"error":"true", "htmlcontent":"Sub Branch code is  allready present"}';
+					$db->closeDb();
+					exit();
+				// exit;
+			}
+		
 			$namer_id = $db->query("UPDATE tb_branchdetails SET 
 			branch_name = '".$branchname."', 
 			branch_code = '".$branchcode."',
-			branch_sub_code = '".$branchsubcode."',
 			branch_City_Code = '".$cityCode."',
 			branch_address1 = '".$branchaddress1."',
 			branch_address2 = '".$branchaddress2."',
@@ -133,8 +163,10 @@ if(isset($_REQUEST['branchname']) && $_REQUEST['branchname'] != ""){
 			branch_half_busi_hrs = '".$branchhalfbusihrs."',
 			branch_sunday_working = '".$branchsundayworking."',
 			branch_tollfree_no = '".$branchtollfreeno."',
+			branch_sub_code = '".$subbranchcode."',
 			clr_bank_city = '".$branch_clearingcity."' WHERE branch_id = '".$_REQUEST['brid']."'
 		 ");
+		
 			
 		if($_REQUEST['submit1'] == 'Save and Close') {
 			$location = 'home.php';
@@ -148,11 +180,20 @@ if(isset($_REQUEST['branchname']) && $_REQUEST['branchname'] != ""){
 	else
 	{
 		// =========================================== Insert query ===================================================
+		$checksubbranchcode=$db->get_results("select branch_sub_code from tb_branchdetails  where branch_sub_code  = ".$subbranchcode );
+		if ($checksubbranchcode){
+			// echo 'sub branch code is  allready present ';
+				echo '{"error":"true", "htmlcontent":"Sub Branch code is  allready present"}';
+				$db->closeDb();
+				exit();
+			// exit;
+		}
+
 
 		$sql = "INSERT INTO tb_branchdetails
-				(branch_name,branch_code,branch_sub_code,branch_address1,branch_address2,branch_address3,branch_country_id,branch_state_id,branch_city_id,branch_suburb_id,branch_pin,branch_telephone1,branch_telephone2,branch_contactperson1,branch_contactperson2,branch_contactpersonmobile1,branch_contactpersonmobile2,branch_email1,branch_email2,branch_micr,branch_atparmicrcode,branch_neftifsccode,branch_clearingthrough,branch_clearingcenter,clr_bank_code,clr_bank_city,branch_City_Code,branch_Services, branch_reg_busi_hrs,branch_half_busi_hrs,branch_sunday_working,branch_tollfree_no)     
+				(branch_name,branch_code,branch_address1,branch_address2,branch_address3,branch_country_id,branch_state_id,branch_city_id,branch_suburb_id,branch_pin,branch_telephone1,branch_telephone2,branch_contactperson1,branch_contactperson2,branch_contactpersonmobile1,branch_contactpersonmobile2,branch_email1,branch_email2,branch_micr,branch_atparmicrcode,branch_neftifsccode,branch_clearingthrough,branch_clearingcenter,clr_bank_code,clr_bank_city,branch_City_Code,branch_Services, branch_reg_busi_hrs,branch_half_busi_hrs,branch_sunday_working,branch_tollfree_no,branch_sub_code)     
 				VALUES
-				('".$branchname."','".$branchcode."','".$branchsubcode."','".$branchaddress1."','".$branchaddress2."','".$branchaddress3."','".$branchcountry."','".$branchstate."','".$branchcity."','".$branchsuburb."','".$branchpin."','".$branchtelephone1."','".$branchtelephone2."','".$branchcontper1."','".$branchcontper2."','".$branchmobilecontper1."','".$branchmobilecontper2."','".$branchemail1."','".$branchemail2."','".$branchmirc."','".$branchatpermirc."','".$branchNEFT."','".$branch_clearingthrough."','".$branch_clearingcenter."','".$branch_clearingbankcode."','".$branch_clearingcity."','".$cityCode."','".$branchServices."','".$branchregbusihrs."','".$branchhalfbusihrs."','".$branchsundayworking."','".$branchtollfreeno."')";
+				('".$branchname."','".$branchcode."','".$branchaddress1."','".$branchaddress2."','".$branchaddress3."','".$branchcountry."','".$branchstate."','".$branchcity."','".$branchsuburb."','".$branchpin."','".$branchtelephone1."','".$branchtelephone2."','".$branchcontper1."','".$branchcontper2."','".$branchmobilecontper1."','".$branchmobilecontper2."','".$branchemail1."','".$branchemail2."','".$branchmirc."','".$branchatpermirc."','".$branchNEFT."','".$branch_clearingthrough."','".$branch_clearingcenter."','".$branch_clearingbankcode."','".$branch_clearingcity."','".$cityCode."','".$branchServices."','".$branchregbusihrs."','".$branchhalfbusihrs."','".$branchsundayworking."','".$branchtollfreeno."','".$subbranchcode."')";
 				$branch_id = $db->query($sql,ARRAY_N,true); 
 				if($_REQUEST['submit1'] == 'Save and Close') {
 					$location = 'home.php';

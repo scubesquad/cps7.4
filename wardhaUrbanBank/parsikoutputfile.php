@@ -18,9 +18,9 @@ if((isset($_REQUEST['from_date']) && !empty($_REQUEST['from_date']) && isset($_R
 	if(isset($_REQUEST['ddlBranchName']) && !empty($_REQUEST['ddlBranchName']))
 	{
 		if($count == 1){
-			$SearchString .= " where cps_branchmicr_code = '".$_REQUEST['ddlBranchName']."' ";
+			$SearchString .= " where cps_micr_code = '".$_REQUEST['ddlBranchName']."' ";
 		}else{
-			$SearchString .= " and cps_branchmicr_code = '".$_REQUEST['ddlBranchName']."' ";
+			$SearchString .= " and cps_micr_code = '".$_REQUEST['ddlBranchName']."' ";
 		}
 		$count++;
 	}
@@ -94,17 +94,17 @@ if(isset($_GET['to_date']) && !empty($_GET['to_date']))
 							<select name="ddlBranchName" id="ddlBranchName" style="width:198px; height:26px;">
 								<option value=""> Select Branch </option>
 								<?php 
-									$rowgetbranch =  $db->get_results("SELECT distinct(b.branch_code),b.branch_id, b.branch_name FROM tb_branchdetails b INNER JOIN tb_print_req_collection prc ON b.branch_code = prc.cps_branchmicr_code");
+									$rowgetbranch =  $db->get_results("SELECT distinct(b.branch_code),b.branch_id, b.branch_name,b.branch_micr FROM tb_branchdetails b INNER JOIN tb_print_req_collection prc ON b.branch_micr = prc.cps_micr_code AND b.branch_sub_code= prc.branch_sub_code");
 									if($rowgetbranch){
 									foreach($rowgetbranch as $eachbranch)
 									{
-										if(isset($_GET['ddlBranchName']) && $_GET['ddlBranchName'] == $eachbranch->branch_code)
+										if(isset($_GET['ddlBranchName']) && $_GET['ddlBranchName'] == $eachbranch->branch_id)
 										{
-											?><option value="<?php echo $eachbranch->branch_code; ?>" selected="selected"><?php echo $eachbranch->branch_name; ?></option><?php
+											?><option value="<?php echo $eachbranch->branch_id; ?>" selected="selected"><?php echo $eachbranch->branch_name; ?></option><?php
 										}
 										else
 										{
-											?><option value="<?php echo $eachbranch->branch_code; ?>"><?php echo $eachbranch->branch_name; ?></option><?php
+											?><option value="<?php echo $eachbranch->branch_id; ?>"><?php echo $eachbranch->branch_name; ?></option><?php
 										} 
 									} 
 								}

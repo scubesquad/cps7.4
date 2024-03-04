@@ -36,20 +36,16 @@ $row = $db->get_row("select adminid,username,userid,password,lastlogintime,user_
 							formData.push({ "name": "type", "value": "json" });
 							$('.loading').show();
 						}, 
-						clearForm: false, dataType: 'json',
-						success: function (resObj, statusText) {
-							console.log(resObj.status);
+						clearForm: false, dataType: 'json', success: function (resObj, statusText) {
 							if (resObj.status) {
 									alert("User Edited Sucessfully.");
 									//window.location = "adduserprint.php";
 									window.location = resObj.loc;
-									$('.loading').hide();
 							} else {	
 								$('.loading').hide();
 								$('#response').html('<span class="red">'+resObj.msg+'</span>').show();
 							}
 						}
-						
 						
 					});
 				}
@@ -76,118 +72,121 @@ $row = $db->get_row("select adminid,username,userid,password,lastlogintime,user_
 <?php require_once('header.php'); ?>
                 <div id="formdiv">
                 	<div id="formheading">Edit User</div>
-                  <div id="formfields">
-                   	<form id="frmadduser" name="frmadduser" enctype="multipart/form-data" action="adduserprint_post.php?do=edit&adminid=<?php echo $_REQUEST['adminid'] ?>" method="POST" autocomplete="off">
+                    <div id="formfields">
+                   <form id="frmadduser" name="frmadduser" enctype="multipart/form-data" action="adduserprint_post.php?do=edit&adminid=<?php echo $_REQUEST['adminid'] ?>" method="POST" autocomplete="off">
                       <table width="100%" border="0" cellspacing="0" cellpadding="0">
                         <tr>
                           <td align="center" valign="top" style="border:1px solid; border-color:#cccccc;">
-                          	<table width="800" border="0" cellspacing="0" cellpadding="0">
-                          		<tr>
-                          			<td>&nbsp;</td>
-                          		</tr>
-														  <tr>
-														    <td align="left" valign="top">
-															    <div id="formfields">
-									                    				    	
-														    		<table width="700px" border="0" cellspacing="0" cellpadding="0">
-														    			<tr>
-																		    <td align="left" valign="top" colspan="2"><div id="response"></div></td>
-																			</tr>
-																		
-																			<tr>
-																    		<td style="height: 35px; text-align: left">
-																    			<label>User Name</label>
-																    		</td>
-																    		<td>
-																    			<input type="text" name="txtusername" id="txtusername" readonly="true" value="<?php echo $row->username; ?>" /><label>(User Name should be bank employee code)</label>
-																    		</td>
-															    		</tr>
-																			<tr>
-																    		<td style="height: 35px; text-align: left">
-																    			<label>User Id</label>
-																    		</td>
-																    		<td>
-																    			<input type="text" name="txtuserid" id="txtuserid" readonly="true" value="<?php echo $row->userid; ?>" /><label>(User ID should be bank employee code)</label>
-																    		</td>
-															    		</tr>
-															    		<tr id="row_old">
-																    		<td style="height: 35px; text-align: left">
-																    			<label>Old Password</label>
-																    		</td>
-																    		<td>	
-																    			<input type="password" name="txtoldpassword" id="txtoldpassword" value="" />											
-																    		</td>
-															    		</tr>
-																			<tr id="row_new">
-																    		<td style="height: 35px; text-align: left">
-																    			<label>New Password</label>
-																    		</td>
-																    		<td>	
-																    			<input type="password" name="txtpassword" id="txtpassword" value="" />											
-																    		</td>
-															    		</tr>
-															    		<tr id="row_confirm">
-																    		<td style="height: 35px; text-align: left">
-																    			<label>Confirm Password</label>
-																    		</td>
-																    		<td>
-																    			<input type="password" name="txtconfirmpassword" id="txtconfirmpassword" value="" />											
-																    		</td>
-															    		</tr>
-															    		<tr id="row_set_new">
-																    		<td style="height: 35px; text-align: left">
-																    			<label>Set New Password</label>
-																    		</td>
-																    		<td>	
-																    			<input type="password" name="txtnewpassword" id="txtnewpassword" value="" />											
-																    		</td>
-															    		</tr>
-																			<tr id="row_renew">
-																    		<td style="height: 35px; text-align: left">
-																    			<label>Re-enter New Password</label>
-																    		</td>
-																    		<td>	
-																    			<input type="password" name="txtrenewpassword" id="txtrenewpassword" value="" />											
-																    		</td>
-															    		</tr>
-															    		<tr>
-															    			<td colspan="2" style="height: 15px;">
-																				
-															    			</td>
-															    		</tr>
-															    		<tr>
-															    			<td colspan="2" style="height: 35px;">
-																				<input type="submit" name="submit1" id="submit1" value="Save"/>
-																				<input type="submit" name="submit2" id="submit2" value="Update and Close" class="submitbutton" />
-																				<input type="button" name="submit3" id="submit3" value="Discard" class="submitbutton" onClick="window.location.href='home.php'" />
-																				<input type="button" name="submit4" id="submit4" value="Go to home" class="submitbutton" onClick="window.location.href='home.php'" />
-																				<input type="button" name="submit5" id="submit5" value="Reset password" class="submitbutton" />
-																				<div class="loading"><img src="<?php echo ADMIN_IMAGES; ?>ajax-loader.gif" /></div>
-															    			</td>
-															    		</tr>
-														    		</table>
-														    		
-														    	</div>
-														    </td>
-														  </tr>
-						  								<tr>
-						                  	<td>&nbsp;</td>
-						                  </tr>
-						      
-						     
-												    </table>
-												  </td>
-												</tr>
-											  <tr>
-											    <td align="left" valign="top">
-														<div class="clearboth"></div>
-													</td>
-											  </tr>
-                      </table>
-										</form>
-                  </div>
+                          <table width="800" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                          <td>&nbsp;</td>
+                          </tr>
+						  <tr>
+						    <td align="left" valign="top">		
+						    <div id="formfields">
+                    				    	
+					    		<table width="700px" border="0" cellspacing="0" cellpadding="0">
+					    			<tr>
+									    <td align="left" valign="top" colspan="2"><div id="response"></div></td>
+									</tr>
+									
+									<tr>
+							    		<td style="height: 35px; text-align: left">
+							    			<label>User Name</label>
+							    		</td>
+							    		<td>
+							    			<input type="text" name="txtusername" id="txtusername" readonly="true" value="<?php echo $row->username; ?>" /><label>(User Name should be bank employee code)</label>
+							    		</td>
+						    		</tr>
+									<tr>
+							    		<td style="height: 35px; text-align: left">
+							    			<label>User Id</label>
+							    		</td>
+							    		<td>
+							    			<input type="text" name="txtuserid" id="txtuserid" readonly="true" value="<?php echo $row->userid; ?>" /><label>(User ID should be bank employee code)</label>
+							    		</td>
+						    		</tr>
+						    		<tr id="row_old">
+							    		<td style="height: 35px; text-align: left">
+							    			<label>Old Password</label>
+							    		</td>
+							    		<td>	
+							    			<input type="password" name="txtoldpassword" id="txtoldpassword" value="" />											
+							    		</td>
+						    		</tr>
+									<tr id="row_new">
+							    		<td style="height: 35px; text-align: left">
+							    			<label>New Password</label>
+							    		</td>
+							    		<td>	
+							    			<input type="password" name="txtpassword" id="txtpassword" value="" />											
+							    		</td>
+						    		</tr>
+						    		<tr id="row_confirm">
+							    		<td style="height: 35px; text-align: left">
+							    			<label>Confirm Password</label>
+							    		</td>
+							    		<td>
+							    			<input type="password" name="txtconfirmpassword" id="txtconfirmpassword" value="" />											
+							    		</td>
+						    		</tr>
+						    		<tr id="row_set_new">
+							    		<td style="height: 35px; text-align: left">
+							    			<label>Set New Password</label>
+							    		</td>
+							    		<td>	
+							    			<input type="password" name="txtnewpassword" id="txtnewpassword" value="" />											
+							    		</td>
+						    		</tr>
+									<tr id="row_renew">
+							    		<td style="height: 35px; text-align: left">
+							    			<label>Re-enter New Password</label>
+							    		</td>
+							    		<td>	
+							    			<input type="password" name="txtrenewpassword" id="txtrenewpassword" value="" />											
+							    		</td>
+						    		</tr>
+						    		<tr>
+						    			<td colspan="2" style="height: 15px;">
+											
+						    			</td>
+						    		</tr>
+						    		<tr>
+						    			<td colspan="2" style="height: 35px;">
+											<input type="submit" name="submit1" id="submit1" value="Save"/>
+											<input type="submit" name="submit2" id="submit2" value="Update and Close" class="submitbutton" />
+											<input type="button" name="submit3" id="submit3" value="Discard" class="submitbutton" onClick="window.location.href='home.php'" />
+											<input type="button" name="submit4" id="submit4" value="Go to home" class="submitbutton" onClick="window.location.href='home.php'" />
+											<input type="button" name="submit5" id="submit5" value="Reset password" class="submitbutton" />
+											<div class="loading"><img src="<?php echo ADMIN_IMAGES; ?>ajax-loader.gif" /></div>
+						    			</td>
+						    		</tr>
+					    		</table>
+					    		
+					    		</div>
+						    </td>
+						  </tr>
+  							<tr>
+                          <td>&nbsp;</td>
+                          </tr>
+      
+     
+						    </table></td>
+						  </tr>
+						  <tr>
+						    <td align="left" valign="top">
+								
+								<div class="clearboth"></div>
+   
+							</td>
+						  </tr>
+                          </table>
+						</form>
+                     
+                    </div>
                 </div>
-            
+            </div>
+        </div>
     </div>	
 <?php require_once('footer.php');	?> 	
 </body>

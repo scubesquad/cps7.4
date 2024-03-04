@@ -185,7 +185,7 @@ var flag = true;
 					$.ajax({type: "POST", url: "post_processreprintrequest.php", dataType: 'json', data: "do=reprint&ids="+selected_ids_array,
                         success: function(resObj, statusText) {
 							if(resObj.status) {
-								if($('#print_requisition').attr('checked'))
+								if($('#print_requisition').is(":checked"))
 									window.location = 'reprintcheque.php?selective_pages_no='+selective_pages_no+'&requisition=1';
 								else
 									window.location = 'reprintcheque.php?selective_pages_no='+selective_pages_no;

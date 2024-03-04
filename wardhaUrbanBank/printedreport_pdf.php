@@ -26,7 +26,7 @@ require_once(ROOT_CLASSES.'tcpdf/tcpdf.php');
 	
 	$condation .= ' AND prc.cps_is_reprint=0';
 	
-	$sql = "select prc.*, p.userid, bd.branch_name from tb_print_req_collection prc inner join tb_printadmin p on prc.cps_process_user_id = p.adminid LEFT join tb_branchdetails bd on bd.branch_code = prc.cps_branchmicr_code where ".$condation."";
+	$sql = "select prc.*, p.userid, bd.branch_name from tb_print_req_collection prc inner join tb_printadmin p on prc.cps_process_user_id = p.adminid LEFT join tb_branchdetails bd on (bd.branch_code = prc.cps_branchmicr_code AND bd.branch_sub_code = prc.branch_sub_code) where ".$condation."";
 	$title = 'Sucessfully Printed Reports for the period : '.date('Y-m-d',strtotime($_REQUEST['frm'])).' To '.date('Y-m-d',strtotime($_REQUEST['to']));
 	
 	

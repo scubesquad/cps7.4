@@ -26,9 +26,9 @@ function ASCIIFileOutput($fromdate, $todate, $branch)
 	if($branch != "")
 	{
 		if($count == 1){
-			$SearchString .= " where cps_branchmicr_code = '".$branch."' ";
+			$SearchString .= " where cps_micr_code = '".$branch."' ";
 		}else{
-			$SearchString .= " and cps_branchmicr_code = '".$branch."' ";
+			$SearchString .= " and cps_micr_code = '".$branch."' ";
 		}
 		$count++;
 	}
@@ -46,7 +46,7 @@ function ASCIIFileOutput($fromdate, $todate, $branch)
 		foreach($result as $row) {									
 			$id = stripslashes($row->id);	
 			$uniqueReq = stripslashes($row->cps_unique_req);
-			$branchcode = stripslashes($row->cps_branchmicr_code );
+			$branchcode = stripslashes($row->cps_micr_code );
 			//$trCode = stripslashes($row->cps_tr_code );
 			$accountno = stripslashes($row->cps_account_no);
 			$chknofrom = stripslashes($row->cps_chq_no_from);
@@ -115,9 +115,11 @@ function ExcelOutput($fromdate, $todate, $branch){
 		if($branch != "")
 		{
 			if($count == 1){
-				$SearchString .= " where cps_branchmicr_code = '".$branch."' ";
+				// $SearchString .= " where cps_micr_code = '".$branch."' ";
+				$SearchString .= " where cps_micr_code = '".$branchMICRCode->branch_micr."' AND branch_sub_code = '".$branchMICRCode->branch_sub_code."' ";
 			}else{
-				$SearchString .= " and cps_branchmicr_code = '".$branch."' ";
+				// $SearchString .= " and cps_micr_code = '".$branch."' ";
+				$SearchString .= " where cps_micr_code = '".$branchMICRCode->branch_micr."' AND branch_sub_code = '".$branchMICRCode->branch_sub_code."' ";
 			}
 			$count++;
 		}

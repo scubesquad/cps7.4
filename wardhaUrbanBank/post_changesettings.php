@@ -1,39 +1,39 @@
 <?php require_once('global.php');
 	
-if(isset($_GET["pid"]) && $_GET["pid"] != ""){
-	$queryprintermodels = "SELECT * FROM tb_cps_printermodels WHERE brand_id='".$_GET["pid"]."'";
-	$resultprintermodels = $db->get_results($queryprintermodels);
-	echo "<select name='ddlTypeOfPrinterModel' id='ddlTypeOfPrinterModel' style='width: 220px;'>";
-	foreach($resultprintermodels as $rowmodel):
-		echo "<option value='". $rowmodel->model_id ."'>".$rowmodel->model_name."</option>";
-	endforeach;
-	echo "</select>";
-}	
+	if(isset($_GET["pid"]) && $_GET["pid"] != ""){
+		$queryprintermodels = "SELECT * FROM tb_cps_printermodels WHERE brand_id='".$_GET["pid"]."'";
+		$resultprintermodels = $db->get_results($queryprintermodels);
+		echo "<select name='ddlTypeOfPrinterModel' id='ddlTypeOfPrinterModel' style='width: 220px;'>";
+		foreach($resultprintermodels as $rowmodel):
+			echo "<option value='". $rowmodel->model_id ."'>".$rowmodel->model_name."</option>";
+		endforeach;
+		echo "</select>";
+	}	
 
 	//Store all post data in variables.
 	
 	if( isset($_REQUEST['txtArchiveFolder']) && $_REQUEST['txtArchiveFolder'] != ""){
 	
-	$inputfolderpath = "";//$inputfolderpath = $_REQUEST['txtInputFolder'];
-	$inputfileformat = $_REQUEST['ddlFileFormat'];
-	if($inputfileformat == "ASCII")
-		$inputfiledelimiter = $_REQUEST['ddlInputDelimiter'];
-	else
-	$inputfiledelimiter = "";
-	
-	$outputfolderpath = "";//$outputfolderpath = $_REQUEST['txtOutputFolder'];
-	$outputfileformat = $_REQUEST['ddlOutputFileFormat'];
-	if($outputfileformat == "ASCII")
-		$outputfiledelimiter = $_REQUEST['ddlOutputDelimiter'];
-	else
-		$outputfiledelimiter = "";
+		$inputfolderpath = "";//$inputfolderpath = $_REQUEST['txtInputFolder'];
+		$inputfileformat = $_REQUEST['ddlFileFormat'];
+		if($inputfileformat == "ASCII")
+			$inputfiledelimiter = $_REQUEST['ddlInputDelimiter'];
+		else
+		$inputfiledelimiter = "";
 		
-	$archivefolder = $_REQUEST['txtArchiveFolder'];
-	
-	$typeofprinter = $_REQUEST['ddlTypeOfPrinter'];
-	$printermodel  = $_REQUEST['ddlTypeOfPrinterModel'];
-	
-	$chk_taken_from = $_REQUEST['chk1'];
+		$outputfolderpath = "";//$outputfolderpath = $_REQUEST['txtOutputFolder'];
+		$outputfileformat = $_REQUEST['ddlOutputFileFormat'];
+		if($outputfileformat == "ASCII")
+			$outputfiledelimiter = $_REQUEST['ddlOutputDelimiter'];
+		else
+			$outputfiledelimiter = "";
+			
+		$archivefolder = $_REQUEST['txtArchiveFolder'];
+		
+		$typeofprinter = $_REQUEST['ddlTypeOfPrinter'];
+		$printermodel  = $_REQUEST['ddlTypeOfPrinterModel'];
+		
+		$chk_taken_from = $_REQUEST['chk1'];
 	//if($chktakenfrom == "0"){
 	//$chkfrom = $_REQUEST['txtchqnofrom'];$chkto = $_REQUEST['txtchqnoto'];
 	//}
@@ -126,29 +126,29 @@ if(isset($_GET["pid"]) && $_GET["pid"] != ""){
 	if($haslogoimage)
 	{		
 		$sql = "UPDATE tb_cps_settings set 
-				 inputfolderpath = '".mysql_real_escape_string($inputfolderpath)."',
-				 inputfileformat = '".mysql_real_escape_string($inputfileformat)."',
-				 inputfiledelimiter = '".mysql_real_escape_string($inputfiledelimiter)."',
-				 outputfileformat = '".mysql_real_escape_string($outputfileformat)."',
-				 outputfolderpath = '".mysql_real_escape_string($outputfolderpath)."',
-				 outputfiledelimiter = '".mysql_real_escape_string($outputfiledelimiter)."',
-				 typeofprinter = '".mysql_real_escape_string($typeofprinter)."',
-				 printermodel = '".mysql_real_escape_string($printermodel)."',
-				 nooffailedpasswordattempt = '".mysql_real_escape_string($nooffailedpasswordattempt)."',
-				 password_expiry = '".mysql_real_escape_string($password_expiry)."',
-				 homescreen_text = '".mysql_real_escape_string($homescreen_text)."',
-				 poweredby = '".mysql_real_escape_string($poweredby)."',
-				 help_helplineno1 = '".mysql_real_escape_string($help_helplineno1)."',
-				 help_emailid = '".mysql_real_escape_string($help_emailid)."',
+				 inputfolderpath = '".$inputfolderpath."',
+				 inputfileformat = '".$inputfileformat."',
+				 inputfiledelimiter = '".$inputfiledelimiter."',
+				 outputfileformat = '".$outputfileformat."',
+				 outputfolderpath = '".$outputfolderpath."',
+				 outputfiledelimiter = '".$outputfiledelimiter."',
+				 typeofprinter = '".$typeofprinter."',
+				 printermodel = '".$printermodel."',
+				 nooffailedpasswordattempt = '".$nooffailedpasswordattempt."',
+				 password_expiry = '".$password_expiry."',
+				 homescreen_text = '".$homescreen_text."',
+				 poweredby = '".$poweredby."',
+				 help_helplineno1 = '".$help_helplineno1."',
+				 help_emailid = '".$help_emailid."',
 				 banklogo = '".$logo."',
-				 autolockminutes = '".mysql_real_escape_string($autolockminutes)."',
-				 help_contactperson = '".mysql_real_escape_string($help_contactperson)."',
-				 help_helplineno2 = '".mysql_real_escape_string($help_helplineno2)."',
-				 country = '".mysql_real_escape_string($country)."',
-				 chk_taken_from = '".mysql_real_escape_string($chk_taken_from)."',
-				 chk_no_from = '".mysql_real_escape_string($chkfrom)."',
-				 chk_no_to = '".mysql_real_escape_string($chkto)."',
-				 archivefolderpath = '".mysql_real_escape_string($archivefolder)."'";					 
+				 autolockminutes = '".$autolockminutes."',
+				 help_contactperson = '".$help_contactperson."',
+				 help_helplineno2 = '".$help_helplineno2."',
+				 country = '".$country."',
+				 chk_taken_from = '".$chk_taken_from."',
+				 chk_no_from = '".$chkfrom."',
+				 chk_no_to = '".$chkto."',
+				 archivefolderpath = '".$archivefolder."'";					 
 			    $db->query($sql);
 				
 				if($haschkimage)
@@ -160,29 +160,29 @@ if(isset($_GET["pid"]) && $_GET["pid"] != ""){
 	else if($hasdesktopimage)
 	{		
 		$sql = "UPDATE tb_cps_settings set 
-				 inputfolderpath = '".mysql_real_escape_string($inputfolderpath)."',
-				 inputfileformat = '".mysql_real_escape_string($inputfileformat)."',
-				 inputfiledelimiter = '".mysql_real_escape_string($inputfiledelimiter)."',
-				 outputfileformat = '".mysql_real_escape_string($outputfileformat)."',
-				 outputfolderpath = '".mysql_real_escape_string($outputfolderpath)."',
-				 outputfiledelimiter = '".mysql_real_escape_string($outputfiledelimiter)."',
-				 typeofprinter = '".mysql_real_escape_string($typeofprinter)."',
-				 printermodel = '".mysql_real_escape_string($printermodel)."',
-				 nooffailedpasswordattempt = '".mysql_real_escape_string($nooffailedpasswordattempt)."',
-				 password_expiry = '".mysql_real_escape_string($password_expiry)."',
-				 homescreen_text = '".mysql_real_escape_string($homescreen_text)."',
-				 poweredby = '".mysql_real_escape_string($poweredby)."',
-				 help_helplineno1 = '".mysql_real_escape_string($help_helplineno1)."',
-				 help_emailid = '".mysql_real_escape_string($help_emailid)."',
+				 inputfolderpath = '".$inputfolderpath."',
+				 inputfileformat = '".$inputfileformat."',
+				 inputfiledelimiter = '".$inputfiledelimiter."',
+				 outputfileformat = '".$outputfileformat."',
+				 outputfolderpath = '".$outputfolderpath."',
+				 outputfiledelimiter = '".$outputfiledelimiter."',
+				 typeofprinter = '".$typeofprinter."',
+				 printermodel = '".$printermodel."',
+				 nooffailedpasswordattempt = '".$nooffailedpasswordattempt."',
+				 password_expiry = '".$password_expiry."',
+				 homescreen_text = '".$homescreen_text."',
+				 poweredby = '".$poweredby."',
+				 help_helplineno1 = '".$help_helplineno1."',
+				 help_emailid = '".$help_emailid."',
 				 desktop_image = '".$desk_img."',
-				 autolockminutes = '".mysql_real_escape_string($autolockminutes)."',
-				 help_contactperson = '".mysql_real_escape_string($help_contactperson)."',
-				 help_helplineno2 = '".mysql_real_escape_string($help_helplineno2)."',
-				 country = '".mysql_real_escape_string($country)."',
-				 chk_taken_from = '".mysql_real_escape_string($chk_taken_from)."',
-				 chk_no_from = '".mysql_real_escape_string($chkfrom)."',
-				 chk_no_to = '".mysql_real_escape_string($chkto)."',
-				 archivefolderpath = '".mysql_real_escape_string($archivefolder)."'";					 
+				 autolockminutes = '".$autolockminutes."',
+				 help_contactperson = '".$help_contactperson."',
+				 help_helplineno2 = '".$help_helplineno2."',
+				 country = '".$country."',
+				 chk_taken_from = '".$chk_taken_from."',
+				 chk_no_from = '".$chkfrom."',
+				 chk_no_to = '".$chkto."',
+				 archivefolderpath = '".$archivefolder."'";					 
 			    $db->query($sql);
 				
 				/*if($haschkimage)
@@ -194,58 +194,58 @@ if(isset($_GET["pid"]) && $_GET["pid"] != ""){
 	else if($haschkimage)
 	{		
 		$sql = "UPDATE tb_cps_settings set 
-				 inputfolderpath = '".mysql_real_escape_string($inputfolderpath)."',
-				 inputfileformat = '".mysql_real_escape_string($inputfileformat)."',
-				 inputfiledelimiter = '".mysql_real_escape_string($inputfiledelimiter)."',
-				 outputfileformat = '".mysql_real_escape_string($outputfileformat)."',
-				 outputfolderpath = '".mysql_real_escape_string($outputfolderpath)."',
-				 outputfiledelimiter = '".mysql_real_escape_string($outputfiledelimiter)."',
-				 typeofprinter = '".mysql_real_escape_string($typeofprinter)."',
-				 printermodel = '".mysql_real_escape_string($printermodel)."',
-				 nooffailedpasswordattempt = '".mysql_real_escape_string($nooffailedpasswordattempt)."',
-				 password_expiry = '".mysql_real_escape_string($password_expiry)."',
-				 homescreen_text = '".mysql_real_escape_string($homescreen_text)."',
-				 poweredby = '".mysql_real_escape_string($poweredby)."',
-				 help_helplineno1 = '".mysql_real_escape_string($help_helplineno1)."',
-				 help_emailid = '".mysql_real_escape_string($help_emailid)."',
+				 inputfolderpath = '".$inputfolderpath."',
+				 inputfileformat = '".$inputfileformat."',
+				 inputfiledelimiter = '".$inputfiledelimiter."',
+				 outputfileformat = '".$outputfileformat."',
+				 outputfolderpath = '".$outputfolderpath."',
+				 outputfiledelimiter = '".$outputfiledelimiter."',
+				 typeofprinter = '".$typeofprinter."',
+				 printermodel = '".$printermodel."',
+				 nooffailedpasswordattempt = '".$nooffailedpasswordattempt."',
+				 password_expiry = '".$password_expiry."',
+				 homescreen_text = '".$homescreen_text."',
+				 poweredby = '".$poweredby."',
+				 help_helplineno1 = '".$help_helplineno1."',
+				 help_emailid = '".$help_emailid."',
 				 chq_Image = '".$chqimage."',
-				 autolockminutes = '".mysql_real_escape_string($autolockminutes)."',
-				 help_contactperson = '".mysql_real_escape_string($help_contactperson)."',
-				 help_helplineno2 = '".mysql_real_escape_string($help_helplineno2)."',
-				 country = '".mysql_real_escape_string($country)."',
-				 chk_taken_from = '".mysql_real_escape_string($chk_taken_from)."',
-				 chk_no_from = '".mysql_real_escape_string($chkfrom)."',
-				 chk_no_to = '".mysql_real_escape_string($chkto)."',
+				 autolockminutes = '".$autolockminutes."',
+				 help_contactperson = '".$help_contactperson."',
+				 help_helplineno2 = '".$help_helplineno2."',
+				 country = '".$country."',
+				 chk_taken_from = '".$chk_taken_from."',
+				 chk_no_from = '".$chkfrom."',
+				 chk_no_to = '".$chkto."',
 				 chq_Image = '".$chqimage."',
-				 archivefolderpath = '".mysql_real_escape_string($archivefolder)."'";	
+				 archivefolderpath = '".$archivefolder."'";	
 				 
 			    $db->query($sql);
 	}
 	else
 	{
 		$sql = "UPDATE tb_cps_settings set 
-				 inputfolderpath = '".mysql_real_escape_string($inputfolderpath)."',
-				 inputfileformat = '".mysql_real_escape_string($inputfileformat)."',
-				 inputfiledelimiter = '".mysql_real_escape_string($inputfiledelimiter)."',
-				 outputfileformat = '".mysql_real_escape_string($outputfileformat)."',
-				 outputfolderpath = '".mysql_real_escape_string($outputfolderpath)."',
-				 outputfiledelimiter = '".mysql_real_escape_string($outputfiledelimiter)."',
-				 typeofprinter = '".mysql_real_escape_string($typeofprinter)."',
-				 printermodel = '".mysql_real_escape_string($printermodel)."',
-				 nooffailedpasswordattempt = '".mysql_real_escape_string($nooffailedpasswordattempt)."',
-				 password_expiry = '".mysql_real_escape_string($password_expiry)."',
-				 homescreen_text = '".mysql_real_escape_string($homescreen_text)."',
-				 poweredby = '".mysql_real_escape_string($poweredby)."',
-				 help_helplineno1 = '".mysql_real_escape_string($help_helplineno1)."',
-				 help_emailid = '".mysql_real_escape_string($help_emailid)."',				 
-				 autolockminutes = '".mysql_real_escape_string($autolockminutes)."',
-				 help_contactperson = '".mysql_real_escape_string($help_contactperson)."',
-				 help_helplineno2 = '".mysql_real_escape_string($help_helplineno2)."',
-				 country = '".mysql_real_escape_string($country)."',
-				 chk_taken_from = '".mysql_real_escape_string($chk_taken_from)."',
-				 chk_no_from = '".mysql_real_escape_string($chkfrom)."',
-				 chk_no_to = '".mysql_real_escape_string($chkto)."',				 
-				 archivefolderpath = '".mysql_real_escape_string($archivefolder)."'";	
+				 inputfolderpath = '".$inputfolderpath."',
+				 inputfileformat = '".$inputfileformat."',
+				 inputfiledelimiter = '".$inputfiledelimiter."',
+				 outputfileformat = '".$outputfileformat."',
+				 outputfolderpath = '".$outputfolderpath."',
+				 outputfiledelimiter = '".$outputfiledelimiter."',
+				 typeofprinter = '".$typeofprinter."',
+				 printermodel = '".$printermodel."',
+				 nooffailedpasswordattempt = '".$nooffailedpasswordattempt."',
+				 password_expiry = '".$password_expiry."',
+				 homescreen_text = '".$homescreen_text."',
+				 poweredby = '".$poweredby."',
+				 help_helplineno1 = '".$help_helplineno1."',
+				 help_emailid = '".$help_emailid."',				 
+				 autolockminutes = '".$autolockminutes."',
+				 help_contactperson = '".$help_contactperson."',
+				 help_helplineno2 = '".$help_helplineno2."',
+				 country = '".$country."',
+				 chk_taken_from = '".$chk_taken_from."',
+				 chk_no_from = '".$chkfrom."',
+				 chk_no_to = '".$chkto."',				 
+				 archivefolderpath = '".$archivefolder."'";	
 				
 				//echo $sql;
 			    $db->query($sql);

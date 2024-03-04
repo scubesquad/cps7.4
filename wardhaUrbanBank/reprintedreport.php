@@ -19,9 +19,9 @@ if((isset($_REQUEST['from_date']) && !empty($_REQUEST['from_date']) && isset($_R
 	if(isset($_REQUEST['ddlBranchName']) && !empty($_REQUEST['ddlBranchName']))
 	{
 		if($count == 1){
-			$SearchString .= " and cps_branchmicr_code = '".$_REQUEST['ddlBranchName']."' ";
+			$SearchString .= " and cps_micr_code = '".$_REQUEST['ddlBranchName']."' ";
 		}else{
-			$SearchString .= " and cps_branchmicr_code = '".$_REQUEST['ddlBranchName']."' ";
+			$SearchString .= " and cps_micr_code = '".$_REQUEST['ddlBranchName']."' ";
 		}
 		$count++;
 	}
@@ -88,16 +88,16 @@ if(isset($_GET['to_date']) && !empty($_GET['to_date']))
 							<select name="ddlBranchName" id="ddlBranchName" style="width:198px; height:26px;">
 								<option value=""> Select Branch </option>
 								<?php 
-									$rowgetbranch =  $db->get_results("SELECT distinct(b.branch_code),b.branch_id, b.branch_name FROM tb_branchdetails b INNER JOIN tb_reprint_req_collection prc ON b.branch_code = prc.cps_branchmicr_code");
+									$rowgetbranch =  $db->get_results("SELECT distinct(b.branch_micr),b.branch_id, b.branch_name FROM tb_branchdetails b INNER JOIN tb_reprint_req_collection prc ON b.branch_sub_code = prc.branch_sub_code");
 									foreach($rowgetbranch as $eachbranch)
 									{
-										if(isset($_GET['ddlBranchName']) && $_GET['ddlBranchName'] == $eachbranch->branch_code)
+										if(isset($_GET['ddlBranchName']) && $_GET['ddlBranchName'] == $eachbranch->branch_micr)
 										{
-											?><option value="<?php echo $eachbranch->branch_code; ?>" selected="selected"><?php echo $eachbranch->branch_name; ?></option><?php
+											?><option value="<?php echo $eachbranch->branch_micr; ?>" selected="selected"><?php echo $eachbranch->branch_name; ?></option><?php
 										}
 										else
 										{
-											?><option value="<?php echo $eachbranch->branch_code; ?>"><?php echo $eachbranch->branch_name; ?></option><?php
+											?><option value="<?php echo $eachbranch->branch_micr; ?>"><?php echo $eachbranch->branch_name; ?></option><?php
 										} 
 									} 
 								?>
@@ -201,7 +201,7 @@ if(isset($_GET['to_date']) && !empty($_GET['to_date']))
                             <tr>
                               <td class='thwidthtd'><?php echo $i++; ?></td>
                               <td class='thwidthtd'><?php echo $row->userid; ?></td>
-                              <td class='thwidthtd'><?php echo $row->cps_branchmicr_code; ?></td>
+                              <td class='thwidthtd'><?php echo $row->cps_micr_code; ?></td>
                               <td class='thwidthtd'><?php echo $row->cps_account_no; ?></td>
                               <td class='thwidthtd'><?php echo $row->cps_act_name; ?></td>
                               <?php 
@@ -231,24 +231,32 @@ if(isset($_GET['to_date']) && !empty($_GET['to_date']))
                           <tr>
                           <?php if(isset($_REQUEST['from_date']) && !empty($_REQUEST['from_date']) && isset($_REQUEST['to_date']) && !empty($_REQUEST['to_date']) && isset($_REQUEST['ddlBranchName']) && empty($_REQUEST['ddlBranchName']) ) {
 										$url = 'reprintedreport_pdf.php?type=search&frm='.$_REQUEST['from_date'].'&to='.$_REQUEST['to_date'];
+
+										$urlexcel = 'reprintedreport_excel.php?type=search&frm='.$_REQUEST['from_date'].'&to='.$_REQUEST['to_date'];
 								} 
 								else if(isset($_REQUEST['from_date']) && !empty($_REQUEST['from_date']) && isset($_REQUEST['to_date']) && !empty($_REQUEST['to_date']) && isset($_REQUEST['ddlBranchName']) && !empty($_REQUEST['ddlBranchName'])) {
 									$url = 'reprintedreport_pdf.php?type=search&frm='.$_REQUEST['from_date'].'&to='.$_REQUEST['to_date'].'&branchid='.$_REQUEST['ddlBranchName'];
+
+									$urlexcel = 'reprintedreport_excel.php?type=search&frm='.$_REQUEST['from_date'].'&to='.$_REQUEST['to_date'].'&branchid='.$_REQUEST['ddlBranchName'];
 								}
 								else {
 										$url = 'reprintedreport_pdf.php?type=all';
+										$urlexcel = 'reprintedreport_excel.php?type=all';
 								}
 								if(isset($_GET['ddlTranType']) && !empty($_GET['ddlTranType']))
 								{
 									$url .= "&cps_atpar=".$_GET['ddlTranType'];
+									$urlexcel .= "&cps_atpar=".$_GET['ddlTranType'];
 								}
 								if(isset($_GET['ddlBookSize']) && !empty($_GET['ddlBookSize']))
 								{
 									$url .= "&cps_book_size=".$_GET['ddlBookSize'];
+									$urlexcel .= "&cps_book_size=".$_GET['ddlBookSize'];
 								}		
 						  
 						  ?>
-                          <td >&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo $url; ?>" target="_blank"><input type="button" id="button" value="Export to PDF" /></a></td>
+                          <td >&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo $url; ?>" target="_blank"><input type="button" id="button" value="Export to PDF" /></a>&nbsp;&nbsp;
+						  <a href="<?php echo $urlexcel; ?>" target="_blank"><input type="button" id="button" value="Export to Excel" /></a></td>
                           </tr>
                         </div>
                         <label><?php }else{ echo "<label>There are no reprinted reports</label>";} ?></label>

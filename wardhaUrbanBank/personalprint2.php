@@ -236,11 +236,12 @@ $countnumber = $totaldatainupload->total;
 													<option value="">== Select ==</option>
 													<?php 
 														$rowgetbranch =  $db->get_results("SELECT distinct(b.branch_code),b.branch_id, b.branch_name FROM tb_branchdetails b INNER JOIN tb_uploadingdata u ON b.branch_code = u.cps_branchmicr_code where u.cps_unique_req in (0)");
+														if($rowgetbranch){
 														foreach($rowgetbranch as $eachbranch){
 													?>
 														<option value="<?php echo $eachbranch->branch_code; ?>"><?php echo $eachbranch->branch_name; ?></option>
 													<?php 
-														} 
+														}} 
 													?>
 												</select>								
 											</div>
@@ -320,7 +321,7 @@ $countnumber = $totaldatainupload->total;
 											
 										?>
 										<?php 												
-											if($result = $db->get_results("SELECT * FROM tb_uploadingdata where cps_unique_req = 0 $searchString")){
+											if($result = $db->get_results("SELECT * FROM tb_uploadingdata where cps_unique_req not in (0) $searchString")){
 													
 										?>
 											<table cellpadding="0" cellspacing="0" border="0" width="3000" id="categorytable">

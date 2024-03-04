@@ -109,11 +109,13 @@ $(document).ready(function(){
                           <tr>
                           <?php if(isset($_REQUEST['cust']) && !empty($_REQUEST['cust'])  ) {
 										$url = 'report_type_customer_pdf.php?type=search&cust='.$_REQUEST['cust'];
+                    $urlexcel = 'report_type_customer_excel.php?type=search&cust='.$_REQUEST['cust'];
 								} 
 										
 						  
 						  ?>
-                          <td >&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo $url; ?>" target="_blank"><input type="button" id="button" value="Export to PDF" /></a></td>
+                          <td >&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo $url; ?>" target="_blank"><input type="button" id="button" value="Export to PDF" /></a>&nbsp;&nbsp;
+						  <a href="<?php echo $urlexcel; ?>" target="_blank"><input type="button" id="button" value="Export to Excel" class="ui-button ui-widget ui-state-default ui-corner-all" role="button" aria-disabled="false" /></a></td>
                           </tr>
                         </div>
                         <?php

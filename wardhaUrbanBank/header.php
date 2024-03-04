@@ -1,19 +1,10 @@
-<style type="text/css">
-	.error-p{
-		    color: red;
-    border: 2px solid #dbdbdb;
-    text-align: center;
-    padding: 5px;
-    background-color: #fbf392;
-	}
-</style>
 <div id="topdivlogo">
 <div id="titlediv">
 <?php
 $sql = "select banklogo,chk_no_from,chk_no_to,chk_taken_from from tb_cps_settings";
 $row_setting = $db->get_row($sql);	
 if(!empty($row_setting->banklogo)): ?>					
-<img src = "images/<?php echo $row_setting->banklogo; ?>" rel="" />	<br/>
+<!-- <img src = "images/<?php echo $row_setting->banklogo; ?>" rel="" />	<br/> -->
 <?php endif;?>
 Cheque Personalization System</div>
 <div class="welcomeuser" style="float:right; margin-right:30px; margin-top:16px;">Welcome <?php echo $_SESSION['admin_username']; ?></div>
@@ -40,9 +31,8 @@ if ($_SESSION['admin_id'] != 22 && $_SESSION['admin_id'] != 23)
 			<!-- bhavin end -->
 			<!--<li><a href="#" rel="dropmenu5_e">HELP</a></li>-->
 			<?php elseif($_SESSION['user_type']==1) :?>
-				<!-- <li><a href="payorder_reprint.php">Payorder reprint</a></li> -->
-				<li><a href="processreprintrequest.php">Reprint Requests</a></li>
-				<li><a href="processsingleleaf.php">Reprint Single Leaf</a></li>
+			<li><a href="processreprintrequest.php">Reprint Requests</a></li>
+			<li><a href="processsingleleaf.php">Reprint Single Leaf</a></li>
 			<?php endif;?>
 			<li><a href="logout.php">Logout</a></li>
 			<!--  <li><a href="#">Tools</a></li>-->                       
@@ -65,23 +55,17 @@ if ($_SESSION['admin_id'] != 22 && $_SESSION['admin_id'] != 23)
                     <a href="manage_branches.php" <?php echo authentication_groups_pemissions("branch_master","menu","Y");?> >Branch Master</a>
 					<a href="manage_transaction.php" <?php echo authentication_groups_pemissions("transaction_master","menu","Y");?> >Transaction Code Master</a>
 					<a href="manage_chequeseries.php" <?php echo authentication_groups_pemissions("chkserise_master","menu","Y");?>>Cheque Series Master</a>
-					<!-- <a href="manage_payorderseries.php" <?php echo authentication_groups_pemissions("payorderseries_master","menu","Y");?>>Pay Order Series Master</a> -->
 					<!--<a href="manage_customer.php">Customer Master</a>-->
                 </div>
 
                 <div id="dropmenu2_e" class="dropmenudiv_e">
-                    <!-- <a href="uploadfile.php" <?php echo authentication_groups_pemissions("upload_file","menu","Y");?> >Upload & Print</a> -->
-					 <!-- <a href="parsikupload.php" <?php echo authentication_groups_pemissions("upload_file","menu","Y");?> >Upload & Print With Text File</a> -->
+                    
+					<!--  <a href="parsikupload.php" <?php //echo authentication_groups_pemissions("upload_file","menu","Y");?> >Upload & Print With Text File</a> -->
+					<a href="personalprint.php" <?php //echo authentication_groups_pemissions("reprint_request","menu","Y");?> >Add Print Request</a>
+					<a href="uploadfile.php" <?php //echo authentication_groups_pemissions("upload_file","menu","Y");?> >Print Requests</a>
 					<a href="reprint.php" <?php //echo authentication_groups_pemissions("reprint_request","menu","Y");?> >Reprint Request</a>
 					<!--<a href="personalprint.php" <?php //echo authentication_groups_pemissions("reprint_request","menu","Y");?> >Manual Print</a>-->
-					<a href="personalprint.php" <?php //echo authentication_groups_pemissions("reprint_request","menu","Y");?> >Manual Print</a>
-
-					<!-- <a href="payorder_request.php" <?php //echo authentication_groups_pemissions("reprint_request","menu","Y");?> >Payorder Reprint Request</a> -->
-					<!-- <a href="DD_request.php" <?php //echo authentication_groups_pemissions("reprint_request","menu","Y");?> >DD Reprint Request</a> -->
-					<!-- <a href="payorder_print.php" <?php //echo authentication_groups_pemissions("payorder_print","menu","Y");?> >Pay order Print</a> -->
-					<!-- <a href="DD_print.php" <?php //echo authentication_groups_pemissions("payorder_print","menu","Y");?> >DD Print</a> -->
 					
-
 				</div>
                 <div id="dropmenu3_e" class="dropmenudiv_e">
 					<a href="printedreportdaywise.php" <?php echo authentication_groups_pemissions("printed_report","menu","Y");?> >Printed Report For The Day</a>
@@ -89,12 +73,11 @@ if ($_SESSION['admin_id'] != 22 && $_SESSION['admin_id'] != 23)
 					<!--<a href="printedreportdetailview.php" <?php echo authentication_groups_pemissions("printed_report","menu","Y");?> >Printed Report For The Day Detail View</a>
                     <a href="printedreportdetailview.php" <?php echo authentication_groups_pemissions("printed_report","menu","Y");?> >Printed Report For Selected Period Detail View</a>					
                     <a href="printpendingrequest.php" <?php echo authentication_groups_pemissions("pending_report","menu","Y");?> >Cheque Pending Request Report</a>-->
-					<a href="consolidatedreport.php" <?php echo authentication_groups_pemissions("accountwise_report","menu","Y");?> >Consolidated Report Detailed</a>
-					<a href="consolidatedbooksizereport.php" <?php echo authentication_groups_pemissions("accountwise_report","menu","Y");?> >Consolidated Report</a>
-					<!--<a href="printedreportdetailview.php">Printed Report Of The Day / Detail View</a>-->
+					<a href="consolidatedreport_sign.php" <?php //echo authentication_groups_pemissions("accountwise_report","menu","Y");?> >Consolidated Report</a>
+					<a href="consolidatedreport.php" <?php //echo authentication_groups_pemissions("accountwise_report","menu","Y");?> >Consolidated Report Daily</a>
+					<a href="consolidatedbooksizereport.php" <?php //echo authentication_groups_pemissions("accountwise_report","menu","Y");?> >Consolidated Report Monthly</a>
+					<!-- <a href="printedreportdetailview.php">Printed Report Of The Day / Detail View</a> -->
 					<a href="reprintedreport.php">Reprint Report</a>
-					<!-- <a href="payorderreport.php">Payorder Report</a> -->
-					<!-- <a href="ddreport.php">DD Report</a> -->
 					<a href="report_type_customer.php">Customer Report</a>
                     <a href="outputfile.php">Output File</a>
                     <a href="parsikoutputfile.php">Output File via Text</a>

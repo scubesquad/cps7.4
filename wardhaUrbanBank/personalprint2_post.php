@@ -44,7 +44,7 @@ function FetchUploadedFiles(){
 
 	global $db;
 	$id = 0;
-	if($result = $db->get_results("SELECT * FROM tb_uploadingdata where cps_unique_req = 0 and cps_unique_req = 0") ){
+	if($result = $db->get_results("SELECT * FROM tb_uploadingdata where cps_unique_req not in (0)") ){
 		$tableinner = '';
 		$tableheader = '<tr>
 							<th style="background-color: #EDEDED; width:15px"></th>							

@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>DIPL CPS</title>
+	<title>WARDHA ZILLA PARISHAD EMPLOYEES URBAN CO-OP BANK LTD, WARDHA</title>
 	<?php include('includes.php'); ?>
 	<script type="text/javascript">
 		var vRules = { username: { required:true }, password: { required:true} };

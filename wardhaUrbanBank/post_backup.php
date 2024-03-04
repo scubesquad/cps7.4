@@ -34,7 +34,6 @@ function backup_tables($host,$user,$pass,$name,$tables = '*')
 	foreach($tables as $table)
 	{
 		$result = mysqli_query($db->dbh,'SELECT * FROM '.$table);
-		
 		$num_fields = mysqli_num_fields($result);
 		
 		$return.= 'DROP TABLE '.$table.';';
@@ -45,22 +44,17 @@ function backup_tables($host,$user,$pass,$name,$tables = '*')
 		{
 			while($row = mysqli_fetch_row($result))
 			{
-				// print_r($row);
 				$return.= 'INSERT INTO '.$table.' VALUES(';
 				for($j=0; $j<$num_fields; $j++) 
 				{
 					$row[$j] = addslashes($row[$j]);
-					
-					if (isset($row[$j])) { $return.= '"'.$row[$j].'"' ; } else { $return.= '"A"'; }
+					// $row[$j] = preg_replace("\n","\\n",$row[$j]);
+					if (isset($row[$j])) { $return.= '"'.$row[$j].'"' ; } else { $return.= '""'; }
 					if ($j<($num_fields-1)) { $return.= ','; }
-					// echo "<br>";
 				}
 				$return.= ");\n";
-				// echo $return;
-				// echo "<br>";
 			}
 		}
-		
 		$return.="\n\n\n";
 	}
 	

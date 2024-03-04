@@ -30,35 +30,33 @@ authentication_print();
 			branchCode: { required:true },
 			cityCode: { required:true },
 			ddlAccountType: { required:true },
-			mircACNo: { required:true },
 			noOfBooks: { required:true },
 			bookSize: { required:true },
-			custName: { required:true },
-			custShortName: { required:true },
+			custShortName: { required:false },
 			address1: { required:true },
 			ddlcountry: { required:true }, 
 			city: { required:true }, 
 			pin: { required:true }, 
 			Bearer_Order: { required:true },
-			custACNo: { required:true }
+			subbranchCode: { required:true },
 	};
+
+
 	var vMessages = { 
 			ddlBranchName: {required: "<br/>Please select branch name" }, 
 			bankCode: { required: "<br/>Please enter bank code."}, 
 			branchCode: { required: "<br/>Please enter branch code."}, 
 			cityCode: { required: "<br/>Please enter city code" }, 
 			ddlAccountType: { required: "<br/>Please select account type"},
-			mircACNo: {required: "<br/>Please enter MICR account no" },
 			noOfBooks: {required: "<br/>Please enter no of books" }, 
 			bookSize: { required: "<br/>Please enter book size"}, 
 			atpar: { required: "<br/>Please select atpar"}, 
-			custName: { required: "<br/>Please enter customer name."}, 
 			custShortName: { required: "<br/>Please enter customer short name."}, 
 			address1: { required: "<br/>Please enter address"}, 
 			city: {required: "<br/>Please enter city" }, 
 			pin: {required: "<br/>Please enter pin" },
 			Bearer_Order: {required: "<br/>Please enter Bearer/Order" },
-			custACNo: { required:"<br/>Please enter customer account no/Order"  } 
+			subbranchCode:{required: "<br/>Please enter sub branch code" },
 	};
 	$(document).ready(function() {			
 		$('#response,#ajax_loading,.loading').hide();
@@ -73,7 +71,7 @@ authentication_print();
 						$('#submitdiv').hide();
 					}, clearForm: false, dataType: 'json', success: function (resObj, statusText) {
 						if (resObj.status) {
-								window.location = "personalprint2.php";
+								window.location = "uploadfile.php";
 								//window.location = '<?php echo $_SERVER['PHP_SELF']; ?>';
 						} else {	
 							$('.loading').hide();
@@ -280,6 +278,19 @@ authentication_print();
 				document.getElementById("divCityCode").innerHTML="";
 				document.getElementById("divCityCode").innerHTML=totalresponse[1];
 				
+
+				document.getElementById("divNEFTCode").innerHTML="";
+				document.getElementById("divNEFTCode").innerHTML=totalresponse[2];
+
+				document.getElementById("divSubBranchCode").innerHTML = "";
+              document.getElementById("divSubBranchCode").innerHTML= totalresponse[8];
+
+				$('#hidden_addressl1').val(totalresponse[3]);
+				$('#hidden_addressl2').val(totalresponse[4]);
+				$('#hidden_addressl3').val(totalresponse[5]);
+				$('#hidden_pincode').val(totalresponse[6]);
+				$('#hidden_city').val(totalresponse[7]);
+				
 				//document.getElementById("divsuburblist").innerHTML="";
 				//document.getElementById("divsuburblist").innerHTML=xmlhttp.responseText;
 				//document.getElementById("divloadingsuburb").style.display="none";
@@ -307,6 +318,115 @@ authentication_print();
 			$("#atpar").rules("add", {
 			  	required: false
 			});
+		}
+	}
+
+
+	function checkTransactionType(obj){
+		//alert($(obj).val());
+
+		if($(obj).val()==12){
+			$('#custACNoReq').hide();
+			$('#mircACNo').val('000'+$('#branchCode').val());
+			$('#subbranchCode').val($('#subbranchCode').val());
+			$('#signAuth1').val('Authorised Signatory');
+			$('#signAuth2').val('Authorised Signatory');
+			$('#custName').val($('#bankname').val());
+			//$('#custName').val('AJANTA URBAN CO-OP BANK LTD, AURANGABAD');
+			$('#address1').val($('#hidden_addressl1').val());
+			$('#address2').val($('#hidden_addressl2').val());
+			$('#branchaddress3').val($('#hidden_addressl3').val());
+			$('#city').val($('#hidden_city').val());
+			$('#pin').val($('#hidden_pincode').val());
+		}else{
+			$('#custACNoReq').show();
+			if($('#hidden_tr').val()==12){
+				
+				$('#mircACNo').val('');
+				$('#signAuth1').val('');
+				$('#signAuth2').val('');
+				$('#custName').val('');
+				$('#address1').val('');
+				$('#address2').val('');
+				$('#branchaddress3').val('');
+				$('#city').val('');
+				$('#pin').val('');
+			}
+
+		}
+		$('#hidden_tr').val($(obj).val());
+	}
+
+	function fetchAccountDetails(){
+		//alert($('#custACNo').val());
+		
+
+		if($('#branchCode').val()!=""&&$('#custACNo').val()!=""){
+
+			var accountNo=$('#custACNo').val();
+			var branchCode=$('#branchCode').val();
+			
+		if (window.XMLHttpRequest)
+		{
+			xmlhttp=new XMLHttpRequest();
+		}
+		else
+		{
+			xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		xmlhttp.onreadystatechange=function()
+		{
+			if (xmlhttp.readyState==4 && xmlhttp.status==200)
+			{
+
+				//console.log(xmlhttp.responseText);
+
+				var obj = JSON.parse(xmlhttp.responseText);
+			//	console.log(obj);
+			//	console.log(obj.status);
+
+				if(obj.status==1){
+					var data=obj.data;
+
+			//		console.log(data.cps_act_name);
+
+					/*{"status":1,"data":{"id":"1","cps_unique_req":"00004784","cps_micr_code":"444891101","cps_branchmicr_code":"101","cps_account_no":"011006200022420","cps_act_name":"HARIPAL SUKHADEORAO BARDE","cps_no_of_books":"01","cps_dly_bearer_order":"Y","cps_book_size":"015","cps_tr_code":"10","cps_atpar":"","cps_act_jointname1":"","cps_act_jointname2":"","cps_auth_sign1":"","cps_auth_sign2":"","cps_auth_sign3":"","cps_act_address1":"      N R GHODE WADA","cps_act_address2":"VIJAY COLONY","cps_act_address3":"RUKHMINI NAGAR      AMRAVATI","cps_act_address4":"","cps_act_address5":"","cps_act_city":"AMRAVATI","cps_state":"","cps_country":"","cps_emailid":"","cps_act_pin":"444806","cps_act_telephone_res":"","cps_act_telephone_off":"","cps_act_mobile":"9420722082","cps_ifsc_code":"","cps_chq_no_from":"200016","cps_chq_no_to":"200030","cps_micr_account_no":"022420","cps_date":"2022-07-15","cps_process_user_id":"30","cps_is_reprint":"0","cps_pr_code":"","cps_bsr_code":"","cps_short_name":"","cps_product_code":"62   "}}
+*/
+					$('#mircACNo').val(data.cps_micr_account_no);
+					$('#custName').val(data.cps_act_name);
+					//$('#custShortName').val(cps_act_name);
+					$('#jointName1').val(data.cps_act_jointname1);
+					$('#jointName2').val(data.cps_act_jointname2);
+
+					$('#signAuth1').val(data.cps_auth_sign1);
+					$('#signAuth2').val(data.cps_auth_sign2);
+					$('#signAuth3').val(data.cps_auth_sign3);
+					
+					$('#address1').val(data.cps_act_address1);
+					$('#address2').val(data.cps_act_address2);
+					$('#address3').val(data.cps_act_address3);
+					$('#pin').val(data.cps_act_pin);
+
+					$('#city').val(data.cps_act_city);
+					
+					$('#custResNo').val(data.cps_act_telephone_res);
+					$('#custOffNo').val(data.cps_act_telephone_off);
+					$('#custMobNo').val(data.cps_act_mobile);
+					$('#custEmailId').val(data.cps_emailid);
+					// $('#subbranchCode').val(data.branch_sub_code);
+				}
+				/*document.getElementById("divsuburblist").innerHTML="";
+				document.getElementById("divsuburblist").innerHTML=xmlhttp.responseText;
+				document.getElementById("divloadingsuburb").style.display="none";*/
+			}
+			else
+			{
+				//document.getElementById("divloadingsuburb").style.display="block";
+			}
+		}
+		xmlhttp.open("GET","post_branchmaster.php?accountNo="+accountNo+"&branchCode="+branchCode,true);
+		xmlhttp.send();
+
 		}
 	}
 </script>
@@ -337,6 +457,14 @@ authentication_print();
 					<td align="left" valign="top" width="100%">
 					<table width="100%" border="0" cellspacing="0" cellpadding="0">
 					  
+
+					  <input type="hidden" name="hidden_tr" id="hidden_tr" value="0">	
+					  <input type="hidden" name="hidden_addressl1" id="hidden_addressl1" value="">
+					  <input type="hidden" name="hidden_addressl2" id="hidden_addressl2" value="">
+					  <input type="hidden" name="hidden_addressl3" id="hidden_addressl3" value="">	
+					  <input type="hidden" name="hidden_city" id="hidden_city" value="">	
+					  <input type="hidden" name="hidden_pincode" id="hidden_pincode" value="0">	
+					  <input type="hidden" name="hidden_subbranchCode" id="hidden_subbranchCode" value="0">	
 					<tr>
 						<td height="35" align="left" valign="top" width="20%"><label>Bank Name</label>
 						</td>
@@ -386,6 +514,18 @@ authentication_print();
 							</div>
 						</td>
 					  </tr>
+					  	  <!-- ------sub branch code----- -->
+
+							<tr>
+						<td height="35" align="left" valign="top" width="20%"><label>Sub Branch Code</label><span class="red">*</span>
+						</td>
+						<td align="left" valign="top" width="80%">
+							<div id="divSubBranchCode" >
+								<label>
+									<input type="text" maxlength="4" value="" readonly="true" name="subbranchCode" id="subbranchCode" style="width:190px;" />
+								</label>
+							</div>
+						</td>
 					  
 					  <tr>
 						<td height="35" align="left" valign="top" width="20%"><label>City Code</label><span class="red">*</span>
@@ -402,16 +542,19 @@ authentication_print();
 					   <td height="35" align="left" valign="top" width="20%"><label>IFSC Code</label>
 					   </td>
 					   <td align="left" valign="top" width="80%">
+					   	<div id="divNEFTCode" >
 						  <label>
 						  <input type="text" value="<?php echo stripslashes($row->branch_neftifsccode); ?>" name="branchNEFT" id="branchNEFT" maxlength="11" style="width:190px;" onKeyUp="javascript:this.value=this.value.toUpperCase();" />
 						  </label>
+						</div>
 					   </td>
 					</tr>
 					<tr>
 						<td height="35" align="left" valign="top" width="20%"><label>Account Type</label><span class="red">*</span></td>
 						<td align="left" valign="top" width="80%">
+						
 						<label>
-							<select name="ddlAccountType" id="ddlAccountType" style="width:198px; height:26px;">
+							<select name="ddlAccountType" id="ddlAccountType" style="width:198px; height:26px;" onchange="checkTransactionType(this);">
 								<option value=""> Select Account Type </option>
 								<?php 
 								$rowgetbranch =  $db->get_results("select transactioncode,transactioncodedescription from tb_cps_transactioncodes");
@@ -460,17 +603,17 @@ authentication_print();
 							?>
 						</td>
 					</tr>					
-					<tr>
-						<td height="35" align="left" valign="top" width="20%"><label>Customer A/C No.</label><span class="red">*</span>
+					<tr id="divCustAcc">
+						<td height="35" align="left" valign="top" width="20%"><label>Customer A/C No.</label>
 						</td>
 						<td align="left" valign="top" width="80%">
 							<label>
-								<input type="text" value="" name="custACNo" id="custACNo" style="width:190px;" maxlength="20" />
+								<input type="text" value="" name="custACNo" id="custACNo" style="width:190px;" maxlength="20" onblur="fetchAccountDetails()"/>
 							</label>
 						</td>
 					</tr>
 					<tr>
-						<td height="35" align="left" valign="top" width="20%"><label>MIRC A/C No.</label><span class="red">*</span>
+						<td height="35" align="left" valign="top" width="20%"><label>MIRC A/C No.</label>
 						</td>
 						<td align="left" valign="top" width="80%">
 							<label>
@@ -505,7 +648,7 @@ authentication_print();
 							<label>
 								<select name="Bearer_Order" id="Bearer_Order" style="width:198px; height:26px;">
 									<option value="">== Select ==</option>
-									<option value="0">Bearer</option>
+									<option value="0" selected>Bearer</option>
 									<option value="1">Order</option>
 								</select>
 							</label>
@@ -537,18 +680,18 @@ authentication_print();
 				<td align="left" valign="top">
 				<table width="80%" border="0" cellspacing="0" cellpadding="0">				
 				<tr>
-					<td width="22%" height="35" align="left" valign="top"><label>Customer Name</label><span class="red">*</span></td>
+					<td width="22%" height="35" align="left" valign="top"><label>Customer Name</label></td>
 					<td width="78%" align="left" valign="top">
 						<label>
-							<input type="text" name="custName" id="custName"  style="width:300px;" value="" onKeyUp="javascript:this.value=this.value.toUpperCase();" maxlength="35" />			
+							<input type="text" name="custName" id="custName"  style="width:300px;" value="" onKeyUp="javascript:this.value=this.value.toUpperCase();" maxlength="128" />			
 						</label>
 					</td>
 				</tr>
 				<tr>
-					<td width="22%" height="35" align="left" valign="top"><label>Customer Short Name</label><span class="red">*</span></td>
+					<td width="22%" height="35" align="left" valign="top"><label>Customer Short Name</label></td>
 					<td width="78%" align="left" valign="top">
 						<label>
-							<input type="text" name="custShortName" id="custShortName"  style="width:300px;" value="" onKeyUp="javascript:this.value=this.value.toUpperCase();" maxlength="35" />			
+							<input type="text" name="custShortName" id="custShortName"  style="width:300px;" value="" onKeyUp="javascript:this.value=this.value.toUpperCase();" maxlength="128" />			
 						</label>
 					</td>
 				</tr>				
@@ -556,7 +699,7 @@ authentication_print();
 					<td width="22%" height="35" align="left" valign="top"><label>Joint Name 1</label></td>
 					<td width="78%" align="left" valign="top">
 						<label>
-							<input type="text" name="jointName1" id="jointName1"  style="width:300px;" value="" onKeyUp="javascript:this.value=this.value.toUpperCase();" maxlength="35" />
+							<input type="text" name="jointName1" id="jointName1"  style="width:300px;" value="" onKeyUp="javascript:this.value=this.value.toUpperCase();" maxlength="512" />
 							
 						</label>
 					</td>
@@ -566,7 +709,7 @@ authentication_print();
 					<td width="22%" height="35" align="left" valign="top"><label>Joint Name 2</label></td>
 					<td width="78%" align="left" valign="top">
 						<label>
-							<input type="text" name="jointName2" id="jointName2"  style="width:300px;" value="" onKeyUp="javascript:this.value=this.value.toUpperCase();" maxlength="35" />
+							<input type="text" name="jointName2" id="jointName2"  style="width:300px;" value="" onKeyUp="javascript:this.value=this.value.toUpperCase();" maxlength="512" />
 							
 						</label>
 					</td>
@@ -576,7 +719,7 @@ authentication_print();
 					<td width="22%" height="35" align="left" valign="top"><label>Sign Authority 1</label></td>
 					<td width="78%" align="left" valign="top">
 						<label>
-							<input type="text" name="signAuth1" id="signAuth1"  style="width:300px;" value="" onKeyUp="javascript:this.value=this.value.toUpperCase();" maxlength="35" />&nbsp;<label>
+							<input type="text" name="signAuth1" id="signAuth1"  style="width:300px;" value="" onKeyUp="javascript:this.value=this.value.toUpperCase();" maxlength="128" />&nbsp;<label>
 							
 						</label>
 					</td>
@@ -586,7 +729,7 @@ authentication_print();
 					<td width="22%" height="35" align="left" valign="top"><label>Sign Authority 2</label></td>
 					<td width="78%" align="left" valign="top">
 						<label>
-							<input type="text" name="signAuth2" id="signAuth2"  style="width:300px;" value="" onKeyUp="javascript:this.value=this.value.toUpperCase();" maxlength="35" />&nbsp;<label>
+							<input type="text" name="signAuth2" id="signAuth2"  style="width:300px;" value="" onKeyUp="javascript:this.value=this.value.toUpperCase();" maxlength="128" />&nbsp;<label>
 							
 						</label>
 					</td>
@@ -596,7 +739,7 @@ authentication_print();
 					<td width="22%" height="35" align="left" valign="top"><label>Sign Authority 3</label></td>
 					<td width="78%" align="left" valign="top">
 						<label>
-							<input type="text" name="signAuth3" id="signAuth3"  style="width:300px;" value="" onKeyUp="javascript:this.value=this.value.toUpperCase();" maxlength="35" />
+							<input type="text" name="signAuth3" id="signAuth3"  style="width:300px;" value="" onKeyUp="javascript:this.value=this.value.toUpperCase();" maxlength="128" />
 							
 						</label>
 					</td>
@@ -606,7 +749,7 @@ authentication_print();
 					<td width="22%" height="35" align="left" valign="top"><label>Address Line1</label><span class="red">*</span></td>
 					<td width="78%" align="left" valign="top">
 						<label>
-							<input type="text" name="address1" id="address1"  style="width:300px;" value="" onKeyUp="javascript:this.value=this.value.toUpperCase();" maxlength="35" />&nbsp;<label>(35 characters)</label>
+							<input type="text" name="address1" id="address1"  style="width:300px;" value="" onKeyUp="javascript:this.value=this.value.toUpperCase();" maxlength="512" />
 							
 						</label>
 					</td>
@@ -616,7 +759,7 @@ authentication_print();
 					<td width="22%" height="35" align="left" valign="top"><label>Address Line2</label></td>
 					<td width="78%" align="left" valign="top">
 						<label>
-							<input type="text" name="address2" id="address2"  style="width:300px;" value="" onKeyUp="javascript:this.value=this.value.toUpperCase();" maxlength="35" />&nbsp;<label>(35 characters)</label>
+							<input type="text" name="address2" id="address2"  style="width:300px;" value="" onKeyUp="javascript:this.value=this.value.toUpperCase();" maxlength="512" />
 							
 						</label>
 					</td>
@@ -626,7 +769,7 @@ authentication_print();
 					<td width="22%" height="35" align="left" valign="top"><label>Address Line3</label></td>
 					<td width="78%" align="left" valign="top">
 						<label>
-							<input type="text" name="branchaddress3" id="branchaddress3"  style="width:300px;" value="" onKeyUp="javascript:this.value=this.value.toUpperCase();" maxlength="35" />&nbsp;<label>(35 characters)</label>
+							<input type="text" name="branchaddress3" id="branchaddress3"  style="width:300px;" value="" onKeyUp="javascript:this.value=this.value.toUpperCase();" maxlength="512" />
 							
 						</label>
 					</td>

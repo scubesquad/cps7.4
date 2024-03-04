@@ -99,7 +99,7 @@ function recuired(){
 						<select name="ddlBranchName" id="ddlBranchName" style="width:198px; height:26px;">
 							<option value=""> Select Branch </option>
 							<?php 
-								$rowgetbranch =  $db->get_results("SELECT distinct(b.branch_code),b.branch_id, b.branch_name FROM tb_branchdetails b INNER JOIN tb_print_req_collection prc ON b.branch_code = prc.cps_branchmicr_code");
+								$rowgetbranch =  $db->get_results("SELECT distinct(b.branch_code),b.branch_id, b.branch_name ,b.branch_sub_code FROM tb_branchdetails b INNER JOIN tb_print_req_collection prc ON b.branch_sub_code = prc.branch_sub_code");
 								if($rowgetbranch){
 								foreach($rowgetbranch as $eachbranch)
 								{
@@ -219,26 +219,34 @@ function recuired(){
 							<td>&nbsp;</td>
                           </tr>
                           <tr>
-                          <?php if(isset($_REQUEST['from_date']) && !empty($_REQUEST['from_date']) && isset($_REQUEST['to_date']) && !empty($_REQUEST['to_date']) && isset($_REQUEST['ddlBranchName']) && empty($_REQUEST['ddlBranchName']) ) {
-										$url = 'printedreport_pdf.php?type=search&frm='.$_REQUEST['from_date'].'&to='.$_REQUEST['to_date'];
-								} 
-								else if(isset($_REQUEST['from_date']) && !empty($_REQUEST['from_date']) && isset($_REQUEST['to_date']) && !empty($_REQUEST['to_date']) && isset($_REQUEST['ddlBranchName']) && !empty($_REQUEST['ddlBranchName'])) {
+              <?php 
+              if(isset($_REQUEST['from_date']) && !empty($_REQUEST['from_date']) && isset($_REQUEST['to_date']) && !empty($_REQUEST['to_date']) && isset($_REQUEST['ddlBranchName']) && empty($_REQUEST['ddlBranchName']) ) 
+              {
+									$url = 'printedreport_pdf.php?type=search&frm='.$_REQUEST['from_date'].'&to='.$_REQUEST['to_date'];
+									$urlExcel = 'printedreport_excel.php?type=search&frm='.$_REQUEST['from_date'].'&to='.$_REQUEST['to_date'];
+							} 
+							else if(isset($_REQUEST['from_date']) && !empty($_REQUEST['from_date']) && isset($_REQUEST['to_date']) && !empty($_REQUEST['to_date']) && isset($_REQUEST['ddlBranchName']) && !empty($_REQUEST['ddlBranchName'])) 
+							{
 									$url = 'printedreport_pdf.php?type=search&frm='.$_REQUEST['from_date'].'&to='.$_REQUEST['to_date'].'&branchid='.$_REQUEST['ddlBranchName'];
-								}
-								else {
-										$url = 'printedreport_pdf.php?type=all';
-								}			
-								if(isset($_GET['ddlTranType']) && !empty($_GET['ddlTranType']))
-								{
+									$urlExcel = 'printedreport_excel.php?type=search&frm='.$_REQUEST['from_date'].'&to='.$_REQUEST['to_date'].'&branchid='.$_REQUEST['ddlBranchName'];
+							}
+							else {
+									$url = 'printedreport_pdf.php?type=all';
+									$urlExcel = 'printedreport_excel.php?type=all';
+							}			
+							if(isset($_GET['ddlTranType']) && !empty($_GET['ddlTranType']))
+							{
 									$url .= "&cps_atpar=".$_GET['ddlTranType'];
-								}
-								if(isset($_GET['ddlBookSize']) && !empty($_GET['ddlBookSize']))
-								{
-									$url .= "&cps_book_size=".$_GET['ddlBookSize'];
-								}									
+									$urlExcel .= "&cps_atpar=".$_GET['ddlTranType'];
+							}
+							if(isset($_GET['ddlBranchName']) && !empty($_GET['ddlBranchName']))
+							{
+									$url .= "&branchid=".$_GET['ddlBddlBranchNameookSize'];
+									$urlExcel .= "&branchid=".$_GET['ddlBranchName'];
+							}									
 						  
 						  ?>
-                          <td >&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo $url; ?>" target="_blank"><input type="button" id="button" value="Export to PDF" /></a></td>
+                          <td >&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo $url; ?>" target="_blank"><input type="button" id="button" value="Export to PDF" /></a>&nbsp;&nbsp;<a href="<?php echo $urlExcel; ?>" target="_blank"><input type="button" id="button" value="Export to Excel" /></a></td>
                           </tr>
                         </div>
                         <?php }else{ echo "<label>There are no sucessfully printed reports</label>";} ?>

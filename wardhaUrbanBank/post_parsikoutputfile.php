@@ -38,10 +38,11 @@ $SearchString = "";
 	}
 	if($branch != "")
 	{
+		$branchMICRCode = $db->get_row("SELECT branch_micr FROM tb_branchdetails WHERE branch_id = '".$branch."'");
 		if($count == 1){
-			$SearchString .= " where cps_branchmicr_code = '".$branch."' ";
+			$SearchString .= " where cps_micr_code = '".$branchMICRCode->branch_micr."' AND branch_sub_code = '".$branchMICRCode->branch_sub_code."' ";
 		}else{
-			$SearchString .= " and cps_branchmicr_code = '".$branch."' ";
+			$SearchString .= " and cps_micr_code = '".$branchMICRCode->branch_micr."' AND  branch_sub_code = '".$branchMICRCode->branch_sub_code."' ";
 		}
 		$count++;
 	}

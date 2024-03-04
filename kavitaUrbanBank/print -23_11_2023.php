@@ -77,7 +77,7 @@ $trn_string_array = array(10 => 'Saving', 11 => 'Current', 12 => 'Pay Order', 13
 				$bunch_count = 0;
 				// --> Loop start for bunch printing
 				do {
-					// count no of pages
+				
 					$total_leaves = 0;
 					if ($bunch) {
 						foreach ($result as $key => $value) {
@@ -246,7 +246,7 @@ $trn_string_array = array(10 => 'Saving', 11 => 'Current', 12 => 'Pay Order', 13
 		}
 
 		function printRequestSlip($type, $firstchequedata, $secondchequedata, $thirdchequedata, $noOfRequestSlip, $noofbooks, $printersinfo) {
-			// global $db;
+			
 			global $db, $trn_string_array;		
 			$numberofbooks = $noofbooks;
 			$bankDetails = $db->get_row("SELECT bank_name,bank_website FROM tb_bankdetails");
@@ -310,7 +310,7 @@ $trn_string_array = array(10 => 'Saving', 11 => 'Current', 12 => 'Pay Order', 13
 			$pdf->Output(dirname(__FILE__)."Slip.pdf", 'F');
 
 			//echo $printersinfo[0][0];
-			exec("gsbatchprint\gsbatchprintc -P \"" . $printersinfo[0][0] . "\" -F \"" . dirname(__FILE__) . "\Slip.pdf\" -I \"" . $printersinfo[0][1] . "\" -N 1 2>&1");
+			// exec("gsbatchprint\gsbatchprintc -P \"" . $printersinfo[0][0] . "\" -F \"" . dirname(__FILE__) . "\Slip.pdf\" -I \"" . $printersinfo[0][1] . "\" -N 1 2>&1");
 
 			if ($noOfRequestSlip > 1) {
 				if ($numberofbooks == 1) {

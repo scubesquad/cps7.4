@@ -78,7 +78,7 @@ $trn_string_array =  array(10 => 'SAVINGS ACCOUNT', 11 => 'CURRENT ACCOUNT', 12=
 					{						
 						if($rowresultslips->cps_no_of_books > 1)
 						{
-							$chkTo = $chkFrom + $rowresultslips->cps_book_size;							 
+							$chkTo = $chkFrom + ($rowresultslips->cps_book_size);							 
 						}
 												
 						if($slipCounter % 3 == 1) 
@@ -243,6 +243,7 @@ $trn_string_array =  array(10 => 'SAVINGS ACCOUNT', 11 => 'CURRENT ACCOUNT', 12=
 			$arrFirstRequestSlip = explode("~", $firstrequestslipdata);
 			$arrSecondRequestSlip = explode("~", $secondrequestslipdata);
 			$arrThirdRequestSlip = explode("~", $thirdrequestslipdata);
+			// print_r($arrFirstRequestSlip );
 
 			if ($noofbooks == 1) {
 				$firstslipfrom = $arrFirstRequestSlip[14];
@@ -301,7 +302,7 @@ $trn_string_array =  array(10 => 'SAVINGS ACCOUNT', 11 => 'CURRENT ACCOUNT', 12=
 			$pdf->Output(dirname(__FILE__)."\Slip.pdf", 'F');
 
 			//echo $printersinfo[0][0];
-			exec("gsbatchprint\gsbatchprintc -P \"" . $printersinfo[0][0] . "\" -F \"" . dirname(__FILE__) . "\Slip.pdf\" -I \"" . $printersinfo[0][1] . "\" -N 1 2>&1");
+			// exec("gsbatchprint\gsbatchprintc -P \"" . $printersinfo[0][0] . "\" -F \"" . dirname(__FILE__) . "\Slip.pdf\" -I \"" . $printersinfo[0][1] . "\" -N 1 2>&1");
 
 			if ($noOfRequestSlip > 1) {
 				if ($numberofbooks == 1) {
@@ -365,7 +366,7 @@ $trn_string_array =  array(10 => 'SAVINGS ACCOUNT', 11 => 'CURRENT ACCOUNT', 12=
 					$pdf->Output(dirname(__FILE__)."\Slip1.pdf", 'F');
 
 					//echo $printersinfo[0][0];
-					exec("gsbatchprint\gsbatchprintc -P \"" . $printersinfo[0][0] . "\" -F \"" . dirname(__FILE__) . "\Slip1.pdf\" -I \"" . $printersinfo[0][1] . "\" -N 1 2>&1");
+					// exec("gsbatchprint\gsbatchprintc -P \"" . $printersinfo[0][0] . "\" -F \"" . dirname(__FILE__) . "\Slip1.pdf\" -I \"" . $printersinfo[0][1] . "\" -N 1 2>&1");
 
 				}
 
@@ -414,7 +415,7 @@ $trn_string_array =  array(10 => 'SAVINGS ACCOUNT', 11 => 'CURRENT ACCOUNT', 12=
 					$pdf->Output(dirname(__FILE__)."\Slip2.pdf", 'F');
 
 					//echo $printersinfo[0][0];
-					exec("gsbatchprint\gsbatchprintc -P \"" . $printersinfo[0][0] . "\" -F \"" . dirname(__FILE__) . "\Slip2.pdf\" -I \"" . $printersinfo[0][1] . "\" -N 1 2>&1");
+					// exec("gsbatchprint\gsbatchprintc -P \"" . $printersinfo[0][0] . "\" -F \"" . dirname(__FILE__) . "\Slip2.pdf\" -I \"" . $printersinfo[0][1] . "\" -N 1 2>&1");
 
 				}
 			}
@@ -487,7 +488,7 @@ $trn_string_array =  array(10 => 'SAVINGS ACCOUNT', 11 => 'CURRENT ACCOUNT', 12=
 			$pdf->Output(dirname(__FILE__)."\Slip.pdf", 'F');
 			
 			//echo $printersinfo[0][0];
-			exec("gsbatchprint\gsbatchprintc -P \"" . $printersinfo[0][0] . "\" -F \"" . dirname(__FILE__) . "\Slip.pdf\" -I \"" . $printersinfo[0][1] . "\" -N 1 2>&1");
+			// exec("gsbatchprint\gsbatchprintc -P \"" . $printersinfo[0][0] . "\" -F \"" . dirname(__FILE__) . "\Slip.pdf\" -I \"" . $printersinfo[0][1] . "\" -N 1 2>&1");
 
 			if ($noOfRequestSlip > 1) {
 				if ($numberofbooks == 1) {
@@ -550,7 +551,7 @@ $trn_string_array =  array(10 => 'SAVINGS ACCOUNT', 11 => 'CURRENT ACCOUNT', 12=
 					$pdf->Output(dirname(__FILE__)."\Slip1.pdf", 'F');
 
 					//echo $printersinfo[0][0];
-					exec("gsbatchprint\gsbatchprintc -P \"" . $printersinfo[0][0] . "\" -F \"" . dirname(__FILE__) . "\Slip1.pdf\" -I \"" . $printersinfo[0][1] . "\" -N 1 2>&1");
+					// exec("gsbatchprint\gsbatchprintc -P \"" . $printersinfo[0][0] . "\" -F \"" . dirname(__FILE__) . "\Slip1.pdf\" -I \"" . $printersinfo[0][1] . "\" -N 1 2>&1");
 
 				}
 
@@ -598,7 +599,7 @@ $trn_string_array =  array(10 => 'SAVINGS ACCOUNT', 11 => 'CURRENT ACCOUNT', 12=
 					$pdf->Output(dirname(__FILE__)."\Slip2.pdf", 'F');
 
 					//echo $printersinfo[0][0];
-					exec("gsbatchprint\gsbatchprintc -P \"" . $printersinfo[0][0] . "\" -F \"" . dirname(__FILE__) . "\Slip2.pdf\" -I \"" . $printersinfo[0][1] . "\" -N 1 2>&1");
+					// exec("gsbatchprint\gsbatchprintc -P \"" . $printersinfo[0][0] . "\" -F \"" . dirname(__FILE__) . "\Slip2.pdf\" -I \"" . $printersinfo[0][1] . "\" -N 1 2>&1");
 
 				}
 			}
@@ -969,7 +970,7 @@ $trn_string_array =  array(10 => 'SAVINGS ACCOUNT', 11 => 'CURRENT ACCOUNT', 12=
 			// $pdf->Output("Cheque.pdf",'F');
 			// $imagePath = dirname(__FILE__)."\Cheque.pdf";
 			
-			exec("gsbatchprint\gsbatchprintc -P \"".$printersinfo[0][0]."\" -F \"".dirname(__FILE__)."\Cheque.pdf\" -I \"".$printersinfo[0][2]."\" -N 1 2>&1");
+			// exec("gsbatchprint\gsbatchprintc -P \"".$printersinfo[0][0]."\" -F \"".dirname(__FILE__)."\Cheque.pdf\" -I \"".$printersinfo[0][2]."\" -N 1 2>&1");
 		}
 		
 		
@@ -1312,7 +1313,7 @@ $trn_string_array =  array(10 => 'SAVINGS ACCOUNT', 11 => 'CURRENT ACCOUNT', 12=
 			// $pdf->Output("Cheque.pdf",'F');
 			// $imagePath = dirname(__FILE__)."\Cheque.pdf";
 			
-			exec("gsbatchprint\gsbatchprintc -P \"".$printersinfo[0][0]."\" -F \"".dirname(__FILE__)."\Cheque.pdf\" -I \"".$printersinfo[0][2]."\" -N 1 2>&1");
+			// exec("gsbatchprint\gsbatchprintc -P \"".$printersinfo[0][0]."\" -F \"".dirname(__FILE__)."\Cheque.pdf\" -I \"".$printersinfo[0][2]."\" -N 1 2>&1");
 		}		
 		
 	$db->closeDb();

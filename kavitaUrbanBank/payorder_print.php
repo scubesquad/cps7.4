@@ -201,7 +201,7 @@ function printRequestSlip($type,$chequedata,$noOfRequestSlip,$printersinfo)
 	$pdf->Output("payorder_Slip.pdf",'F'); 
 	
 	//echo "gsbatchprint\gsbatchprintc -P \"".$printersinfo[0][0]."\" -F \"".dirname(__FILE__)."\payorder_Slip.pdf\" -I \"".$printersinfo[0][1]."\" -N 1 2>&1";
-	//exec("gsbatchprint\gsbatchprintc -P \"".$printersinfo[0][0]."\" -F \"".dirname(__FILE__)."\payorder_Slip.pdf\" -I \"".$printersinfo[0][1]."\" -N 1 2>&1");
+	exec("gsbatchprint\gsbatchprintc -P \"".$printersinfo[0][0]."\" -F \"".dirname(__FILE__)."\payorder_Slip.pdf\" -I \"".$printersinfo[0][1]."\" -N 1 2>&1");
 	//sleep(3);
 }
 function printCheques($type,$firstchequedata,$secondchequedata,$thirdchequedata,$noofCheque,$printersinfo)
@@ -336,7 +336,7 @@ function printCheques($type,$firstchequedata,$secondchequedata,$thirdchequedata,
 	}
 	$pdf->Output("Payorder_cheque.pdf",'F');
 
-	exec("gsbatchprint\gsbatchprintc -P \"".$printersinfo[0][0]."\" -F \"".dirname(__FILE__)."\Payorder_cheque.pdf\" -I \"".$printersinfo[0][1]."\" -N 1 2>&1");
+	exec("gsbatchprint\gsbatchprintc -P \"".$printersinfo[0][0]."\" -F \"".dirname(__FILE__)."\Payorder_cheque.pdf\" -I \"".$printersinfo[0][2]."\" -N 1 2>&1");
 }			
 
 ?>

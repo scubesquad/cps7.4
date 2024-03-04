@@ -91,7 +91,7 @@ $trn_string_array =  array(10 => 'Saving', 11 => 'Current', 12=> '', 13 => 'Cash
 			$uresult = $db->get_row("SELECT userid from tb_printadmin WHERE adminid = '$id'");
 			$print_user = $uresult->userid;
 
-			$result = $db->get_results("SELECT p.*,b.branch_neftifsccode FROM tb_cps_reprintque p inner join tb_branchdetails b on p.cps_branchmicr_code = b.branch_code where cps_reprint_approved=1");			
+			$result = $db->get_results("SELECT p.*,b.branch_neftifsccode FROM tb_cps_reprintque p inner join tb_branchdetails b on p.cps_branchmicr_code = b.branch_code AND p.branch_sub_code = b.branch_sub_code AND p.cps_micr_code = b.branch_micr where cps_reprint_approved=1");			
 			$jump=0;
 			//echo "SELECT p.*,b.branch_neftifsccode FROM tb_cps_reprintque p inner join tb_branchdetails b on p.cps_branchmicr_code = b.branch_code";
 // ============================================================ FOR CHK SLIP ========================================================
@@ -111,15 +111,15 @@ $trn_string_array =  array(10 => 'Saving', 11 => 'Current', 12=> '', 13 => 'Cash
 												
 						if($slipCounter % 3 == 1) 
 						{							//                     		0								1									2									3							4								5							6									7									8										9									10								11							12								13			14		15						16									17								18							19								20									21								22								23								24									25 						26 					27
-							$firstrequestsliprow[] = array($rowresultslips->cps_act_name,$rowresultslips->cps_act_address1,$rowresultslips->cps_act_address2,$rowresultslips->cps_act_address3,$rowresultslips->cps_act_city,$rowresultslips->cps_act_pin,$rowresultslips->cps_act_address4,$rowresultslips->cps_act_address5,$rowresultslips->cps_act_telephone_res,$rowresultslips->cps_act_telephone_off,$rowresultslips->cps_act_mobile,$rowresultslips->cps_account_no,$rowresultslips->cps_emailid,$rowresultslips->cps_book_size,$chkFrom,$chkTo,$rowresultslips->branch_address1,$rowresultslips->branch_address2,$rowresultslips->suburb_name,$rowresultslips->city_place,$rowresultslips->suburb_postal_code,$rowresultslips->branch_neftifsccode,$rowresultslips->branch_name,$rowresultslips->cps_auth_sign1,$rowresultslips->cps_branchmicr_code,$rowresultslips->cps_tr_code,$rowresultslips->cps_unique_req, $print_user);
+							$firstrequestsliprow[] = array($rowresultslips->cps_act_name,$rowresultslips->cps_act_address1,$rowresultslips->cps_act_address2,$rowresultslips->cps_act_address3,$rowresultslips->cps_act_city,$rowresultslips->cps_act_pin,$rowresultslips->cps_act_address4,$rowresultslips->cps_act_address5,$rowresultslips->cps_act_telephone_res,$rowresultslips->cps_act_telephone_off,$rowresultslips->cps_act_mobile,$rowresultslips->cps_account_no,$rowresultslips->cps_emailid,$rowresultslips->cps_book_size,$chkFrom,$chkTo,$rowresultslips->branch_address1,$rowresultslips->branch_address2,$rowresultslips->suburb_name,$rowresultslips->city_place,$rowresultslips->suburb_postal_code,$rowresultslips->branch_neftifsccode,$rowresultslips->branch_name,$rowresultslips->cps_auth_sign1,$rowresultslips->cps_branchmicr_code,$rowresultslips->cps_tr_code,$rowresultslips->cps_unique_req, $print_user,$rowresultslips->cps_micr_code, $rowresultslips->branch_sub_code);
 						}
 						elseif($slipCounter % 3 == 2) 
 						{						
-							$secondrequestsliprow[] = array($rowresultslips->cps_act_name,$rowresultslips->cps_act_address1,$rowresultslips->cps_act_address2,$rowresultslips->cps_act_address3,$rowresultslips->cps_act_city,$rowresultslips->cps_act_pin,$rowresultslips->cps_act_address4,$rowresultslips->cps_act_address5,$rowresultslips->cps_act_telephone_res,$rowresultslips->cps_act_telephone_off,$rowresultslips->cps_act_mobile,$rowresultslips->cps_account_no,$rowresultslips->cps_emailid,$rowresultslips->cps_book_size,$chkFrom,$chkTo,$rowresultslips->branch_address1,$rowresultslips->branch_address2,$rowresultslips->suburb_name,$rowresultslips->city_place,$rowresultslips->suburb_postal_code,$rowresultslips->branch_neftifsccode,$rowresultslips->branch_name,$rowresultslips->cps_auth_sign1,$rowresultslips->cps_branchmicr_code,$rowresultslips->cps_tr_code,$rowresultslips->cps_unique_req, $print_user);
+							$secondrequestsliprow[] = array($rowresultslips->cps_act_name,$rowresultslips->cps_act_address1,$rowresultslips->cps_act_address2,$rowresultslips->cps_act_address3,$rowresultslips->cps_act_city,$rowresultslips->cps_act_pin,$rowresultslips->cps_act_address4,$rowresultslips->cps_act_address5,$rowresultslips->cps_act_telephone_res,$rowresultslips->cps_act_telephone_off,$rowresultslips->cps_act_mobile,$rowresultslips->cps_account_no,$rowresultslips->cps_emailid,$rowresultslips->cps_book_size,$chkFrom,$chkTo,$rowresultslips->branch_address1,$rowresultslips->branch_address2,$rowresultslips->suburb_name,$rowresultslips->city_place,$rowresultslips->suburb_postal_code,$rowresultslips->branch_neftifsccode,$rowresultslips->branch_name,$rowresultslips->cps_auth_sign1,$rowresultslips->cps_branchmicr_code,$rowresultslips->cps_tr_code,$rowresultslips->cps_unique_req, $print_user,$rowresultslips->cps_micr_code,$rowresultslips->branch_sub_code);
 						}
 						elseif($slipCounter % 3 == 0) 
 						{						
-							$thirdrequestsliprow[] = array($rowresultslips->cps_act_name,$rowresultslips->cps_act_address1,$rowresultslips->cps_act_address2,$rowresultslips->cps_act_address3,$rowresultslips->cps_act_city,$rowresultslips->cps_act_pin,$rowresultslips->cps_act_address4,$rowresultslips->cps_act_address5,$rowresultslips->cps_act_telephone_res,$rowresultslips->cps_act_telephone_off,$rowresultslips->cps_act_mobile,$rowresultslips->cps_account_no,$rowresultslips->cps_emailid,$rowresultslips->cps_book_size,$chkFrom,$chkTo,$rowresultslips->branch_address1,$rowresultslips->branch_address2,$rowresultslips->suburb_name,$rowresultslips->city_place,$rowresultslips->suburb_postal_code,$rowresultslips->branch_neftifsccode,$rowresultslips->branch_name,$rowresultslips->cps_auth_sign1,$rowresultslips->cps_branchmicr_code,$rowresultslips->cps_tr_code,$rowresultslips->cps_unique_req, $print_user);
+							$thirdrequestsliprow[] = array($rowresultslips->cps_act_name,$rowresultslips->cps_act_address1,$rowresultslips->cps_act_address2,$rowresultslips->cps_act_address3,$rowresultslips->cps_act_city,$rowresultslips->cps_act_pin,$rowresultslips->cps_act_address4,$rowresultslips->cps_act_address5,$rowresultslips->cps_act_telephone_res,$rowresultslips->cps_act_telephone_off,$rowresultslips->cps_act_mobile,$rowresultslips->cps_account_no,$rowresultslips->cps_emailid,$rowresultslips->cps_book_size,$chkFrom,$chkTo,$rowresultslips->branch_address1,$rowresultslips->branch_address2,$rowresultslips->suburb_name,$rowresultslips->city_place,$rowresultslips->suburb_postal_code,$rowresultslips->branch_neftifsccode,$rowresultslips->branch_name,$rowresultslips->cps_auth_sign1,$rowresultslips->cps_branchmicr_code,$rowresultslips->cps_tr_code,$rowresultslips->cps_unique_req, $print_user,$rowresultslips->cps_micr_code,$rowresultslips->branch_sub_code);
 						}
 						
 						$chkFrom = $chkTo;
@@ -193,15 +193,15 @@ $trn_string_array =  array(10 => 'Saving', 11 => 'Current', 12=> '', 13 => 'Cash
 						if($jump < $no_pages)
 						{		
 							//							0			1				2							3								4								5							6							7					8								9							10			  11	12      13				14									15								16							17							18									19								20							21									22									23 							24 						25
-							$firstchequerow[] = array($chequeno,$citycode,$rowresults->cps_micr_code ,$rowresults->cps_branch_code,$rowresults->cps_micr_account_no,$rowresults->cps_account_no,$rowresults->cps_tr_code,$rowresults->cps_act_name,$rowresults->cps_act_address1,$rowresults->cps_act_city,$rowresults->cps_act_pin,$name1,$name2,$name3,$branchDetails->branch_address1,$branchDetails->branch_address2,$branchDetails->suburb_name,$branchDetails->city_place,$branchDetails->suburb_postal_code,$branchDetails->branch_neftifsccode,$branchDetails->branch_name,$rowresults->cps_auth_sign1,$rowresults->branch_neftifsccode,$rowresults->cps_branchmicr_code, $rowresults->cps_unique_req, $print_user);																
+							$firstchequerow[] = array($chequeno,$citycode,$rowresults->cps_micr_code ,$rowresults->cps_branch_code,$rowresults->cps_micr_account_no,$rowresults->cps_account_no,$rowresults->cps_tr_code,$rowresults->cps_act_name,$rowresults->cps_act_address1,$rowresults->cps_act_city,$rowresults->cps_act_pin,$name1,$name2,$name3,$branchDetails->branch_address1,$branchDetails->branch_address2,$branchDetails->suburb_name,$branchDetails->city_place,$branchDetails->suburb_postal_code,$branchDetails->branch_neftifsccode,$branchDetails->branch_name,$rowresults->cps_auth_sign1,$rowresults->branch_neftifsccode,$rowresults->cps_branchmicr_code, $rowresults->cps_unique_req, $print_user,$rowresults->branch_sub_code);																
 						}
 						elseif(($jump < ($no_pages * 2)) && ($jump >= $no_pages))
 						{
-							$secondchequerow[] = array($chequeno,$citycode,$rowresults->cps_micr_code ,$rowresults->cps_branch_code,$rowresults->cps_micr_account_no,$rowresults->cps_account_no,$rowresults->cps_tr_code,$rowresults->cps_act_name,$rowresults->cps_act_address1,$rowresults->cps_act_city,$rowresults->cps_act_pin,$name1,$name2,$name3,$branchDetails->branch_address1,$branchDetails->branch_address2,$branchDetails->suburb_name,$branchDetails->city_place,$branchDetails->suburb_postal_code,$branchDetails->branch_neftifsccode,$branchDetails->branch_name,$rowresults->cps_auth_sign1,$rowresults->branch_neftifsccode,$rowresults->cps_branchmicr_code, $rowresults->cps_unique_req, $print_user);																
+							$secondchequerow[] = array($chequeno,$citycode,$rowresults->cps_micr_code ,$rowresults->cps_branch_code,$rowresults->cps_micr_account_no,$rowresults->cps_account_no,$rowresults->cps_tr_code,$rowresults->cps_act_name,$rowresults->cps_act_address1,$rowresults->cps_act_city,$rowresults->cps_act_pin,$name1,$name2,$name3,$branchDetails->branch_address1,$branchDetails->branch_address2,$branchDetails->suburb_name,$branchDetails->city_place,$branchDetails->suburb_postal_code,$branchDetails->branch_neftifsccode,$branchDetails->branch_name,$rowresults->cps_auth_sign1,$rowresults->branch_neftifsccode,$rowresults->cps_branchmicr_code, $rowresults->cps_unique_req, $print_user,$rowresults->branch_sub_code);																
 						}
 						elseif(($jump < ($no_pages * 3)) && ($jump >= $no_pages * 2))
 						{	
-							$thirdchequerow[] = array($chequeno,$citycode,$rowresults->cps_micr_code ,$rowresults->cps_branch_code,$rowresults->cps_micr_account_no,$rowresults->cps_account_no,$rowresults->cps_tr_code,$rowresults->cps_act_name,$rowresults->cps_act_address1,$rowresults->cps_act_city,$rowresults->cps_act_pin,$name1,$name2,$name3,$branchDetails->branch_address1,$branchDetails->branch_address2,$branchDetails->suburb_name,$branchDetails->city_place,$branchDetails->suburb_postal_code,$branchDetails->branch_neftifsccode,$branchDetails->branch_name,$rowresults->cps_auth_sign1,$rowresults->branch_neftifsccode,$rowresults->cps_branchmicr_code, $rowresults->cps_unique_req, $print_user);																
+							$thirdchequerow[] = array($chequeno,$citycode,$rowresults->cps_micr_code ,$rowresults->cps_branch_code,$rowresults->cps_micr_account_no,$rowresults->cps_account_no,$rowresults->cps_tr_code,$rowresults->cps_act_name,$rowresults->cps_act_address1,$rowresults->cps_act_city,$rowresults->cps_act_pin,$name1,$name2,$name3,$branchDetails->branch_address1,$branchDetails->branch_address2,$branchDetails->suburb_name,$branchDetails->city_place,$branchDetails->suburb_postal_code,$branchDetails->branch_neftifsccode,$branchDetails->branch_name,$rowresults->cps_auth_sign1,$rowresults->branch_neftifsccode,$rowresults->cps_branchmicr_code, $rowresults->cps_unique_req, $print_user,$rowresults->branch_sub_code);																
 						}	
 							
 						$jump++;	
@@ -232,7 +232,7 @@ $trn_string_array =  array(10 => 'Saving', 11 => 'Current', 12=> '', 13 => 'Cash
 						$thirdchequedata = "";
 					}
 
-					printCheques(3,$firstchequedata,$secondchequedata,$thirdchequedata,3,$printersinfo);
+					printCheques(3, $firstchequedata, $secondchequedata, $thirdchequedata, 3, $printersinfo);
 					
 					//bhavin end
 				}
@@ -262,9 +262,9 @@ $trn_string_array =  array(10 => 'Saving', 11 => 'Current', 12=> '', 13 => 'Cash
 			//Insert data into print collection (Successfully printed records)
 			
 			$sqlinsertquery = "INSERT INTO tb_reprint_req_collection 
-				(cps_unique_req,cps_micr_code,cps_branchmicr_code,cps_account_no,cps_act_name,cps_no_of_books,cps_dly_bearer_order,cps_book_size,cps_tr_code,cps_atpar,cps_act_jointname1,cps_act_jointname2,cps_auth_sign1,cps_auth_sign2,cps_auth_sign3,cps_act_address1,cps_act_address2,cps_act_address3,cps_act_address4,cps_act_address5,cps_act_city,cps_state,cps_country,cps_emailid,cps_act_pin,cps_act_telephone_res,cps_act_telephone_off,cps_act_mobile,cps_ifsc_code,cps_chq_no_from,cps_chq_no_to,cps_micr_account_no,cps_date,cps_process_user_id,cps_bsr_code,cps_pr_code, cps_product_code)
+				(cps_unique_req,cps_micr_code,cps_branchmicr_code,cps_account_no,cps_act_name,cps_no_of_books,cps_dly_bearer_order,cps_book_size,cps_tr_code,cps_atpar,cps_act_jointname1,cps_act_jointname2,cps_auth_sign1,cps_auth_sign2,cps_auth_sign3,cps_act_address1,cps_act_address2,cps_act_address3,cps_act_address4,cps_act_address5,cps_act_city,cps_state,cps_country,cps_emailid,cps_act_pin,cps_act_telephone_res,cps_act_telephone_off,cps_act_mobile,cps_ifsc_code,cps_chq_no_from,cps_chq_no_to,cps_micr_account_no,cps_date,cps_process_user_id,cps_bsr_code,cps_pr_code, cps_product_code,branch_sub_code)
 				VALUES
-				('".$results->cps_unique_req ."','".$results->cps_micr_code ."','".$results->cps_branchmicr_code ."','".$results->cps_account_no ."','".$results->cps_act_name ."','".$results->cps_no_of_books ."','".$results->cps_dly_bearer_order ."','".$results->cps_book_size ."','".$results->cps_tr_code ."','".$results->cps_atpar ."','".$results->cps_act_jointname1 ."','".$results->cps_act_jointname2 ."','".$results->cps_auth_sign1 ."','".$results->cps_auth_sign2 ."','".$results->cps_auth_sign3 ."','".$results->cps_act_address1 ."','".$results->cps_act_address2 ."','".$results->cps_act_address3 ."','".$results->cps_act_address4 ."','".$results->cps_act_address5 ."','".$results->cps_act_city ."','".$results->cps_state ."','".$results->cps_country ."','".$results->cps_emailid ."','".$results->cps_act_pin ."','".$results->cps_act_telephone_res ."','".$results->cps_act_telephone_off ."','".$results->cps_act_mobile ."','".$results->cps_ifsc_code ."','".$results->cps_chq_no_from ."','".$results->cps_chq_no_to ."','".$results->cps_micr_account_no ."','".$results->cps_date ."','". $_SESSION["admin_id"] ."','".$results->cps_bsr_code."','".$results->cps_pr_code. "','".$results->cps_product_code."')";
+				('".$results->cps_unique_req ."','".$results->cps_micr_code ."','".$results->cps_branchmicr_code ."','".$results->cps_account_no ."','".$results->cps_act_name ."','".$results->cps_no_of_books ."','".$results->cps_dly_bearer_order ."','".$results->cps_book_size ."','".$results->cps_tr_code ."','".$results->cps_atpar ."','".$results->cps_act_jointname1 ."','".$results->cps_act_jointname2 ."','".$results->cps_auth_sign1 ."','".$results->cps_auth_sign2 ."','".$results->cps_auth_sign3 ."','".$results->cps_act_address1 ."','".$results->cps_act_address2 ."','".$results->cps_act_address3 ."','".$results->cps_act_address4 ."','".$results->cps_act_address5 ."','".$results->cps_act_city ."','".$results->cps_state ."','".$results->cps_country ."','".$results->cps_emailid ."','".$results->cps_act_pin ."','".$results->cps_act_telephone_res ."','".$results->cps_act_telephone_off ."','".$results->cps_act_mobile ."','".$results->cps_ifsc_code ."','".$results->cps_chq_no_from ."','".$results->cps_chq_no_to ."','".$results->cps_micr_account_no ."','".$results->cps_date ."','". $_SESSION["admin_id"] ."','".$results->cps_bsr_code."','".$results->cps_pr_code. "','".$results->cps_product_code."','".$results->branch_sub_code. "')";
 			$db->query($sqlinsertquery);		
 			
 			$deletefromprintque = "DELETE FROM tb_cps_reprintque WHERE id='".$results->id ."'";
@@ -273,14 +273,15 @@ $trn_string_array =  array(10 => 'Saving', 11 => 'Current', 12=> '', 13 => 'Cash
 					
 		function printRequestSlip($type,$firstchequedata,$secondchequedata,$thirdchequedata,$noOfRequestSlip,$noofbooks,$printersinfo)
 		{
-			global $db, $print_datetime, $trn_string_array;
-
+			global $db, $print_datetime, $trn_string_array;			
 			$numberofbooks = $noofbooks;
 			$bankDetails = $db->get_row("SELECT bank_name,bank_website FROM tb_bankdetails");			
 			$arrFirstRequestSlip = explode("~",$firstchequedata);
 			$arrSecondRequestSlip = explode("~",$secondchequedata);
 			$arrThirdRequestSlip = explode("~",$thirdchequedata);
-			
+			// echo "<pre>";
+			// print_r($arrFirstRequestSlip);
+			// echo "<pre>";
 			if($noofbooks==1)
 			{
 				$firstslipfrom = $arrFirstRequestSlip[14];
@@ -298,37 +299,65 @@ $trn_string_array =  array(10 => 'Saving', 11 => 'Current', 12=> '', 13 => 'Cash
 			//First request slip
 			// First Part
 			
-			$branchDetailsF = $db->get_row("SELECT b.*,c.city_place FROM tb_branchdetails b inner join tb_citymaster c on b.branch_city_id = c.city_id where b.branch_code = '".$arrFirstRequestSlip[24]."'");
-			$branchweakdays = $db->get_row("SELECT * FROM tb_cps_weekdays where branch_id = (select branch_id from tb_branchdetails where branch_code = '".$arrFirstRequestSlip[24]."')");
-			$branchhalfdays = $db->get_row("SELECT * FROM tb_cps_halfdays where branch_id = (select branch_id from tb_branchdetails where branch_code = '".$arrFirstRequestSlip[24]."')");
+			$branchDetailsF = $db->get_row("SELECT b.*,c.city_place FROM tb_branchdetails b inner join tb_citymaster c on b.branch_city_id = c.city_id where b.branch_micr = '".$arrFirstRequestSlip[30]."' AND  b.branch_sub_code = '".$arrFirstRequestSlip[31]."'");
+			$branchweakdays = $db->get_row("SELECT * FROM tb_cps_weekdays where branch_id = (select branch_id from tb_branchdetails where branch_micr = '".$arrFirstRequestSlip[30]."'AND branch_sub_code = '".$arrFirstRequestSlip[31]."')");
+			$branchhalfdays = $db->get_row("SELECT * FROM tb_cps_halfdays where branch_id = (select branch_id from tb_branchdetails where branch_micr = '".$arrFirstRequestSlip[30]."' AND branch_sub_code = '".$arrFirstRequestSlip[31]."')");
 			
 			//$pdf = new FPDF();
 			$pdf = new PDF();
 			$pdf->AddPage();
 
-			$pdf->SetFont('Arial','B',5);
-			$pdf->Text(19,10,$branchDetailsF->branch_name . " : ". $branchDetailsF->branch_address1 .',');
-			$pdf->Text(19,13,$branchDetailsF->branch_address2 . "," . $branchDetailsF->branch_address3 .','.$branchDetailsF->city_place. '-'. $branchDetailsF->branch_pin);			
+			$pdf->SetFont('Arial','B',5.5);
+			$pdf->Text(13,7,$bankDetails->bank_name);//19
+			$pdf->SetFont('Arial','B',4.5);
+			$pdf->Text(13,10,"BRANCH - ".$branchDetailsF->branch_name . ",". $branchDetailsF->branch_address1);
+
+			$addressLine2="";
+				if(!empty($branchDetailsF->branch_address2)){
+					$addressLine2 .=$branchDetailsF->branch_address2." ";
+				}
+
+				if(!empty($branchDetailsF->branch_address3)){
+					$addressLine2 .=$branchDetailsF->branch_address3." ";
+				}
+				// if(!empty($branchDetailsF->city_place)){
+				// 	$addressLine2 .=$branchDetailsF->city_place;
+				// }
+				// if(!empty($branchDetailsF->branch_pin)){
+					
+				// 	$addressLine2 .="-".$branchDetailsF->branch_pin;
+
+				// }
+			$pdf->Text(13,13,$addressLine2);			
 
 			$trn_str = $trn_string_array[$arrFirstRequestSlip[25]];
+			if($arrFirstRequestSlip[25]!=12){
 			$pdf->SetFont('Arial','B',8);
-			$pdf->Text(24,18, $trn_str . ' A/c. No.:  '.$arrFirstRequestSlip[11]);	
-			
+			$pdf->Text(28,21,$trn_str . ' A/c. No.:  '.$arrFirstRequestSlip[11]);
+
 			$pdf->SetFont('Arial','',7);
-			$pdf->Text(24,22,$arrFirstRequestSlip[0]);
-			$pdf->Text(24,25,$arrFirstRequestSlip[1]);
-			$pdf->Text(24,28,$arrFirstRequestSlip[2]);
-			$pdf->Text(24,31,$arrFirstRequestSlip[3]);
-			$pdf->Text(24,34,$arrFirstRequestSlip[6]); 
-			$pdf->Text(24,37,$arrFirstRequestSlip[7]);
-			$pdf->Text(24,40,$arrFirstRequestSlip[4]."-".$arrFirstRequestSlip[5]);		
+			$pdf->Text(28,25,trim($arrFirstRequestSlip[0]));
+			$pdf->Text(28,28,trim($arrFirstRequestSlip[1]));
+			$pdf->Text(28,31,trim($arrFirstRequestSlip[2]));
+			$pdf->Text(28,34,trim($arrFirstRequestSlip[3]));
+			$pdf->Text(28,37,trim($arrFirstRequestSlip[6])); 
+			$pdf->Text(28,40,trim($arrFirstRequestSlip[7]));
+			// $pdf->Text(28,40,$arrFirstRequestSlip[4]."-".$arrFirstRequestSlip[5]);	
+
+			}else{
+				$pdf->SetFont('Arial','B',7);
+				$pdf->Text(28,25,trim($arrFirstRequestSlip[0]));
+				$pdf->SetFont('Arial','',7);
+				$pdf->Text(28,28,trim($arrFirstRequestSlip[2])." BR. ".$arrFirstRequestSlip[4]);
+				// $pdf->Text(28,40,$arrFirstRequestSlip[4]."-".$arrFirstRequestSlip[5]);
+			}	
 
 			//--------> print vertically start
 			$x = 11.5;
 			$pdf->SetFont('Arial','',5);
 			$pdf->SetXY($x, 76);
 			$pdf->Rotate(90);
-			$pdf->Cell(16, 5, "REP " . $arrFirstRequestSlip[26]);  // unique request no 
+			$pdf->Cell(16, 5,$arrFirstRequestSlip[26]);  // unique request no 
 			$pdf->Rotate(0);
 
 			$pdf->SetXY($x, 56);
@@ -347,7 +376,7 @@ $trn_string_array =  array(10 => 'Saving', 11 => 'Current', 12=> '', 13 => 'Cash
 			$pdf->SetFont('Arial','',5);
 			$pdf->SetXY($x1, 76);
 			$pdf->Rotate(90);
-			$pdf->Cell(16, 5, "REP " . $arrFirstRequestSlip[26]);  // unique request no
+			$pdf->Cell(16, 5,$arrFirstRequestSlip[26]);  // unique request no
 			$pdf->Rotate(0);
 
 			$pdf->SetXY($x1, 56);
@@ -359,11 +388,16 @@ $trn_string_array =  array(10 => 'Saving', 11 => 'Current', 12=> '', 13 => 'Cash
 			$pdf->Rotate(90);
 			$pdf->Cell(16, 5, $print_datetime);  //  date time
 			$pdf->Rotate(0);
+
+			$pdf->SetXY($x1-2, 49);
+			$pdf->Rotate(90);
+			$pdf->Cell(16, 5, 'cut across the perforation');  //  date time
+			$pdf->Rotate(0);
 			// -------> print vertically end
 
 
 			$pdf->SetFont('Arial','B',8);
-			$pdf->Text(22,54,'Cheque No. From :     ' . str_pad($firstslipfrom, 6, "0", STR_PAD_LEFT) . '     To      ' . str_pad($firstslipto, 6, "0", STR_PAD_LEFT));
+			$pdf->Text(22,48,'Cheque No. From :     ' . str_pad($firstslipfrom, 6, "0", STR_PAD_LEFT) . '     To      ' . str_pad($firstslipto, 6, "0", STR_PAD_LEFT));
 			$pdf->Text(35,58,"Branch Information");
 			
 			$firstno = $arrFirstRequestSlip[8] > 0 ? $arrFirstRequestSlip[8] : "";
@@ -429,9 +463,26 @@ $trn_string_array =  array(10 => 'Saving', 11 => 'Current', 12=> '', 13 => 'Cash
 			$pdf->Text($secondPartX,11,'The Manager');
 			$pdf->Text($secondPartX,14,$bankDetails->bank_name);
 			$pdf->SetFont('Arial','B',6);
-			$pdf->Text($secondPartX,17,$branchDetailsF->branch_name . ": ". $branchDetailsF->branch_address1 .',');
-			$pdf->Text($secondPartX,20,$branchDetailsF->branch_address2 .", ". $branchDetailsF->branch_address3 .','.$branchDetailsF->city_place. '-'. $branchDetailsF->branch_pin);
-			$pdf->SetFont('Arial','',8);
+			$pdf->Text($secondPartX,17,"BRANCH - ".$branchDetailsF->branch_name . ",". $branchDetailsF->branch_address1);
+			$addressLine2="";
+				if(!empty($branchDetailsF->branch_address2)){
+					$addressLine2 .=$branchDetailsF->branch_address2.",";
+				}
+
+				if(!empty($branchDetailsF->branch_address3)){
+					$addressLine2 .=$branchDetailsF->branch_address3;
+				}
+				// if(!empty($branchDetailsF->city_place)){
+				// 	$addressLine2 .=$branchDetailsF->city_place;
+				// }
+				// if(!empty($branchDetailsF->branch_pin)){
+					
+				// 	$addressLine2 .="-".$branchDetailsF->branch_pin;
+
+				// }
+			$pdf->Text($secondPartX,20,$addressLine2);
+			
+			$pdf->SetFont('Arial','B',8);
 			//$pdf->Text(140,23,$firstslipfrom);
 			//$pdf->Text(187,23,$firstslipto);
 			
@@ -440,35 +491,88 @@ $trn_string_array =  array(10 => 'Saving', 11 => 'Current', 12=> '', 13 => 'Cash
 			$pdf->SetFont('Arial','B',8);
 			$pdf->Text($secondPartX,32,'Characteristics :     Bearer        Order');
 			$pdf->Text($secondPartX,36,'Cheque Book    :      Normal         Payable At Par');
-			$pdf->Text($secondPartX,40, $trn_str . ' A/c No.: ' . $arrFirstRequestSlip[11]);
+			if($arrFirstRequestSlip[25]!=12){
+			$pdf->Text($secondPartX,40,$trn_str . ' A/c No.: ' . $arrFirstRequestSlip[11]);
+			}
 			
 			$pdf->Image(dirname(__FILE__)."\images\checkbox.png",137,30);
 			$pdf->Image(dirname(__FILE__)."\images\checkbox.png",150,30);
 			
 			$pdf->Text(162,54,"Signature Verified / Authorised");
+			
+			if($arrFirstRequestSlip[25]!=12){
 			$pdf->SetFont('Arial','',8);
-			$pdf->Text($secondPartX,44, $arrFirstRequestSlip[0]);
-			$pdf->Text($secondPartX,48,$arrFirstRequestSlip[1]);
-			$pdf->Text($secondPartX,51,$arrFirstRequestSlip[2]);
-			$pdf->Text($secondPartX,54,$arrFirstRequestSlip[3]); 
-			$pdf->Text($secondPartX,57,$arrFirstRequestSlip[6]);
-			$pdf->Text($secondPartX,60,$arrFirstRequestSlip[7]);
+			$pdf->Text($secondPartX,44, trim($arrFirstRequestSlip[0]));
+			$pdf->Text($secondPartX,48,trim($arrFirstRequestSlip[1]));
+			$pdf->Text($secondPartX,51,trim($arrFirstRequestSlip[2]));
+			$pdf->Text($secondPartX,54,trim($arrFirstRequestSlip[3])); 
+			$pdf->Text($secondPartX,57,trim($arrFirstRequestSlip[6]));
+			$pdf->Text($secondPartX,60,trim($arrFirstRequestSlip[7]));
 
-			$pdf->Text($secondPartX,63,$arrFirstRequestSlip[4]."-".$arrFirstRequestSlip[5]);
-			$pdf->Text($secondPartX,67,'Contact No.: '.$arrFirstRequestSlip[8].'    '.$arrFirstRequestSlip[9].'    '.$arrFirstRequestSlip[10]);				
-			$pdf->SetFont('Arial','B',8);
-			$pdf->SetXY($secondPartX, 67);
-			$pdf->Cell(100,5,"For " . $arrFirstRequestSlip[0], 0, 0,'R');		
-			$pdf->Text($secondPartX,88,'Signature of Bearer');
+			// $pdf->Text($secondPartX,63,$arrFirstRequestSlip[4]."-".$arrFirstRequestSlip[5]);
+
+			}else{
+				
+				$pdf->SetFont('Arial','',8);
+				$pdf->Text($secondPartX,44, trim($arrFirstRequestSlip[0]));
+				$pdf->Text($secondPartX,48,trim($arrFirstRequestSlip[2])." BR. ".$arrFirstRequestSlip[4]);
+						
+					
+			}
+			$pdf->Text($secondPartX,67,'Contact No.:                                             '.$arrFirstRequestSlip[8].'    '.$arrFirstRequestSlip[9].'    '.$arrFirstRequestSlip[10]);				
+			$pdf->SetFont('Arial','B',8);			
+			$pdf->SetXY($secondPartX+4, 67);
+
+			/*print_r($arrFirstRequestSlip);
+			exit;*/
+			if($arrFirstRequestSlip[25]!=10){
+				$prefix="For ";
+			}else{
+				$prefix="";
+			}
+			// $pdf->Cell(100,5,$prefix . $arrFirstRequestSlip[0], 0, 0,'R');		
+
+			$pdf->Text($secondPartX,83,'Signature of Bearer');
 						
 			$pdf->SetFont('Arial','',7);
 			
-			$pdf->SetXY(162, 84);
-			if($arrFirstRequestSlip[23] == '')
-				$pdf->Cell(40, 5, "Self", 0, 0, 'R');
-			else 
-				$pdf->Cell(40, 5, $arrFirstRequestSlip[23], 0, 0, 'R');
+			if($arrFirstRequestSlip[25]!=10){
+				$pdf->SetFont('Arial','B',7);
+				$pdf->SetXY($secondPartX+4, 68);
+				$pdf->Cell(100,5,$prefix . $arrFirstRequestSlip[0], 0, 0,'R');
 
+				$pdf->SetXY($secondPartX+4, 84);
+				if ($arrFirstRequestSlip[28] == "") {
+					$pdf->Cell(100, 5, $arrFirstRequestSlip[23], '', 0, 'R');
+				} else if ($arrFirstRequestSlip[29] == "") {
+					$pdf->Cell(100, 5, $arrFirstRequestSlip[23] . '        ' . $arrFirstRequestSlip[28], '', 0, 'R');
+				} else {
+
+					$pdf->Cell(100, 5, $arrFirstRequestSlip[23] . '        ' . $arrFirstRequestSlip[28], '', 0, 'R');
+					$pdf->SetXY($secondPartX+4, 84);
+					$pdf->Cell(100, 5, $arrFirstRequestSlip[29], '', 0, 'R');
+				}
+
+			}else{
+				if($arrFirstRequestSlip[23] != ""){
+					$pdf->SetFont('Arial','B',7);
+					$pdf->SetXY($secondPartX+4, 68);
+					$pdf->Cell(100,5,$prefix . $arrFirstRequestSlip[0], 0, 0,'R');
+					$pdf->SetXY($secondPartX+4, 84);
+					$pdf->Cell(100, 5, $arrFirstRequestSlip[23], '', 0, 'R');
+					
+				}
+				else{
+					$pdf->SetFont('Arial','B',7);
+					$pdf->SetXY(162, 84);
+					if($arrFirstRequestSlip[23] == '')
+						$pdf->Cell(40, 5, $arrFirstRequestSlip[0], 0, 0, 'R');
+					else 
+						$pdf->Cell(40, 5, $arrFirstRequestSlip[0], 0, 0, 'R');
+				}
+
+			}
+			
 			if($noOfRequestSlip>1)
 			{
 				if($numberofbooks==1)
@@ -493,37 +597,66 @@ $trn_string_array =  array(10 => 'Saving', 11 => 'Current', 12=> '', 13 => 'Cash
 					
 				if($arrSecondRequestSlip[14] != "" && $arrSecondRequestSlip[15] != ""){
 				
-					$branchDetailsS = $db->get_row("SELECT b.*,c.city_place FROM tb_branchdetails b inner join tb_citymaster c on b.branch_city_id = c.city_id where b.branch_code = '".$arrSecondRequestSlip[24]."'");
-					$branchweakdaysSec = $db->get_row("SELECT * FROM tb_cps_weekdays where branch_id = (select branch_id from tb_branchdetails where branch_code = '".$arrSecondRequestSlip[24]."')");
-					$branchhalfdaysSec = $db->get_row("SELECT * FROM tb_cps_halfdays where branch_id = (select branch_id from tb_branchdetails where branch_code = '".$arrSecondRequestSlip[24]."')");
-							
-					$pdf->SetFont('Arial','B',5);
-					$pdf->Text(19,103,$branchDetailsS->branch_name . ": ". $branchDetailsS->branch_address1 .',');
-					$pdf->Text(19,106,$branchDetailsS->branch_address2.','. $branchDetailsS->branch_address3 .','.$branchDetailsS->city_place. '-'. $branchDetailsS->branch_pin);
-																	
+					$branchDetailsS = $db->get_row("SELECT b.*,c.city_place FROM tb_branchdetails b inner join tb_citymaster c on b.branch_city_id = c.city_id where b.branch_micr = '".$arrSecondRequestSlip[30]."'");
+					$branchweakdaysSec = $db->get_row("SELECT * FROM tb_cps_weekdays where branch_id = (select branch_id from tb_branchdetails where branch_micr = '".$arrSecondRequestSlip[30]."')");
+					$branchhalfdaysSec = $db->get_row("SELECT * FROM tb_cps_halfdays where branch_id = (select branch_id from tb_branchdetails where branch_micr = '".$arrSecondRequestSlip[30]."')");
+					
+					$pdf->SetFont('Arial','B',5.5);
+					$pdf->Text(13,100,$bankDetails->bank_name);
+					$pdf->SetFont('Arial','B',4.5);
+					$pdf->Text(13,103,"BRANCH - ".$branchDetailsS->branch_name . ",". $branchDetailsS->branch_address1);
+					
+					//$pdf->Text(19,106,$branchDetailsS->branch_address2.', '. $branchDetailsS->branch_address3 .', '.$branchDetailsS->city_place. '-'. $branchDetailsS->branch_pin);
+					$addressLine2="";
+					if(!empty($branchDetailsS->branch_address2)){
+						$addressLine2 .=$branchDetailsS->branch_address2." ";
+					}
+
+					if(!empty($branchDetailsS->branch_address3)){
+						$addressLine2 .=$branchDetailsS->branch_address3." ";
+					}
+					// if(!empty($branchDetailsS->city_place)){
+					// 	$addressLine2 .=$branchDetailsS->city_place;
+					// }
+					// if(!empty($branchDetailsS->branch_pin)){
+						
+					// 	$addressLine2 .="-".$branchDetailsS->branch_pin;
+
+					// }
+					$pdf->Text(13,106,$addressLine2);												
 					//$pdf->SetFont('Arial','B',8);
 
-					//$pdf->Text(24,111, 'Cheque No. From  '.str_pad($arrSecondRequestSlip[14], 6, "0", STR_PAD_LEFT).'       To  '.str_pad($arrSecondRequestSlip[15], 6, "0", STR_PAD_LEFT));
-
-					$trn_str = $trn_string_array[$arrSecondRequestSlip[25]];
+					//$pdf->Text(28,111, 'Cheque No. From  '.str_pad($arrSecondRequestSlip[14], 6, "0", STR_PAD_LEFT).'       To  '.str_pad($arrSecondRequestSlip[15], 6, "0", STR_PAD_LEFT));
 					
+					$trn_str = $trn_string_array[$arrSecondRequestSlip[25]];
+
+					if($arrSecondRequestSlip[25]!=12){
 					$pdf->SetFont('Arial','B',8);
-					$pdf->Text(24,111,$trn_str . ' A/c. No. :  '.$arrSecondRequestSlip[11]);
+					$pdf->Text(28,114,$trn_str . ' A/c. No. :  '.$arrSecondRequestSlip[11]);
+					
 					
 					$pdf->SetFont('Arial','',7);
-					$pdf->Text(24,115,$arrSecondRequestSlip[0]);
-					$pdf->Text(24,118,$arrSecondRequestSlip[1]);
-					$pdf->Text(24,121,$arrSecondRequestSlip[2]);
-					$pdf->Text(24,124,$arrSecondRequestSlip[3]);
-					$pdf->Text(24,127,$arrSecondRequestSlip[6]); 
-					$pdf->Text(24,130,$arrSecondRequestSlip[7]);
-					$pdf->Text(24,133,$arrSecondRequestSlip[4]."  ".$arrSecondRequestSlip[5]);
+					$pdf->Text(28,118,trim($arrSecondRequestSlip[0]));
+					$pdf->Text(28,121,trim($arrSecondRequestSlip[1]));
+					$pdf->Text(28,124,trim($arrSecondRequestSlip[2]));
+					$pdf->Text(28,127,trim($arrSecondRequestSlip[3]));
+					$pdf->Text(28,130,trim($arrSecondRequestSlip[6])); 
+					$pdf->Text(28,133,trim($arrSecondRequestSlip[7]));
+					// $pdf->Text(28,133,$arrSecondRequestSlip[4]."  ".$arrSecondRequestSlip[5]);
+
+					}else{
+						$pdf->SetFont('Arial','B',7);
+						$pdf->Text(28,118,trim($arrSecondRequestSlip[0]));
+						$pdf->SetFont('Arial','',7);
+						$pdf->Text(28,121,trim($arrSecondRequestSlip[2])." BR. ".$arrSecondRequestSlip[4]);
+						// $pdf->Text(28,133,$arrSecondRequestSlip[4]."-".$arrSecondRequestSlip[5]);
+					}	
 
 					//--------> print vertically start
 					$pdf->SetFont('Arial','',5);
 					$pdf->SetXY($x, 169);
 					$pdf->Rotate(90);
-					$pdf->Cell(16, 5, "REP " . $arrSecondRequestSlip[26]);  // unique request no
+					$pdf->Cell(16, 5,$arrSecondRequestSlip[26]);  // unique request no
 					$pdf->Rotate(0);
 
 					$pdf->SetXY($x, 149);
@@ -541,7 +674,7 @@ $trn_string_array =  array(10 => 'Saving', 11 => 'Current', 12=> '', 13 => 'Cash
 					$pdf->SetFont('Arial','',5);
 					$pdf->SetXY($x1, 169);
 					$pdf->Rotate(90);
-					$pdf->Cell(16, 5, "REP " . $arrSecondRequestSlip[26]);  // unique request no
+					$pdf->Cell(16, 5,$arrSecondRequestSlip[26]);  // unique request no
 					$pdf->Rotate(0);
 
 					$pdf->SetXY($x1, 149);
@@ -553,10 +686,16 @@ $trn_string_array =  array(10 => 'Saving', 11 => 'Current', 12=> '', 13 => 'Cash
 					$pdf->Rotate(90);
 					$pdf->Cell(16, 5, $print_datetime);  //  date time
 					$pdf->Rotate(0);
+
+					$pdf->SetXY($x1-2, 142);
+					$pdf->Rotate(90);
+					$pdf->Cell(16, 5, 'cut across the perforation');  //  date time
+					$pdf->Rotate(0);
+
 					// -------> print vertically end
 
 					$pdf->SetFont('Arial','B',8);
-					$pdf->Text(22,147,'Cheque No. From :     ' . str_pad($secondslipfrom, 6, "0", STR_PAD_LEFT) . '     To      ' . str_pad($secondslipto, 6, "0", STR_PAD_LEFT));
+					$pdf->Text(22,141,'Cheque No. From :     ' . str_pad($secondslipfrom, 6, "0", STR_PAD_LEFT) . '     To      ' . str_pad($secondslipto, 6, "0", STR_PAD_LEFT));
 					$pdf->Text(35,151,"Branch Information");
 					
 					$firstno = $arrSecondRequestSlip[8] > 0 ? $arrSecondRequestSlip[8] : "";
@@ -620,9 +759,26 @@ $trn_string_array =  array(10 => 'Saving', 11 => 'Current', 12=> '', 13 => 'Cash
 					$pdf->Text($secondPartX,104,'The Manager');
 					$pdf->Text($secondPartX,107,$bankDetails->bank_name);
 					$pdf->SetFont('Arial','B',6);
-					$pdf->Text($secondPartX,110,$branchDetailsS->branch_name . ": ". $branchDetailsS->branch_address1 .',');
-					$pdf->Text($secondPartX,113,$branchDetailsS->branch_address2 .", ". $branchDetailsS->branch_address3 .','.$branchDetailsS->city_place. '-'. $branchDetailsS->branch_pin);
-					$pdf->SetFont('Arial','',8);
+					$pdf->Text($secondPartX,110,"BRANCH - ".$branchDetailsS->branch_name . ",". $branchDetailsS->branch_address1);
+					$addressLine2="";
+					if(!empty($branchDetailsS->branch_address2)){
+						$addressLine2 .=$branchDetailsS->branch_address2." ";
+					}
+
+					if(!empty($branchDetailsS->branch_address3)){
+						$addressLine2 .=$branchDetailsS->branch_address3." ";
+					}
+					// if(!empty($branchDetailsS->city_place)){
+					// 	$addressLine2 .=$branchDetailsS->city_place;
+					// }
+					// if(!empty($branchDetailsS->branch_pin)){
+						
+					// 	$addressLine2 .="-".$branchDetailsS->branch_pin;
+
+					// }
+					$pdf->Text($secondPartX,113,$addressLine2);
+					//$pdf->Text($secondPartX,113,$branchDetailsS->branch_address2 .", ". $branchDetailsS->branch_address3 .', '.$branchDetailsS->city_place. '-'. $branchDetailsS->branch_pin);
+					$pdf->SetFont('Arial','B',8);
 					//$pdf->Text(140,116,$arrSecondRequestSlip[14]);
 					//$pdf->Text(187,116,$arrSecondRequestSlip[15]);
 					$pdf->Text($secondPartX,117,'Cheque No. From  '.str_pad($secondslipfrom, 6, "0", STR_PAD_LEFT).'     To      '.str_pad($secondslipto, 6, "0", STR_PAD_LEFT));
@@ -631,69 +787,143 @@ $trn_string_array =  array(10 => 'Saving', 11 => 'Current', 12=> '', 13 => 'Cash
 					$pdf->Text($secondPartX,125,'Characteristics :     Bearer        Order');
 					$pdf->Text($secondPartX,129,'Cheque Book    :      Normal         Payable At Par');
 					//$pdf->Text(115,137, 'Cheque No. From  '.$arrSecondRequestSlip[14].'       To  '.$arrSecondRequestSlip[15]);
-					$pdf->Text($secondPartX,133, $trn_str . ' A/c No.:  '.$arrSecondRequestSlip[11]);
+					if($arrSecondRequestSlip[25]!=12){
+					$pdf->Text($secondPartX,133,$trn_str . ' A/c No.:  '.$arrSecondRequestSlip[11]);
+					}
 					
 					$pdf->Image(dirname(__FILE__)."\images\checkbox.png",137,123);
 					$pdf->Image(dirname(__FILE__)."\images\checkbox.png",150,123);
 					
 					$pdf->Text(162,147,"Signature Verified / Authorised");
+
+					if($arrSecondRequestSlip[25]!=12){
 					$pdf->SetFont('Arial','',8);
-					$pdf->Text($secondPartX,137,$arrSecondRequestSlip[0]);
-					$pdf->Text($secondPartX,141,$arrSecondRequestSlip[1]); 
-					$pdf->Text($secondPartX,144,$arrSecondRequestSlip[2]);
-					$pdf->Text($secondPartX,147,$arrSecondRequestSlip[3]); 
-					$pdf->Text($secondPartX,150,$arrSecondRequestSlip[6]); 
-					$pdf->Text($secondPartX,153,$arrSecondRequestSlip[7]); 
-					$pdf->Text($secondPartX,156,$arrSecondRequestSlip[4]."-".$arrSecondRequestSlip[5]);				
-					$pdf->Text($secondPartX,159,'Contact No.:'.$arrSecondRequestSlip[8].'    '.$arrSecondRequestSlip[9].'    '.$arrSecondRequestSlip[10]);					
+					$pdf->Text($secondPartX,137,trim($arrSecondRequestSlip[0]));
+					$pdf->Text($secondPartX,141,trim($arrSecondRequestSlip[1])); 
+					$pdf->Text($secondPartX,144,trim($arrSecondRequestSlip[2]));
+					$pdf->Text($secondPartX,147,trim($arrSecondRequestSlip[3])); 
+					$pdf->Text($secondPartX,150,trim($arrSecondRequestSlip[6])); 
+					$pdf->Text($secondPartX,153,trim($arrSecondRequestSlip[7])); 
+					// $pdf->Text($secondPartX,156,$arrSecondRequestSlip[4]."-".$arrSecondRequestSlip[5]);	
+					}else{
+						$pdf->SetFont('Arial','',8);
+						$pdf->Text($secondPartX,137, trim($arrSecondRequestSlip[0]));
+						$pdf->Text($secondPartX,141,trim($arrSecondRequestSlip[2])." BR. ".$arrSecondRequestSlip[4]);
+					}			
+					$pdf->Text($secondPartX,159,'Contact No.:                                             '.$arrSecondRequestSlip[8].'    '.$arrSecondRequestSlip[9].'    '.$arrSecondRequestSlip[10]);					
 					$pdf->SetFont('Arial','B',8);					
-					$pdf->SetXY($secondPartX, 159);
-					$pdf->Cell(100,5,"For " . $arrSecondRequestSlip[0], 0, 0,'R');		
-					$pdf->Text($secondPartX,181,'Signature of Bearer');
+					$pdf->SetXY($secondPartX+4, 159);
+					if($arrSecondRequestSlip[25]!=10){
+						$prefix="For ";
+					}else{
+						$prefix="";
+					}
+					// $pdf->Cell(100,5,$prefix . $arrSecondRequestSlip[0], 0, 0,'R');		
+					$pdf->Text($secondPartX,176,'Signature of Bearer');
 										
 					$pdf->SetFont('Arial','',7);
-					$pdf->SetXY(162, 177);
-					if($arrSecondRequestSlip[23] == '')
-						$pdf->Cell(40, 5, "Self", 0, 0, 'R');
-					else 
-						$pdf->Cell(40, 5, $arrSecondRequestSlip[23], 0, 0, 'R');
+
+					if($arrSecondRequestSlip[25]!=10){
+						$pdf->SetFont('Arial','B',7);
+						$pdf->SetXY($secondPartX+4, 160);
+						$pdf->Cell(100,5,$prefix . $arrSecondRequestSlip[0], 0, 0,'R');
+
+						$pdf->SetXY($secondPartX+4, 177);
+						if ($arrSecondRequestSlip[28] == "") {
+							$pdf->Cell(100, 5, $arrSecondRequestSlip[23], '', 0, 'R');
+						} else if ($arrSecondRequestSlip[29] == "") {
+							$pdf->Cell(100, 5, $arrSecondRequestSlip[23] . '        ' . $arrSecondRequestSlip[28], '', 0, 'R');
+						} else {
+
+							$pdf->Cell(100, 5, $arrSecondRequestSlip[23] . '        ' . $arrSecondRequestSlip[28], '', 0, 'R');
+							$pdf->SetXY($secondPartX+4, 177);
+							$pdf->Cell(100, 5, $arrSecondRequestSlip[29], '', 0, 'R');
+						}
+					}else{
+						if($arrSecondRequestSlip[23] != ""){
+							$pdf->SetFont('Arial','B',7);
+							$pdf->SetXY($secondPartX+4, 160);
+							$pdf->Cell(100,5,$prefix . $arrSecondRequestSlip[0], 0, 0,'R');
+							$pdf->SetXY($secondPartX+4, 177);
+							$pdf->Cell(100, 5, $arrSecondRequestSlip[23], '', 0, 'R');
+							
+						}
+						else{
+							$pdf->SetFont('Arial','B',7);
+							$pdf->SetXY(162, 177);
+							if($arrSecondRequestSlip[23] == '')
+								$pdf->Cell(40, 5, $arrSecondRequestSlip[0], 0, 0, 'R');
+							else
+								$pdf->Cell(40, 5, $arrSecondRequestSlip[0], 0, 0, 'R');
+						}
+					}
 
 				}
 				
 				if($arrThirdRequestSlip[14] != "" && $arrThirdRequestSlip[15] != ""){
 				
-					$branchDetailsT = $db->get_row("SELECT b.*,c.city_place FROM tb_branchdetails b inner join tb_citymaster c on b.branch_city_id = c.city_id where b.branch_code = '".$arrThirdRequestSlip[24]."'");
-					$branchweakdaysThi = $db->get_row("SELECT * FROM tb_cps_weekdays where branch_id = (select branch_id from tb_branchdetails where branch_code = '".$arrThirdRequestSlip[24]."')");
-					$branchhalfdaysThi = $db->get_row("SELECT * FROM tb_cps_halfdays where branch_id = (select branch_id from tb_branchdetails where branch_code = '".$arrThirdRequestSlip[24]."')");
-							
-					$pdf->SetFont('Arial','B',5);
-					$pdf->Text(19,196,$branchDetailsT->branch_name ." : " . $branchDetailsT->branch_address1 .',');
-					$pdf->Text(19,199,$branchDetailsT->branch_address2 . ", " .$branchDetailsT->branch_address3 .','.$branchDetailsT->city_place. '-'. $branchDetailsT->branch_pin);
+					$branchDetailsT = $db->get_row("SELECT b.*,c.city_place FROM tb_branchdetails b inner join tb_citymaster c on b.branch_city_id = c.city_id where b.branch_micr = '".$arrThirdRequestSlip[30]."'");
+					$branchweakdaysThi = $db->get_row("SELECT * FROM tb_cps_weekdays where branch_id = (select branch_id from tb_branchdetails where branch_micr = '".$arrThirdRequestSlip[30]."')");
+					$branchhalfdaysThi = $db->get_row("SELECT * FROM tb_cps_halfdays where branch_id = (select branch_id from tb_branchdetails where branch_micr = '".$arrThirdRequestSlip[30]."')");
+					$pdf->SetFont('Arial','B',7);
+					$pdf->Text(13,193,$bankDetails->bank_name);
+					$pdf->SetFont('Arial','B',4.5);
+					$pdf->Text(13,196,"BRANCH - ".$branchDetailsT->branch_name ."," . $branchDetailsT->branch_address1);
+
+					//$pdf->Text(19,199,$branchDetailsT->branch_address2 . ", " .$branchDetailsT->branch_address3 .', '.$branchDetailsT->city_place. '-'. $branchDetailsT->branch_pin);
+													
+					$addressLine2="";
+					if(!empty($branchDetailsT->branch_address2)){
+						$addressLine2 .=$branchDetailsT->branch_address2." ";
+					}
+
+					if(!empty($branchDetailsT->branch_address3)){
+						$addressLine2 .=$branchDetailsT->branch_address3." ";
+					}
+					// if(!empty($branchDetailsT->city_place)){
+					// 	$addressLine2 .=$branchDetailsT->city_place;
+					// }
+					// if(!empty($branchDetailsT->branch_pin)){
+						
+					// 	$addressLine2 .="-".$branchDetailsT->branch_pin;
+
+					// }
+					$pdf->Text(13,199,$addressLine2);
 																	
 					$pdf->SetFont('Arial','B',8);
 					//$pdf->Text(45,209,$arrThirdRequestSlip[14]);
 					//$pdf->Text(85,209,$arrThirdRequestSlip[15]);	
 					
-					//$pdf->Text(24,204, 'Cheque No. From  '.str_pad($arrThirdRequestSlip[14], 6, "0", STR_PAD_LEFT).'       To  '.str_pad($arrThirdRequestSlip[15], 6, "0", STR_PAD_LEFT));
+					//$pdf->Text(28,204, 'Cheque No. From  '.str_pad($arrThirdRequestSlip[14], 6, "0", STR_PAD_LEFT).'       To  '.str_pad($arrThirdRequestSlip[15], 6, "0", STR_PAD_LEFT));
 					//$pdf->SetFont('Arial','B',8);
 					$trn_str = $trn_string_array[$arrThirdRequestSlip[25]];
-
-					$pdf->Text(24,204,$trn_str . ' A/c. No. :  '.$arrThirdRequestSlip[11]);
+					if($arrThirdRequestSlip[25]!=12){
+					$pdf->Text(28,207,$trn_str . ' A/c. No. :  '.$arrThirdRequestSlip[11]);
+					
 					
 					$pdf->SetFont('Arial','',7);
-					$pdf->Text(24,208,$arrThirdRequestSlip[0]);
-					$pdf->Text(24,211,$arrThirdRequestSlip[1]);
-					$pdf->Text(24,214,$arrThirdRequestSlip[2]);
-					$pdf->Text(24,217,$arrThirdRequestSlip[3]);
-					$pdf->Text(24,220,$arrThirdRequestSlip[6]); 
-					$pdf->Text(24,223,$arrThirdRequestSlip[7]);
-					$pdf->Text(24,226,$arrThirdRequestSlip[4]."  ".$arrThirdRequestSlip[5]);
+					$pdf->Text(28,211,trim($arrThirdRequestSlip[0]));
+					$pdf->Text(28,214,trim($arrThirdRequestSlip[1]));
+					$pdf->Text(28,217,trim($arrThirdRequestSlip[2]));
+					$pdf->Text(28,220,trim($arrThirdRequestSlip[3]));
+					$pdf->Text(28,223,trim($arrThirdRequestSlip[6])); 
+					$pdf->Text(28,226,trim($arrThirdRequestSlip[7]));
+					// $pdf->Text(28,226,$arrThirdRequestSlip[4]."  ".$arrThirdRequestSlip[5]);
+
+					}else{
+						$pdf->SetFont('Arial','B',7);
+						$pdf->Text(28,211,trim($arrThirdRequestSlip[0]));
+						$pdf->SetFont('Arial','',7);
+						$pdf->Text(28,214,trim($arrThirdRequestSlip[2])." BR. ".$arrThirdRequestSlip[4]);
+						// $pdf->Text(28,226,$arrThirdRequestSlip[4]."-".$arrThirdRequestSlip[5]);
+					}
 
 					//--------> print vertically start
 					$pdf->SetFont('Arial','',5);
 					$pdf->SetXY($x, 262);
 					$pdf->Rotate(90);
-					$pdf->Cell(16, 5, "REP " . $arrThirdRequestSlip[26]);  // unique request no
+					// $pdf->Cell(16, 5, "REP " .$arrThirdRequestSlip[26]);  // unique request no
+					$pdf->Cell(16, 5, $arrThirdRequestSlip[26]);  // unique request no
 					$pdf->Rotate(0);
 
 					$pdf->SetXY($x, 242);
@@ -711,7 +941,7 @@ $trn_string_array =  array(10 => 'Saving', 11 => 'Current', 12=> '', 13 => 'Cash
 					$pdf->SetFont('Arial','',5);
 					$pdf->SetXY($x1, 262);
 					$pdf->Rotate(90);
-					$pdf->Cell(16, 5, "REP " . $arrThirdRequestSlip[26]);  // unique request no
+					$pdf->Cell(16, 5, $arrThirdRequestSlip[26]);  // unique request no
 					$pdf->Rotate(0);
 
 					$pdf->SetXY($x1, 242);
@@ -723,10 +953,15 @@ $trn_string_array =  array(10 => 'Saving', 11 => 'Current', 12=> '', 13 => 'Cash
 					$pdf->Rotate(90);
 					$pdf->Cell(16, 5, $print_datetime);  //  date time
 					$pdf->Rotate(0);
+
+					$pdf->SetXY($x1-2, 234);
+					$pdf->Rotate(90);
+					$pdf->Cell(16, 5, 'cut across the perforation');  //  date time
+					$pdf->Rotate(0);
 					// -------> print vertically end
 
 					$pdf->SetFont('Arial','B',8);
-					$pdf->Text(22,240, 'Cheque No. From  '.str_pad($thirdslipfrom, 6, "0", STR_PAD_LEFT).'     To      '.str_pad($thirdslipto, 6, "0", STR_PAD_LEFT));
+					$pdf->Text(22,234, 'Cheque No. From  '.str_pad($thirdslipfrom, 6, "0", STR_PAD_LEFT).'     To      '.str_pad($thirdslipto, 6, "0", STR_PAD_LEFT));
 					$pdf->Text(35,244,"Branch Information");
 					
 					$firstno = $arrThirdRequestSlip[8] > 0 ? $arrThirdRequestSlip[8] : "";
@@ -791,9 +1026,27 @@ $trn_string_array =  array(10 => 'Saving', 11 => 'Current', 12=> '', 13 => 'Cash
 					$pdf->Text($secondPartX,196,'The Manager');
 					$pdf->Text($secondPartX,199,$bankDetails->bank_name);
 					$pdf->SetFont('Arial','B',6);
-					$pdf->Text($secondPartX,202,$branchDetailsT->branch_name . ": ". $branchDetailsT->branch_address1 .',');
-					$pdf->Text($secondPartX,205,$branchDetailsT->branch_address2.','.$branchDetailsT->branch_address3 .','.$branchDetailsT->city_place. '-'. $branchDetailsT->branch_pin);			
-					$pdf->SetFont('Arial','',8);
+					$pdf->Text($secondPartX,202,"BRANCH - ".$branchDetailsT->branch_name . ",". $branchDetailsT->branch_address1);
+					//$pdf->Text($secondPartX,205,$branchDetailsT->branch_address2.', '.$branchDetailsT->branch_address3 .', '.$branchDetailsT->city_place. '-'. $branchDetailsT->branch_pin);
+					$addressLine2="";
+					if(!empty($branchDetailsT->branch_address2)){
+						$addressLine2 .=$branchDetailsT->branch_address2." ";
+					}
+
+					if(!empty($branchDetailsT->branch_address3)){
+						$addressLine2 .=$branchDetailsT->branch_address3." ";
+					}
+					// if(!empty($branchDetailsT->city_place)){
+					// 	$addressLine2 .=$branchDetailsT->city_place;
+					// }
+					// if(!empty($branchDetailsT->branch_pin)){
+						
+					// 	$addressLine2 .="-".$branchDetailsT->branch_pin;
+
+					// }
+					$pdf->Text($secondPartX,205,$addressLine2);
+
+					$pdf->SetFont('Arial','B',8);
 					//$pdf->Text(140,209,$arrThirdRequestSlip[14]);
 					//$pdf->Text(187,209,$arrThirdRequestSlip[15]);
 					$pdf->Text($secondPartX,209, 'Cheque No. From  '.str_pad($thirdslipfrom, 6, "0", STR_PAD_LEFT).'     To      '.str_pad($thirdslipto, 6, "0", STR_PAD_LEFT));
@@ -801,40 +1054,86 @@ $trn_string_array =  array(10 => 'Saving', 11 => 'Current', 12=> '', 13 => 'Cash
 					$pdf->SetFont('Arial','B',8);
 					$pdf->Text($secondPartX,217,'Characteristics :     Bearer        Order');
 					$pdf->Text($secondPartX,221,'Cheque Book    :      Normal         Payable At Par');
-					$pdf->Text($secondPartX,225, $trn_str . ' A/c No.: ' . $arrThirdRequestSlip[11]);
+					if($arrThirdRequestSlip[25]!=12){
+					$pdf->Text($secondPartX,225,$trn_str . ' A/c No.: ' . $arrThirdRequestSlip[11]);
+					}
 					//$pdf->Text(115,229, 'Cheque No. From  '.$arrThirdRequestSlip[14].'       To  '.$arrThirdRequestSlip[15]);
 					
 					$pdf->Image(dirname(__FILE__)."\images\checkbox.png",137,215);
 					$pdf->Image(dirname(__FILE__)."\images\checkbox.png",150,215);
 					
 					$pdf->Text(162,239,"Signature Verified / Authorised");
+					if($arrThirdRequestSlip[25]!=12){
 					$pdf->SetFont('Arial','',8);
-					$pdf->Text($secondPartX,229,$arrThirdRequestSlip[0]);
-					$pdf->Text($secondPartX,233,$arrThirdRequestSlip[1]);
-					$pdf->Text($secondPartX,236,$arrThirdRequestSlip[2]);
-					$pdf->Text($secondPartX,239,$arrThirdRequestSlip[3]); 
-					$pdf->Text($secondPartX,242,$arrThirdRequestSlip[6]); 
-					$pdf->Text($secondPartX,245,$arrThirdRequestSlip[7]); 
-					$pdf->Text($secondPartX,248,$arrThirdRequestSlip[4]."-".$arrThirdRequestSlip[5]);		
-					$pdf->Text($secondPartX,251,'Contact No.:'.$arrThirdRequestSlip[8].'    '.$arrThirdRequestSlip[9].'    '.$arrThirdRequestSlip[10]);					
+					$pdf->Text($secondPartX,229,trim($arrThirdRequestSlip[0]));
+					$pdf->Text($secondPartX,233,trim($arrThirdRequestSlip[1]));
+					$pdf->Text($secondPartX,236,trim($arrThirdRequestSlip[2]));
+					$pdf->Text($secondPartX,239,trim($arrThirdRequestSlip[3])); 
+					$pdf->Text($secondPartX,242,trim($arrThirdRequestSlip[6])); 
+					$pdf->Text($secondPartX,245,trim($arrThirdRequestSlip[7])); 
+					// $pdf->Text($secondPartX,248,$arrThirdRequestSlip[4]."-".$arrThirdRequestSlip[5]);	
+					}else{
+						$pdf->SetFont('Arial','',8);
+						$pdf->Text($secondPartX,229, trim($arrThirdRequestSlip[0]));
+						$pdf->Text($secondPartX,233,trim($arrThirdRequestSlip[2])." BR. ".$arrThirdRequestSlip[4]);
+					}
+
+					$pdf->Text($secondPartX,251,'Contact No.:                                             '.$arrThirdRequestSlip[8].'    '.$arrThirdRequestSlip[9].'    '.$arrThirdRequestSlip[10]);					
 					$pdf->SetFont('Arial','B',8);
-					$pdf->SetXY($secondPartX, 251);
-					$pdf->Cell(100,5,"For " . $arrThirdRequestSlip[0], 0, 0,'R');		
-					$pdf->Text($secondPartX,273,'Signature of Bearer');
+					$pdf->SetXY($secondPartX+4, 251);
+					if($arrThirdRequestSlip[25]!=10){
+						$prefix="For ";
+					}else{
+						$prefix="";
+					}
+					// $pdf->Cell(100,5,$prefix . $arrThirdRequestSlip[0], 0, 0,'R');		
+					$pdf->Text($secondPartX,268,'Signature of Bearer');
 					
 					$pdf->SetFont('Arial','',7);
-					$pdf->SetXY(162, 269);
-					if($arrThirdRequestSlip[23] == '')
-						$pdf->Cell(40, 5, "Self", 0, 0, 'R');
-					else 
-						$pdf->Cell(40, 5, $arrThirdRequestSlip[23], 0, 0, 'R');
+
+					if($arrThirdRequestSlip[25]!=10){
+
+						$pdf->SetFont('Arial','B',7);
+						$pdf->SetXY($secondPartX+4, 251.5);
+						$pdf->Cell(100,5,$prefix . $arrThirdRequestSlip[0], 0, 0,'R');
+
+						$pdf->SetXY($secondPartX+4, 269);
+							if ($arrThirdRequestSlip[28] == "") {
+								$pdf->Cell(100, 5, $arrThirdRequestSlip[23], '', 0, 'R');
+							} else if ($arrThirdRequestSlip[29] == "") {
+								$pdf->Cell(100, 5, $arrThirdRequestSlip[23] . '        ' . $arrThirdRequestSlip[28], '', 0, 'R');
+							} else {
+
+								$pdf->Cell(100, 5, $arrThirdRequestSlip[23] . '        ' . $arrThirdRequestSlip[28], '', 0, 'R');
+								$pdf->SetXY($secondPartX+4, 269);
+								$pdf->Cell(100, 5, $arrThirdRequestSlip[29], '', 0, 'R');
+							}
+					}else{	
+						if($arrThirdRequestSlip[23] != ""){
+							$pdf->SetFont('Arial','B',7);
+							$pdf->SetXY($secondPartX+4, 251.5);
+							$pdf->Cell(100,5,$prefix . $arrFirstRequestSlip[0], 0, 0,'R');
+							$pdf->SetXY($secondPartX+4, 269);
+							$pdf->Cell(100, 5, $arrThirdRequestSlip[23], '', 0, 'R');
+							
+						}
+						else{
+							$pdf->SetXY(162, 269);
+							$pdf->SetFont('Arial','B',7);
+							if($arrThirdRequestSlip[23] == '')
+								$pdf->Cell(40, 5, $arrThirdRequestSlip[0], 0, 0, 'R');
+							else
+								$pdf->Cell(40, 5, $arrThirdRequestSlip[0], 0, 0, 'R');
+						}
+
+					}
 				}
 			}
 			
 			$pdf->Output("Slip.pdf",'F'); 
 			
 			//echo $printersinfo[0][0];
-			exec("gsbatchprintc -P \"".$printersinfo[0][0]."\" -F \"".dirname(__FILE__)."\Slip.pdf\" -I \"".$printersinfo[0][1]."\" -N 1 2>&1");
+			exec("gsbatchprint\gsbatchprintc -P \"".$printersinfo[0][0]."\" -F \"".dirname(__FILE__)."\Slip.pdf\" -I \"".$printersinfo[0][1]."\" -N 1 2>&1");
 			//sleep(3);
 		}
 		
@@ -847,363 +1146,245 @@ $trn_string_array =  array(10 => 'Saving', 11 => 'Current', 12=> '', 13 => 'Cash
 			$arrThirdChequeData = explode("~",$thirdchequedata);
 			
 			// Positions of some variables
-			$branchX = 33;		// Branch address X position
-			$ifscX = 117;		// IFSC Code X position
-			$accnoX = 38;		// A/C no X position
+			$branchX = 53.5;		// Branch address X position
+			$ifscX = 53.5;//122		// IFSC Code X position
+			$accnoX = 24;		// A/C no X position
 			$bearerX = 187;		// BEARER X position
 
-			$x = 14.5;			// Vertical printing X position
+			$x = 11.5;			// Vertical printing X position
 
-			$chqseriesX = 58.2; //60.7
-			$micr1X = 86.7;		// 89.1
-			$micr2X = 121.5;	// 123.9
-			$trncodeX = 146.8;	// 149.2
-			$micrY1 = 87;		// From top position for first micr line
-			$micrY2 = 180;		// From top position for second micr line
-			$micrY3 = 272;		// From top position for third micr line
+			$chqseriesX = 59.5; //60.7
+			$micr1X = 88;		// 86.7
+			$micr2X = 122.8;	// 121.5
+			$trncodeX = 148.1;	// 146.8
+			// echo "<pre>";
+			// print_r($arrThirdChequeData);
+			// echo "</pre><br><br>";
+			// Positions
+			$arrPos = array(); 
+			$arrPos[0] = array("BankAddrY" => 12, "AcnoY" => 49.5, "Name" => 40.5, "VUniqReq" => 76, "MICRY" => 86.7, "bearer" => 23);
+			$arrPos[1] = array("BankAddrY" => 105, "AcnoY" => 143, "Name" => 133.5, "VUniqReq" => 169, "MICRY" => 180.5, "bearer" => 116.5);
+			$arrPos[2] = array("BankAddrY" => 198, "AcnoY" => 236.5, "Name" => 227.5, "VUniqReq" => 262, "MICRY" => 273.5, "bearer" => 210);
 
-			//$micrcode = "C" . $arrFirstChequeData[0] . "C ". $arrFirstChequeData[2] . "A ". $arrFirstChequeData[4] ."C ".$arrFirstChequeData[6];
-			
 			print_r($arrFirstChequeData[0]." ".$arrSecondChequeData[0]." ".$arrThirdChequeData[0]);
 			echo "cheque<br/>";
-			
-			//$pdf = new FPDF();
+
 			$pdf = new PDF();
 			$pdf->AddPage();
-			$pdf->SetFont('Arial','',5.5);
-			
-			$branchDetailsFC = $db->get_row("SELECT b.branch_name,b.branch_telephone1,b.branch_telephone2,b.branch_address1,b.branch_address2,b.branch_address3,b.branch_pin,b.branch_Services,b.branch_neftifsccode,c.city_place FROM tb_branchdetails b inner join tb_citymaster c on b.branch_city_id = c.city_id where b.branch_code = '".$arrFirstChequeData[23]."'");					
-			$pdf->Text($branchX,14.5, $branchDetailsFC->branch_name.": ".$branchDetailsFC->branch_address1.",");
-			$pdf->Text($branchX,16.5,$branchDetailsFC->branch_address2.", ".$branchDetailsFC->branch_address3.", ".$branchDetailsFC->city_place."-".$branchDetailsFC->branch_pin."");
-			$pdf->SetFont('Arial','',5.5);
-			$pdf->Text($ifscX,16.5,'RTGS / NEFT IFSC CODE : '.$branchDetailsFC->branch_neftifsccode);
-			$pdf->SetFont('Arial','',8);
-			$pdf->Text($bearerX,23,'OR BEARER');
 
-			$pdf->SetFont('Arial','',10);
-			$pdf->SetXY(0,19);
-			//$pdf->Cell(198,10,"or Bearer",'',0,'R');			
-			$pdf->SetFont('Arial','',11);
-			$pdf->Text($accnoX,50,$arrFirstChequeData[5]); // account no
-			$pdf->SetFont('Arial','B',7);
-			//$pdf->Text(151,50,$arrFirstChequeData[7]);
+			$arrChqData = array();
+			$arrChqData[0] = $arrFirstChequeData;
+			$arrChqData[1] = $arrSecondChequeData;
+			$arrChqData[2] = $arrThirdChequeData;
 			
-			if($arrFirstChequeData[21] != "")
-			{
-				$pdf->SetXY(0,42);
-				$pdf->Cell(206,10,"For ".$arrFirstChequeData[7],'',0,'R');
-								
-				$pdf->SetXY(0,62);
-				$pdf->Cell(206,10,$arrFirstChequeData[21],'',0,'R');
-			}
-			//bhavin start 1
-			else
-			{
-				if($arrFirstChequeData[21] == "1")
+			$pdf->AddFont('E-13B_0','','E-13B_0.php');
+			//$pdf->SetFont('E-13B_0','',12);
+
+			for ($i = 0; $i < $noofCheque; $i++) { 
+				if($arrChqData[$i][2] == "")
+					break;
+				$pdf->SetFont('Arial', 'B', 6.5);
+				$branchDetails = $db->get_row("SELECT b.branch_name,b.branch_telephone1,b.branch_telephone2,b.branch_address1,b.branch_address2,b.branch_address3,b.branch_pin,b.branch_Services,b.branch_neftifsccode,c.city_place FROM tb_branchdetails b inner join tb_citymaster c on b.branch_city_id = c.city_id where b.branch_micr = '".$arrChqData[$i][2]."' AND b.branch_sub_code = '".$arrChqData[$i][28]."'");					
+				$pdf->Text($branchX, $arrPos[$i]["BankAddrY"], "BRANCH - ".$branchDetails->branch_name.": ".$branchDetails->branch_address1.",");
+				$y = $arrPos[$i]["BankAddrY"] + 2.5;
+
+				$addressLine2="";
+				if(!empty($branchDetails->branch_address2)){
+					$addressLine2 .=$branchDetails->branch_address2.", ";
+				}
+
+				if(!empty($branchDetails->branch_address3)){
+					$addressLine2 .=$branchDetails->branch_address3;
+				}
+				// if(!empty($branchDetails->city_place)){
+				// 	$addressLine2 .=$branchDetails->city_place;
+				// }
+				// if(!empty($branchDetails->branch_pin)){
+					
+				// 	$addressLine2 .="-".$branchDetails->branch_pin;
+
+				// }
+				$pdf->Text($branchX, $y, $addressLine2);
+
+				$pdf->SetFont('Arial','B',6.5);
+				$pdf->Text($ifscX, $y+2.5,'IFSC CODE : '.$branchDetails->branch_neftifsccode);
+
+				// if($arrChqData[$i][6]==12||$arrChqData[$i][6]=="12"){
+				// 	$pdf->SetFont('Arial','B',8);
+				// 	$pdf->Text(10, $y-7,'__________');
+				// 	$pdf->Text(10, $y-4,'A/C. PAYEE');
+				// 	$pdf->Text(10, $y-3.7,'__________');
+				// 	$pdf->SetFont('Arial','B',10);
+				// 	$pdf->Text($branchX+77, $y-5,'PAY ORDER');
+
+				// 	$pdf->SetFont('Arial','',8);
+				// 	$pdf->Text($bearerX,$arrPos[$i]['bearer'],'Or Order');
+				// }else{
+				// 	$pdf->SetFont('Arial','',8);
+				// 	$pdf->Text($bearerX,$arrPos[$i]['bearer'],'OR BEARER');
+				// }
+
+				
+
+				if($arrChqData[$i][6]==10){
+					$acctPrefix="Savings A/c. No.: "; 
+				}else if($arrChqData[$i][6]==11){
+					$acctPrefix="Current A/c. No.: "; 
+				}else if($arrChqData[$i][6]==13){
+					$acctPrefix="Cash Credit A/c. No.: ";
+				}else{
+					$acctPrefix="                       ";
+				}
+
+				$pdf->SetFont('Arial','B',10.5);
+				$pdf->Text($accnoX, $arrPos[$i]["AcnoY"], $acctPrefix.$arrChqData[$i][5]); // account no
+
+				$pdf->SetFont('Arial','B',7);
+				/*print_r($arrChqData[$i]);
+				exit;*/
+				$arrChqData[$i][6]=(int)trim($arrChqData[$i][6]);
+				$arrChqData[$i][7]=(string)trim($arrChqData[$i][7]);
+				$arrChqData[$i][11]=(string)trim($arrChqData[$i][11]);
+				$arrChqData[$i][12]=(string)trim($arrChqData[$i][12]);
+				$arrChqData[$i][21]=(string)trim($arrChqData[$i][21]);
+
+
+				if ($arrChqData[$i][6] == 10) // auth_sign1
 				{
-					$pdf->SetXY(0,62);
-					$pdf->Cell(206,10,'AUTHORISED SIGNATORIES','',0,'R');
-					if($arrFirstChequeData[11] == "" && $arrFirstChequeData[12] == "")
+					if($arrChqData[$i][21] != "")
 					{
-						$pdf->SetXY(0,42);
-						$pdf->Cell(206,10,"For " . $arrFirstChequeData[7],'',0,'R');
+						$pdf->SetXY(0, $arrPos[$i]["Name"]);
+						$pdf->Cell(204,10,"For " . $arrChqData[$i][7],'',0,'R');
+
+						$pdf->SetXY(0, $arrPos[$i]["Name"]+ 20);
+						$pdf->Cell(204, 10, $arrChqData[$i][21], '', 0, 'R');
 					}
-					else if($arrFirstChequeData[12] == "")
+					else{
+						$pdf->SetXY(0, $arrPos[$i]["Name"]+ 20);
+						if ($arrChqData[$i][11] == "SELF" || $arrChqData[$i][11] == "") {
+							$pdf->Cell(204, 10, $arrChqData[$i][7], '', 0, 'R');
+						} else if ($arrChqData[$i][12] == "") {
+							$pdf->Cell(204, 10, $arrChqData[$i][7] .'            '. $arrChqData[$i][11], '', 0, 'R');
+						} else {
+							$pdf->Cell(204, 10, $arrChqData[$i][7] .'            '. $arrChqData[$i][11] . '       ' . $arrChqData[$i][12], '', 0, 'R');
+						}
+					}
+
+				}else if($arrChqData[$i][6] == 12)
+				{
+					$pdf->SetXY(0, $arrPos[$i]["Name"]);
+					$pdf->Cell(204,10,"For " . $arrChqData[$i][7],'',0,'R');
+									
+					$pdf->SetXY(0, $arrPos[$i]["Name"]+ 20);
+					if ($arrChqData[$i][12] == "") {
+						$pdf->Cell(204, 10, $arrChqData[$i][11], '', 0, 'R');
+					} else if ($arrChqData[$i][13] == "") {
+						$pdf->Cell(204, 10, $arrChqData[$i][11] .'            '. $arrChqData[$i][12], '', 0, 'R');
+					} else {
+						$pdf->Cell(204, 10, $arrChqData[$i][11] .'            '. $arrChqData[$i][12] . '       ' . $arrChqData[$i][13], '', 0, 'R');
+					}
+
+					// $pdf->SetFont('Arial','IB',10);
+					// $pdf->Text(20,$arrPos[$i]["AcnoY"]+25,'on account of ________________________________');
+
+				}else if($arrChqData[$i][21] != "")
+				{
+					$pdf->SetXY(0, $arrPos[$i]["Name"]);
+					$pdf->Cell(204,10,"For " . $arrChqData[$i][7],'',0,'R');
+									
+					$pdf->SetXY(0, $arrPos[$i]["Name"] + 20);
+					
+					if($arrChqData[$i][26] == "" && $arrChqData[$i][27] == "")
 					{
-						$pdf->SetXY(0,42);
-						$pdf->Cell(206,10,"For " . $arrFirstChequeData[7].' / '.$arrFirstChequeData[11],'',0,'R');		
+						$pdf->Cell(204,10,$arrChqData[$i][21],'',0,'R');
+					}
+					else if($arrChqData[$i][27] == "")
+					{
+						$pdf->Cell(204,10,$arrChqData[$i][21].'            '.$arrChqData[$i][26],'',0,'R');
 					}
 					else
 					{
-						$pdf->SetXY(0,42);					
-						$pdf->Cell(206,10,"For " . $arrFirstChequeData[7].' / '.$arrFirstChequeData[11].' / '.$arrFirstChequeData[12],'',0,'R');		
+						$pdf->Cell(204,10,$arrChqData[$i][21].'            '.$arrChqData[$i][26].'       '.$arrChqData[$i][27],'',0,'R');
 					}
 				}
+				//bhavin start 1
 				else
 				{
-					if($arrFirstChequeData[11] == "" && $arrFirstChequeData[12] == "")
+					if($arrChqData[$i][21] == "1")
 					{
-						$pdf->SetXY(0,42);
-						$pdf->Cell(206,10,"For ".$arrFirstChequeData[7],'',0,'R');
-					}
-					else if($arrFirstChequeData[12] == "")
-					{
-						$pdf->SetXY(0,42);
-						$pdf->Cell(206,10,"For " . $arrFirstChequeData[7].' / '.$arrFirstChequeData[11],'',0,'R');		
-					}
-					else
-					{
-						$pdf->SetXY(0,42);					
-						$pdf->Cell(206,10,"For " . $arrFirstChequeData[7].' / '.$arrFirstChequeData[11].' / '.$arrFirstChequeData[12],'',0,'R');		
-					}
-				}
-			}
-			//bhavin end 1
-			//--------> print vertically start
-			 
-			$pdf->SetFont('Arial','',5);
-			$pdf->SetXY($x, 76);
-			$pdf->Rotate(90);
-			$pdf->Cell(16, 5, "REP " . $arrFirstChequeData[24]);  // unique request no
-			$pdf->Rotate(0);
-
-			$pdf->SetXY($x, 56);
-			$pdf->Rotate(90);
-			$pdf->Cell(16, 5, $arrFirstChequeData[25]);  //  operator id
-			$pdf->Rotate(0);
-
-			$pdf->SetXY($x, 32);
-			$pdf->Rotate(90);
-			$pdf->Cell(16, 5, $print_datetime);  //  date time
-			$pdf->Rotate(0);
-			// -------> print vertically end
-
-			//$pdf->Text(70,68,'IFSC Code : '.$arrFirstChequeData[22]);
-			$chqseries = "C" . $arrFirstChequeData[0] . "C ";
-			$micr1 = $arrFirstChequeData[2] . "A ";
-			$micr2 = $arrFirstChequeData[4] ."C ";
-			//$pdf->Text(60.2,181,$micrcode);
-
-			$pdf->AddFont('E-13B_0','','E-13B_0.php');
-			$pdf->SetFont('E-13B_0','',12);
-			//$pdf->Text(60.2,86,$micrcode);
-
-			$pdf->Text($chqseriesX,$micrY1,$chqseries);
-			$pdf->Text($micr1X,$micrY1,$micr1);
-			$pdf->Text($micr2X,$micrY1,$micr2);
-			$pdf->Text($trncodeX,$micrY1,$arrFirstChequeData[6]);
-	
-			if ($noofCheque > 1)
-			{
-				//$micrcode = "C" . $arrSecondChequeData[0] . "C ". $arrSecondChequeData[2] . "A ". $arrSecondChequeData[4] ."C ".$arrSecondChequeData[6];
-				
-				if($arrSecondChequeData[5] != ""){
-				
-					$pdf->SetFont('Arial','',5.5);					
-					$branchDetailsSC = $db->get_row("SELECT b.branch_name,b.branch_telephone1,b.branch_telephone2,b.branch_address1,b.branch_address2,b.branch_address3,b.branch_pin,b.branch_Services,b.branch_neftifsccode,c.city_place FROM tb_branchdetails b inner join tb_citymaster c on b.branch_city_id = c.city_id where b.branch_code = '".$arrSecondChequeData[23]."'");					
-					$pdf->Text($branchX,108,$branchDetailsSC->branch_name.": ".$branchDetailsSC->branch_address1.",");
-					$pdf->Text($branchX,110,$branchDetailsSC->branch_address2.", ".$branchDetailsSC->branch_address3.", ".$branchDetailsSC->city_place."-".$branchDetailsSC->branch_pin."");
-					
-					$pdf->SetFont('Arial','',5.5);
-					$pdf->Text($ifscX,110,'RTGS / NEFT IFSC CODE : '.$branchDetailsSC->branch_neftifsccode);
-					$pdf->SetFont('Arial','',8);
-					$pdf->Text($bearerX,116.5,'OR BEARER');
-
-					$pdf->SetFont('Arial','',10);
-					$pdf->SetXY(0,112);
-					//$pdf->Cell(198,10,"or Bearer",'',0,'R');
-					
-					$pdf->SetFont('Arial','',11);
-					$pdf->Text($accnoX,143,$arrSecondChequeData[5]); // account no
-					
-					$pdf->SetFont('Arial','B',7);					
-					if($arrSecondChequeData[21] != "") // auth_sign1
-					{
-						$pdf->SetXY(0,135);
-						$pdf->Cell(206,10,"For ".$arrSecondChequeData[7],'',0,'R');
-										
-						$pdf->SetXY(0,155);
-						$pdf->Cell(206,10,$arrSecondChequeData[21],'',0,'R');							
-					}
-					//bhavin start 2
-					else
-					{						
-						if($arrSecondChequeData[21] == "1") // auth_sign1
+						$pdf->SetXY(0,$arrPos[$i]["Name"] + 20);
+						$pdf->Cell(204,10,'AUTHORISED SIGNATORIES','',0,'R');
+						$pdf->SetXY(0, $arrPos[$i]["Name"]);
+						if($arrChqData[$i][11] == "" && $arrChqData[$i][12] == "")
 						{
-							$pdf->SetXY(0,155);
-							$pdf->Cell(206,10,'AUTHORISED SIGNATORIES','',0,'R');
-							if($arrSecondChequeData[11] == "" && $arrSecondChequeData[12] == "")
-							{
-								$pdf->SetXY(0,135);
-								$pdf->Cell(206,10,"For " . $arrSecondChequeData[7],'',0,'R');
-							}
-							else if($arrSecondChequeData[12] == "")
-							{
-								$pdf->SetXY(0,135);
-								$pdf->Cell(206,10,"For " . $arrSecondChequeData[7].' / '.$arrSecondChequeData[11],'',0,'R');		
-							}
-							else
-							{
-								$pdf->SetXY(0,135);					
-								$pdf->Cell(206,10,"For " . $arrSecondChequeData[7].' / '.$arrSecondChequeData[11].' / '.$arrSecondChequeData[12],'',0,'R');		
-							}
+							$pdf->Cell(204,10,"For " . $arrChqData[$i][7],'',0,'R');
+						}
+						else if($arrChqData[$i][12] == "")
+						{
+							$pdf->Cell(204,10,"For " . $arrChqData[$i][7].'            '.$arrChqData[$i][11],'',0,'R');		
 						}
 						else
 						{
-							if($arrSecondChequeData[11] == "" && $arrSecondChequeData[12] == "")
-							{
-								//$pdf->SetXY(0,157);
-								$pdf->SetXY(0,135);
-								$pdf->Cell(206,10,"For ".$arrSecondChequeData[7],'',0,'R');
-							}
-							else if($arrSecondChequeData[12] == "")
-							{
-								//$pdf->SetXY(0,157);
-								$pdf->SetXY(0,135);
-								$pdf->Cell(206,10,"For " . $arrSecondChequeData[7].' / '.$arrSecondChequeData[11],'',0,'R');		
-							}
-							else
-							{
-								//$pdf->SetXY(0,157);		
-								$pdf->SetXY(0,135);			
-								$pdf->Cell(206,10,"For " . $arrSecondChequeData[7].' / '.$arrSecondChequeData[11].' / '.$arrSecondChequeData[12],'',0,'R');		
-							}
+							$pdf->Cell(204,10,"For " . $arrChqData[$i][7].'            '.$arrChqData[$i][11].'       '.$arrChqData[$i][12],'',0,'R');		
 						}
 					}
-					//bhavin end 2
-					//--------> print vertically start
-					$pdf->SetFont('Arial','',5);
-					$pdf->SetXY($x, 169);
-					$pdf->Rotate(90);
-					$pdf->Cell(16, 5, "REP " . $arrSecondChequeData[24]);  // unique request no
-					$pdf->Rotate(0);
-
-					$pdf->SetXY($x, 149);
-					$pdf->Rotate(90);
-					$pdf->Cell(16, 5, $arrSecondChequeData[25]);  //  operator id
-					$pdf->Rotate(0);
-
-					$pdf->SetXY($x, 125);
-					$pdf->Rotate(90);
-					$pdf->Cell(16, 5, $print_datetime);  //  date time
-					$pdf->Rotate(0);
-					// -------> print vertically end
-					
-					$chqseries = "C" . $arrSecondChequeData[0] . "C ";
-					$micr1 = $arrSecondChequeData[2] . "A ";
-					$micr2 = $arrSecondChequeData[4] ."C ";
-					//$pdf->Text(70,161,'IFSC Code : '.$arrSecondChequeData[22]);					
-					$pdf->AddFont('E-13B_0','','E-13B_0.php');
-					$pdf->SetFont('E-13B_0','',12);
-					//$pdf->Text(60.2,181,$micrcode);
-
-					$pdf->Text($chqseriesX,$micrY2,$chqseries);
-					$pdf->Text($micr1X,$micrY2,$micr1);
-					$pdf->Text($micr2X,$micrY2,$micr2);
-					$pdf->Text($trncodeX,$micrY2,$arrSecondChequeData[6]);
-
-				}
-			}
-			
-			if ($noofCheque > 2)
-			{
-				//$micrcode = "C" . $arrThirdChequeData[0] . "C ". $arrThirdChequeData[2] . "A ". $arrThirdChequeData[4] ."C ".$arrThirdChequeData[6];
-				if($arrThirdChequeData[5] != "")
-				{
-					$pdf->SetFont('Arial','',5.5);
-					
-					$branchDetailsTC = $db->get_row("SELECT b.branch_name,b.branch_telephone1,b.branch_telephone2,b.branch_address1,b.branch_address2,b.branch_address3,b.branch_pin,b.branch_Services,b.branch_neftifsccode,c.city_place FROM tb_branchdetails b inner join tb_citymaster c on b.branch_city_id = c.city_id where b.branch_code = '".$arrThirdChequeData[23]."'");					
-					$pdf->Text($branchX,201, $branchDetailsTC->branch_name.": ".$branchDetailsTC->branch_address1.",");
-					$pdf->Text($branchX,203,$branchDetailsTC->branch_address2.", ".$branchDetailsTC->branch_address3.", ".$branchDetailsTC->city_place."-".$branchDetailsTC->branch_pin."");
-					
-					$pdf->SetFont('Arial','',5.5);
-					$pdf->Text($ifscX,203,'RTGS / NEFT IFSC CODE : '.$branchDetailsTC->branch_neftifsccode);
-					$pdf->SetFont('Arial','',8);		
-					$pdf->Text($bearerX,210,'OR BEARER');
-					//$pdf->Text(43,197,$arrThirdChequeData[20].", ".$arrThirdChequeData[14]);
-					//$pdf->Text(43,199,"".$arrThirdChequeData[15].", ".$arrThirdChequeData[16].", ".$arrThirdChequeData[17]." - ".$arrThirdChequeData[18]."");
-					
-					
-					$pdf->SetFont('Arial','',10);
-					$pdf->SetXY(0,213);
-					//$pdf->Cell(198,10,"or Bearer",'',0,'R');
-					
-					$pdf->SetFont('Arial','',11);					
-					$pdf->Text($accnoX,236,$arrThirdChequeData[5]);  // account no
-					
-					
-					$pdf->SetFont('Arial','B',7);
-					if($arrThirdChequeData[21] != "") // auth_sign1
-					{
-						$pdf->SetXY(0,229);
-						$pdf->Cell(206,10,"For ".$arrThirdChequeData[7],'',0,'R');
-										
-						$pdf->SetXY(0,249);
-						$pdf->Cell(206,10,$arrThirdChequeData[21],'',0,'R');
-					}
-					//bhavin start 3
 					else
-					{						
-						if($arrThirdChequeData[21] == "1") // auth_sign1
+					{
+						$pdf->SetXY(0, $arrPos[$i]["Name"]);
+						if($arrChqData[$i][11] == "" && $arrChqData[$i][12] == "")
 						{
-							$pdf->SetXY(0,249);
-							$pdf->Cell(206,10,'AUTHORISED SIGNATORIES','',0,'R');
-							if($arrThirdChequeData[11] == "" && $arrThirdChequeData[12] == "")
-							{
-								$pdf->SetXY(0,229);
-								$pdf->Cell(206,10,"For " . $arrThirdChequeData[7],'',0,'R');
-							}
-							else if($arrThirdChequeData[12] == "")
-							{
-								$pdf->SetXY(0,229);
-								$pdf->Cell(206,10,"For " . $arrThirdChequeData[7].' / '.$arrThirdChequeData[11],'',0,'R');		
-							}
-							else
-							{
-								$pdf->SetXY(0,229);					
-								$pdf->Cell(206,10,"For " . $arrThirdChequeData[7].' / '.$arrThirdChequeData[11].' / '.$arrThirdChequeData[12],'',0,'R');		
-							}
+							$pdf->Cell(204,10,"For " . $arrChqData[$i][7],'',0,'R');
+						}
+						else if($arrChqData[$i][12] == "")
+						{
+							$pdf->Cell(204,10,"For " . $arrChqData[$i][7].'            '.$arrChqData[$i][11],'',0,'R');		
 						}
 						else
 						{
-							// Normal names
-							if($arrThirdChequeData[11] == "" && $arrThirdChequeData[12] == "")
-							{
-								//$pdf->SetXY(0,251);
-								$pdf->SetXY(0,228);
-								$pdf->Cell(206,10,"For ".$arrThirdChequeData[7],'',0,'R');
-							}
-							else if($arrThirdChequeData[12] == "")
-							{
-								//$pdf->SetXY(0,251);
-								$pdf->SetXY(0,228);
-								$pdf->Cell(206,10,"For " . $arrThirdChequeData[7].' / '.$arrThirdChequeData[11],'',0,'R');		
-							}
-							else
-							{
-								//$pdf->SetXY(0,251);
-								$pdf->SetXY(0,228);
-								$pdf->Cell(206,10,$arrThirdChequeData[7].' / '.$arrThirdChequeData[11].' / '.$arrThirdChequeData[12],'',0,'R');		
-							}
-						}	
+							$pdf->Cell(204,10,"For " . $arrChqData[$i][7].'            '.$arrChqData[$i][11].'       '.$arrChqData[$i][12],'',0,'R');		
+						}
 					}
-					//bhavin end 3
-					//--------> print vertically start
-					$pdf->SetFont('Arial','',5);
-					$pdf->SetXY($x, 262);
-					$pdf->Rotate(90);
-					$pdf->Cell(16, 5, "REP " . $arrThirdChequeData[24]);  // unique request no
-					$pdf->Rotate(0);
+				}
+				//bhavin end 1
+				//--------> print vertically start
+				
+				$pdf->SetFont('Arial','',5);
+				$pdf->SetXY($x, $arrPos[$i]["VUniqReq"]);
+				$pdf->Rotate(90);
+				$pdf->Cell(17, 5,$arrChqData[$i][24]);  // unique request no
+				$pdf->Rotate(0);
 
-					$pdf->SetXY($x, 242);
-					$pdf->Rotate(90);
-					$pdf->Cell(16, 5, $arrThirdChequeData[25]);  //  operator id
-					$pdf->Rotate(0);
+				$pdf->SetXY($x, $arrPos[$i]["VUniqReq"] - 20);
+				$pdf->Rotate(90);
+				$pdf->Cell(17, 5, $arrChqData[$i][25]);  //  operator id
+				$pdf->Rotate(0);
 
-					$pdf->SetXY($x, 218);
-					$pdf->Rotate(90);
-					$pdf->Cell(16, 5, $print_datetime);  //  date time
-					$pdf->Rotate(0);
-					// -------> print vertically end
+				$pdf->SetXY($x, $arrPos[$i]["VUniqReq"] - 44);
+				$pdf->Rotate(90);
+				$pdf->Cell(17, 5, $print_datetime);  //  date time
+				$pdf->Rotate(0);
+				// -------> print vertically end
 
-					$chqseries = "C" . $arrThirdChequeData[0] . "C ";
-					$micr1 = $arrThirdChequeData[2] . "A ";
-					$micr2 = $arrThirdChequeData[4] ."C ";
+				// Print MICR
+				$chqseries = "C" . $arrChqData[$i][0] . "C "; 
+				$micr1 = $arrChqData[$i][2] . "A ";
+				// $micr2 = $arrChqData[$i][4] ."C ";
 
-					$pdf->AddFont('E-13B_0','','E-13B_0.php');
-					$pdf->SetFont('E-13B_0','',12);
-					//$pdf->Text(55.2,272,$micrcode);
-					$pdf->Text($chqseriesX,$micrY3,$chqseries);
-					$pdf->Text($micr1X,$micrY3,$micr1);
-					$pdf->Text($micr2X,$micrY3,$micr2);
-					$pdf->Text($trncodeX,$micrY3,$arrThirdChequeData[6]);
+				$pdf->SetFont('E-13B_0','',12);
+
+				$y = $arrPos[$i]["MICRY"];
+				$pdf->Text($chqseriesX, $y, $chqseries);
+				$pdf->Text($micr1X, $y, $micr1);
+				// $pdf->Text($micr2X, $y, $micr2);
+				$pdf->Text($trncodeX, $y, $arrChqData[$i][6]);
 			}
+
 			$pdf->Output("Cheque.pdf",'F');
 			$imagePath = dirname(__FILE__)."\Cheque.pdf";
 			
-			exec("gsbatchprintc -P \"".$printersinfo[0][0]."\" -F \"".dirname(__FILE__)."\Cheque.pdf\" -I \"".$printersinfo[0][2]."\" -N 1 2>&1");			
-		}		
-	}		
+				 exec("gsbatchprint\gsbatchprintc -P \"".$printersinfo[0][0]."\" -F \"".dirname(__FILE__)."\Cheque.pdf\" -I \"".$printersinfo[0][2]."\" -N 1 2>&1");
+		}	
+			
 	$db->closeDb();
 	?>
 	

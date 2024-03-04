@@ -74,10 +74,17 @@ $(document).ready(function(){
 				},
 				Ok: function() {
 					//window.location = 'confirmprintreq.php?do=print&pid='+selected_ids_array;
-					window.location = 'post_uploadfile.php?do=print&pid='+selected_ids_array;		
+					//window.location = 'post_uploadfile.php?do=print&pid='+selected_ids_array;
+					if($('#bunch').val() == '1'){
+						window.location = 'post_uploadfile.php?do=print&pid='+selected_ids_array+'&bunch=yes';
+					}
+					else	{
+						window.location = 'post_uploadfile.php?do=print&pid='+selected_ids_array;		
+					}
+					}		
 				}
 				
-			}
+			
 	});
 	$( "#dialog" ).dialog({
 			autoOpen: false,
@@ -117,13 +124,23 @@ $(document).ready(function(){
 	};
 	
 	Print_selected = function(){
+		$('#bunch').val('0');
 		if(selected_ids_array.length <= 0 ) {
 			$( "#dialog" ).dialog( "open" );
 			return false;
 		}
 		$( "#dialog-confirm" ).dialog( "open" );		
 	};
-	
+
+	Print_selected3 = function(){
+		$('#bunch').val('1');
+		if(selected_ids_array.length <= 0 ) {
+			$( "#dialog" ).dialog( "open" );
+			return false;
+		}
+		$( "#dialog-confirm" ).dialog( "open" );		
+	};
+
 	Delete_selected = function(){
 		
 		if(selected_ids_array.length <= 0 ) {
@@ -170,11 +187,11 @@ $countnumber = $totaldatainupload->total;
 //}
 ?>
 	<div id="formdiv">
-		<div id="formheading">Upload File</div>
+		<div id="formheading">Print Requests</div>
 		<div id="formfields">
 	   
 			<table width="100%" border="0" cellspacing="0" cellpadding="0">
-			<tr>
+			<tr >
 				<td align="center" valign="top" style="border:1px solid; border-color:#cccccc;">						 
 				 <table width="800" border="0" cellspacing="0" cellpadding="0">
 					  <tr>
@@ -182,7 +199,7 @@ $countnumber = $totaldatainupload->total;
 					  </tr>
 					  <tr>
 						<td align="left" valign="top">	
-							<form id="frmuploadfile" name="frmuploadfile" enctype="multipart/form-data" action="post_uploadfile.php" method="POST">
+							<form id="frmuploadfile" name="frmuploadfile" enctype="multipart/form-data" action="post_parsik.php" method="POST">
 								<table>
 									<tr>
 										<td align="left" valign="top"><div id="response"></div></td>
@@ -219,20 +236,92 @@ $countnumber = $totaldatainupload->total;
 			<tr>
 				<td width="100%" height="60px" align="left" valign="middle">
 					<form id="frmsearch" name="frmsearch" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="get">
+							<input type="hidden" id="bunch" name="bunch" value='0' />
 						<div class="searchdiv">
-							<div style="float:left; padding-right:15px"><label>Book Size -</label>
-								<input id="searchterm" name="searchterm" class="formelement" type="text" style="width:40px" />											
+							
+							<div style="float:left;clear: borh;height: 40px; padding-right:15px;"><label>Select Branch </label>
+								<select name="ddlBranchName" id="ddlBranchName" style="width:198px; height:26px;">
+									<option value=""> Select All Branches </option>
+									<?php 
+
+										if(isset($_GET['ddlBranchName'])){
+											// $whereString = " and ( prc.cps_branchmicr_code = '".$_REQUEST['ddlBranchName']."' OR prc.cps_branchmicr_code = '".ltrim($_REQUEST['ddlBranchName'],'0')."')";
+											$parts = explode("#", $_REQUEST['ddlBranchName']);
+											
+
+											$whereString = " and ( prc.cps_branchmicr_code = '".$parts[0]."' OR prc.cps_branchmicr_code = '".ltrim($parts[0],'0')."') and (prc.branch_sub_code = '".$parts[1]."' OR prc.branch_sub_code = '".ltrim($parts[1],'0')."')";
+											
+											
+										}else{
+											$whereString ="";
+										}
+
+
+										$rowgetbranch =  $db->get_results("SELECT distinct(b.branch_code),b.branch_id, b.branch_name ,b.branch_sub_code FROM tb_branchdetails b INNER JOIN tb_uploadingdata prc ON b.branch_sub_code = prc.branch_sub_code");
+										if($rowgetbranch){
+										foreach($rowgetbranch as $eachbranch)
+										{
+											if(isset($_GET['ddlBranchName']) && $_GET['ddlBranchName'] == $eachbranch->branch_code)
+											{
+												?><option value="<?php echo $eachbranch->branch_code .'#'.$eachbranch->branch_sub_code; ?>" selected="selected"><?php $eachbranch->branch_name;  ?></option><?php
+											}
+											else
+											{
+												?><option value="<?php echo $eachbranch->branch_code .'#'.$eachbranch->branch_sub_code; ?>"><?php echo $eachbranch->branch_name; ?></option><?php
+											} 
+										} }
+									?>
+								</select>
 							</div>
-							<div style="float:left"><label>Account Type -</label>
+							<div style="float:left;padding-right:15px;"><label>Account Type -</label>
 								<select name="ddlAccountType" id="ddlAccountType" style="width:130px; height:26px;">
-									<option value="">== Select ==</option>
-									<option value="10">Saving Account</option>
+									<option value="">== Select All ==</option>
+									<!-- <option value="10">Saving Account</option>
 									<option value="11">Current Account</option>
 									<option value="12">Cast Credit</option>
-									<option value="13">Demand Draft</option>
+									<option value="13">Demand Draft</option> -->
+									<?php
+
+									$trArr=array();
+									$rowgetbranch =  $db->get_results("SELECT distinct(prc.cps_tr_code),tr.transactioncodedescription FROM tb_uploadingdata prc INNER JOIN tb_branchdetails b ON b.branch_code = prc.cps_branchmicr_code INNER JOIN tb_cps_transactioncodes tr ON prc.cps_tr_code = tr.transactioncode ".$whereString);
+									 if($rowgetbranch){
+									 foreach($rowgetbranch as $eachbranch){
+									 	array_push($trArr, $eachbranch->cps_tr_code);
+									 	echo '<option value="' . $eachbranch->cps_tr_code . '">' . $eachbranch->transactioncodedescription . '</option>';
+									 } 
+									}
+									?>
 								</select>
-								<input type="submit" name="search" id="search" value="Search" />
+							
 							</div>
+							<div style="float:left; padding-right:15px;"><label>Book Size -</label>
+								<select name="searchterm" id="searchterm" style="width:130px; height:26px;">
+									<option value="">== Select All ==</option>
+									
+									<?php
+									$bookSizeArr=array();
+									$rowgetbranch =  $db->get_results("SELECT distinct(prc.cps_book_size) FROM tb_uploadingdata prc INNER JOIN tb_branchdetails b ON b.branch_code = prc.cps_branchmicr_code ".$whereString);
+									 if($rowgetbranch){
+									 
+									 foreach($rowgetbranch as $eachbranch){
+
+									 	array_push($bookSizeArr, $eachbranch->cps_book_size);
+									 	if(isset($_GET['searchterm']) && $_GET['searchterm'] == $eachbranch->cps_book_size)
+											{
+									 	echo '<option value="' . $eachbranch->cps_book_size . '" selected>' . $eachbranch->cps_book_size . '</option>';
+										 }else{
+										 	echo '<option value="' . $eachbranch->cps_book_size . '">' . $eachbranch->cps_book_size . '</option>';
+										 }
+									 } 
+									}
+									?>
+								</select>
+								<!-- <input id="searchterm" name="searchterm" class="formelement" type="text" value="<?php //if(isset($_GET['searchterm'])){ echo $_GET['searchterm']; } ?>" style="width:40px" />	 -->
+									<input type="submit" name="search" id="search" value="Search" style="margin-left: 15px;padding: 3px;" />
+
+
+							</div>
+							
 							<div style="float:left; padding-left:15px">
 								<a href="uploadfile.php"><img src="images/refresh.png" alt="Refresh"></a>
 							</div>
@@ -251,7 +340,7 @@ $countnumber = $totaldatainupload->total;
 							$i = 0;
 							$searchString = "";
 							
-							if(!empty($_REQUEST['searchterm']))
+							if(!empty($_REQUEST['searchterm'])&&in_array($_REQUEST['searchterm'], $bookSizeArr))
 							{
 								if($i == 0){
 									$searchString .= " and cps_book_size = '".$_REQUEST['searchterm']."'";
@@ -260,7 +349,8 @@ $countnumber = $totaldatainupload->total;
 									$searchString .= " and cps_book_size = '".$_REQUEST['searchterm']."'";
 								}
 							}
-							else if(!empty($_REQUEST['ddlAccountType']))
+							
+							if(!empty($_REQUEST['ddlAccountType'])&&in_array($_REQUEST['ddlAccountType'], $trArr))
 							{
 								if($i == 0){
 									$searchString .= " and cps_tr_code = '".$_REQUEST['ddlAccountType']."'";
@@ -269,16 +359,27 @@ $countnumber = $totaldatainupload->total;
 									$searchString .= " and cps_tr_code = '".$_REQUEST['ddlAccountType']."'";
 									}
 							}
+							if(!empty($_REQUEST['ddlBranchName']))
+							{
+								if($i == 0){
+									$parts = explode("#", $_REQUEST['ddlBranchName']);
+									$searchString .= " and ( branch_sub_code = '".$parts[1]."' OR branch_sub_code = '".ltrim($parts[1],'0')."')";
+									}
+								else{
+									$searchString .= " and ( branch_sub_code = '".$parts[1]."' OR branch_sub_code = '".ltrim($parts[1],'0')."')";
+									}
+							}
 							
 						?>
 						<?php 												
-							if($result = $db->get_results("SELECT * FROM tb_uploadingdata where cps_unique_req not in (0)  $searchString")){
+							if($result = $db->get_results("SELECT * FROM tb_uploadingdata where cps_unique_req not in (0)
+							  $searchString")){
 									
 						?>
 							<table cellpadding="0" cellspacing="0" border="0" width="3000" id="categorytable">
 								<tr>
 									<th style="background-color: #EDEDED; width:15px"></th>
-									<th class="thwidthth">Unique Request No1</th>
+									<th class="thwidthth">Unique Request No</th>
 									<th class="thwidthth">Micr Code</th>
 									<th class="thwidthth">Branch Code</th>
 									<th class="thwidthth">Account No</th>
@@ -327,6 +428,7 @@ $countnumber = $totaldatainupload->total;
 										<a id="mark_all" style="margin-right:20px;" class="pointer"  onclick="MarkAll();" >Select all</a>
 										<a id="unmark_all" style="margin-right:20px;" class="pointer"  onclick="Unmark_all();">Deselect all</a>
 										<a id="print_selected" style="margin-right:20px;" class="pointer" onclick="Print_selected();">Print Selected</a>
+										 <a id="print_selected3" style="margin-right:20px;" class="pointer" onclick="Print_selected3();">Print Selected in bunch</a>
 										<a id="delete_selected" style="margin-right:20px;" class="pointer" onclick="Delete_selected();">Delete Selected</a>
 									</td>
 								</tr>
