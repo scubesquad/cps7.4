@@ -1,0 +1,1453 @@
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 11:19:26 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 11:19:49 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 11:20:14 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 11:21:48 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 11:40:29 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 11:47:06 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 12:10:02 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 12:14:54 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 12:15:51 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 12:16:49 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 12:20:57 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 12:21:22 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 12:35:45 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12078217 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 12:36:23 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 12:38:31 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 12:40:51 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12078217 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 12:47:21 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12078217 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 12:48:57 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12078217 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 12:51:23 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12078217 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 12:51:47 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12078217 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 12:54:54 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 12:56:13 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 12:57:21 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 16:44:45 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12078217 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 16:44:47 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 16:48:11 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12078217 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 16:48:13 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077452 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 16:54:12 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12078217 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 16:54:15 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 16:57:52 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 17:02:52 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12078217 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 17:02:53 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 17:29:16 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/11 17:30:17 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077453 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/14 17:20:13 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12078217 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/14 17:20:16 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012289 13382784 12077837 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/14 17:34:25 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12078217 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/14 17:35:27 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12078217 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/14 17:35:28 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 2.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012282 13382784 12076941 3 done.
+>>showpage, press <return> to continue<<
+Page 2
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/14 17:54:40 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12078217 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/14 17:54:41 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012291 13382784 12077965 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/14 18:44:03 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12078217 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/14 18:44:06 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012291 13382784 12077965 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/14 18:48:25 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12078217 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/14 18:48:27 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012291 13382784 12077965 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 12:40:30 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012292 13382784 12078217 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 12:43:48 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012291 13382784 12077965 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 13:04:55 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012296 13382784 12078601 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 14:15:20 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012296 13382784 12078599 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 14:15:22 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 2.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012286 13382784 12077260 3 done.
+>>showpage, press <return> to continue<<
+Page 2
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 14:29:34 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012291 13382784 12077964 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 14:31:51 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012291 13382784 12077965 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 14:33:51 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012291 13382784 12077965 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 14:34:41 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012291 13382784 12077965 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 14:37:56 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012296 13382784 12078601 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 14:37:58 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012291 13382784 12077965 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 15:06:11 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077705 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 15:06:13 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012289 13382784 12077837 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 15:07:48 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077704 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 15:07:49 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012289 13382784 12077836 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 16:10:09 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077705 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 16:10:11 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012289 13382784 12077837 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 16:11:45 Slip.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Slip.pdf) /MaxResolution 300 /Color 1 /InputBin 259 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Slip.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012285 13382784 12077705 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 16:11:46 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012289 13382784 12077837 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 16:13:02 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012289 13382784 12077837 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 16:13:28 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012289 13382784 12077837 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 16:30:51 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012289 13382784 12077837 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 16:31:49 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012289 13382784 12077837 3 done.
+>>showpage, press <return> to continue<<
+Ghostscript DLL found! Source:local path
+Dll path:
+Lib path:E:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+
+------------------------------------
+2024/03/18 16:33:11 Cheque.pdf
+ 0:dummy.exe
+ 1:-dBATCH
+ 2:-IE:\wamp64\www\sjsbbank\public\gsbatchprint\lib;E:\wamp64\www\sjsbbank\public\gsbatchprint\fonts;E:\wamp64\www\sjsbbank\public\gsbatchprint\resource;E:\wamp64\www\sjsbbank\public\gsbatchprint\bin;C:\WINDOWS\fonts
+ 3:-c
+ 4:mark /NoCancel true /OutputFile (%printer%HP LaserJet Pro M404-M405 PCL-6 (V4)) /UserSettings << /DocumentName (Cheque.pdf) /MaxResolution 300 /Color 1 /InputBin 258 /Paper 1 >>  (mswinpr2) finddevice putdeviceprops setdevice
+ 5:-f
+ 6:E:/wamp64/www/sjsbbank/public/pdf/Cheque.pdf
+GPL Ghostscript 8.63 (2008-08-01)
+Copyright (C) 2008 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file n019003l.pfb.
+Loading NimbusSanL-Regu font from %rom%Resource/Font/NimbusSanL-Regu... 2426936 1012289 13382784 12077837 3 done.
+>>showpage, press <return> to continue<<
